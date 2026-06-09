@@ -16,6 +16,7 @@ const required = [
   "assets/site.css",
   "assets/app.js",
   "config.js",
+  "scripts/build-public.js",
   "api/state.js",
   "api/server/status.js",
   "api/user/profile.js",
