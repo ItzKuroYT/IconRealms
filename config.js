@@ -14,7 +14,7 @@ const IconRealmsConfig = {
     // Localhost still uses the local dev server API automatically.
     baseUrl: "https://icon-realms.vercel.app"
   },
-  administrators: ["TheStickBoy", "ItzKuro_"],
+  administrators: ["TheStickBoy", "ItzKuro_", "ItsBurb_"],
   discord: {
     guildId: "1457983897936855199",
     theme: "dark"
@@ -65,6 +65,8 @@ const IconRealmsConfig = {
     ["Manager", "#f97316"],
     ["Lead Developer", "#ff7ab8"],
     ["Developer", "#ff4fa3"],
+    ["Lead Builder", "#e58a2f"],
+    ["Builder", "#cc6f00"]
     ["Senior Administrator", "#ff1f1f"],
     ["Administrator", "#ff1f1f"],
     ["Junior Administrator", "#ff4f7b"],
@@ -73,8 +75,7 @@ const IconRealmsConfig = {
     ["Junior Moderator", "#c8a2d8"],
     ["Helper", "#39ff5a"],
     ["Trainee", "#20e6e6"],
-    ["Lead Builder", "#e58a2f"],
-    ["Builder", "#cc6f00"]
+
   ],
   defaultStaff: [
     { username: "ItzKuro_", rank: "Ownership", bio: "", friends: [] },
