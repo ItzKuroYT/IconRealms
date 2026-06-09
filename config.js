@@ -79,7 +79,7 @@ const IconRealmsConfig = {
   defaultStaff: [
     { username: "ItzKuro_", rank: "Ownership", bio: "", friends: [] },
     { username: "TheStickBoy", rank: "Ownership", bio: "", friends: [] },
-    { username: "ItsBurb", rank: "Manager", bio: "", friends: [] },
+    { username: "ItsBurb_", rank: "Manager", bio: "", friends: [] },
     { username: "FireAngel18", rank: "Lead Developer", bio: "", friends: [] },
     { username: "Prutorm", rank: "Developer", bio: "", friends: [] },
     { username: "TyllerTheGamer", rank: "Developer", bio: "", friends: [] },
@@ -90,7 +90,6 @@ const IconRealmsConfig = {
     { username: "WreckingShark", rank: "Senior Moderator", bio: "", friends: [] },
     { username: "TroyCast", rank: "Moderator", bio: "", friends: [] },
     { username: "Japan2good", rank: "Moderator", bio: "", friends: [] },
-    { username: "JuniorModPlaceholder", rank: "Junior Moderator", bio: "Placeholder staff profile.", friends: [] },
     { username: "Carrotts4all", rank: "Lead Builder", bio: "", friends: [] }
   ],
   forumCategories: [
