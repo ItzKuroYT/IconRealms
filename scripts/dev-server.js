@@ -45,7 +45,7 @@ const server = http.createServer(async (req, res) => {
 });
 
 async function handleApi(req, res, pathname) {
-  const file = path.join(root, `${pathname}.js`);
+  const file = path.join(root, "api", "index.js");
   if (!fs.existsSync(file)) return notFound(res);
   delete require.cache[require.resolve(file)];
   try {
