@@ -1,0 +1,19 @@
+name: icon-register
+main: org.iconrealms.register.IconRegisterPlugin
+version: 1.0.0
+api-version: "1.20"
+author: IconRealms
+commands:
+  register:
+    description: Register your IconRealms website account.
+    usage: /register <email> <password>
+    permission: iconregister.use
+  iconregister:
+    description: Manage the IconRealms registration plugin.
+    usage: /iconregister reload
+    permission: iconregister.admin
+permissions:
+  iconregister.use:
+    default: true
+  iconregister.admin:
+    default: op

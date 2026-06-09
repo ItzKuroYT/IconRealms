@@ -1,0 +1,9 @@
+website-url: "https://your-vercel-domain.vercel.app"
+shared-secret: "change-me"
+request-timeout-seconds: 10
+server-name: "play.iconrealms.net"
+heartbeat-seconds: 30
+rank-permissions:
+  "VIP+": "iconrealms.rank.vipplus"
+  "VIP": "iconrealms.rank.vip"
+  "Member": ""

@@ -1,0 +1,13 @@
+{
+  "name": "iconrealms-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "start": "node scripts/dev-server.js",
+    "build": "node build-public.js",
+    "verify": "node scripts/verify.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

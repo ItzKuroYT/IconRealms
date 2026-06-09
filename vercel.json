@@ -1,0 +1,17 @@
+{
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/login", "destination": "/login.html" },
+    { "source": "/signup", "destination": "/signup.html" },
+    { "source": "/forums", "destination": "/forums.html" },
+    { "source": "/news", "destination": "/news.html" },
+    { "source": "/gamemodes", "destination": "/gamemodes.html" },
+    { "source": "/community", "destination": "/community.html" },
+    { "source": "/staff", "destination": "/staff.html" },
+    { "source": "/profile", "destination": "/profile.html" },
+    { "source": "/admin", "destination": "/admin.html" },
+    { "source": "/store", "destination": "/api/index?path=store" },
+    { "source": "/api/:path*", "destination": "/api/index?path=:path*" }
+  ]
+}
