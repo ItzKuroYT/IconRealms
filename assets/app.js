@@ -24,7 +24,7 @@ async function start() {
 
 async function loadState() {
   try {
-    const res = await fetch("/api/state", { credentials: "include" });
+    const res = await fetch(apiUrl("/api/state"), { credentials: "include" });
     if (res.ok) state = await res.json();
   } catch {
     state.threads = [];
@@ -146,7 +146,7 @@ function login() {
         <p class="message" id="formMessage"></p>
       </form>
     </article>
-    <p class="form-note">Need an account? Use <strong>/register email password</strong> in-game, then <a href="signup.html">finish signup here</a>.</p>
+    <p class="form-note">Need an account? Use <strong>/register email password</strong> in-game, then log in here with that password.</p>
   `;
 }
 
@@ -163,7 +163,7 @@ function signup() {
         <p class="message" id="formMessage"></p>
       </form>
     </article>
-    <p class="form-note">Already linked? <a href="login.html">Login here</a>.</p>
+    <p class="form-note">If <strong>/register</strong> already said registered, you can <a href="login.html">login here</a>.</p>
   `;
 }
 
@@ -499,14 +499,39 @@ function bindForm(id, url, success, serialize) {
 }
 
 async function api(url, body, method = "POST") {
-  const res = await fetch(url, {
-    method,
-    credentials: "include",
-    headers: { "content-type": "application/json" },
-    body: JSON.stringify(body)
-  });
-  const json = await res.json().catch(() => ({}));
-  return { ok: res.ok, ...json };
+  let res;
+  try {
+    res = await fetch(apiUrl(url), {
+      method,
+      credentials: "include",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(body)
+    });
+  } catch (error) {
+    return { ok: false, error: `Could not reach the website API. ${error.message || ""}`.trim() };
+  }
+  const text = await res.text();
+  const json = text ? parseJson(text) : {};
+  return {
+    ok: res.ok,
+    error: json.error || (!res.ok ? text.slice(0, 180) || `Request failed (${res.status})` : undefined),
+    ...json
+  };
+}
+
+function apiUrl(path) {
+  const base = String(config.api?.baseUrl || "").replace(/\/$/, "");
+  const isLocal = ["localhost", "127.0.0.1"].includes(location.hostname);
+  if (!base || isLocal || location.origin === base) return path;
+  return `${base}${path}`;
+}
+
+function parseJson(text) {
+  try {
+    return JSON.parse(text);
+  } catch {
+    return {};
+  }
 }
 
 function boardRow(board, threads) {
@@ -608,7 +633,7 @@ async function loadServerStatus() {
   const targets = document.querySelectorAll("[data-server-status]");
   if (!targets.length) return;
   try {
-    const res = await fetch("/api/server/status");
+    const res = await fetch(apiUrl("/api/server/status"), { credentials: "include" });
     const data = await res.json();
     targets.forEach((target) => {
       target.textContent = data.online ? `Server online${data.players ? ` (${data.players.online}/${data.players.max})` : ""}` : "Server offline";
