@@ -9,6 +9,11 @@ const IconRealmsConfig = {
     darkBanner: "banner-darkmode.png",
     tebexUrl: "https://iconrealms.tebex.io"
   },
+  api: {
+    // GitHub Pages has no serverless functions, so it should call the Vercel API.
+    // Localhost still uses the local dev server API automatically.
+    baseUrl: "https://icon-realms.vercel.app"
+  },
   administrators: ["TheStickBoy", "ItzKuro_"],
   discord: {
     guildId: "1457983897936855199",
