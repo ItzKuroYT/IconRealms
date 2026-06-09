@@ -5,11 +5,7 @@
   "scripts": {
     "dev": "node scripts/dev-server.js",
     "start": "node scripts/dev-server.js",
-<<<<<<< Updated upstream
-    "build": "node scripts/build-public.js",
-=======
     "build": "node build-public.js",
->>>>>>> Stashed changes
     "verify": "node scripts/verify.js"
   },
   "dependencies": {},
