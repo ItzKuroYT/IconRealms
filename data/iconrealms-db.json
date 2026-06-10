@@ -1295,6 +1295,18 @@
   ],
   "threads": [
     {
+      "id": "30027cab-4f44-4dbf-a34f-c07568931292",
+      "boardId": "rules",
+      "title": "SERVER RULES",
+      "body": "The following rules are cited from Discord and apply to all players. Breaking these rules may result in warnings, mutes, kicks, bans, or other moderation actions.\n\nLast updated: April 2026\n\n1. Discord Rules\nNo spamming messages, images, or reactions.\nAdvertising servers or services in channels or DMs is prohibited.\n**** content of any kind is not allowed.\n2. Server and Chat Rules\nSpamming in chat is not allowed.\nDerogatory, hateful, or discriminatory language is prohibited.\nAdvertising of any kind is not allowed.\nTreat all users and staff with respect.\nSharing real or fake personal information is not allowed.\nThreats involving DDoS, doxxing, or intimidation are prohibited.\nExcessive toxicity is not permitted (moderator discretion).\n3. Gameplay Rules\nViolations in this section may result in severe punishment.\n\nInappropriate usernames or skins are not allowed.\nUsing external tools or background software for unfair advantages is prohibited.\nBoosting, exploiting, or automated item generation is not allowed.\nSubmitting false or misleading evidence is prohibited.\nAFK farming and macros are not allowed.\n4. Additional Information\nRules may be updated or modified at any time.\nStaff decisions are final.",
+      "images": [],
+      "author": "ItzKuro_",
+      "announcement": false,
+      "locked": false,
+      "createdAt": "2026-06-10T21:12:53.739Z",
+      "replies": []
+    },
+    {
       "id": "7c9f09c9-b859-423f-9633-52256042f375",
       "boardId": "announcements",
       "title": "New Website!",
