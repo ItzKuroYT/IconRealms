@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:00:54.818Z",
+      "lastSeenAt": "2026-06-10T14:01:54.828Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -109,7 +109,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:00:54.818Z",
+      "lastSeenAt": "2026-06-10T14:01:54.828Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -133,7 +133,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:00:54.818Z",
+      "lastSeenAt": "2026-06-10T14:01:54.828Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -157,7 +157,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:00:54.818Z",
+      "lastSeenAt": "2026-06-10T14:01:54.828Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -671,6 +671,30 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Vioroth",
+      "uuid": "5d210f65-831d-42a4-a659-fa3265cb0b5e",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Vioroth/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-10T14:01:54.828Z",
+      "joinedAt": "2026-06-10T14:01:54.828Z",
+      "rank": "Member",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-10T14:01:54.828Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
     }
   ],
   "threads": [],
@@ -803,17 +827,22 @@
           "username": "XxANIExX",
           "uuid": "19d5feca-d504-41b0-90cc-b6ce11ddf3d5",
           "rank": "VIP+"
+        },
+        {
+          "username": "Vioroth",
+          "uuid": "5d210f65-831d-42a4-a659-fa3265cb0b5e",
+          "rank": "Member"
         }
       ],
-      "onlineCount": 4,
+      "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 19.99999605961776,
-      "pingMs": 188,
-      "averagePlayerPingMs": 75,
-      "uptimeMs": 43519266,
+      "tps": 20.000002806994566,
+      "pingMs": 173,
+      "averagePlayerPingMs": 83,
+      "uptimeMs": 43579266,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T14:00:54.818Z"
+      "lastHeartbeatAt": "2026-06-10T14:01:54.828Z"
     }
   },
   "site": {
