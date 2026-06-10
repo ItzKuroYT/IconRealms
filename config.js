@@ -2,11 +2,11 @@ const IconRealmsConfig = {
   brand: {
     name: "IconRealms",
     serverAddress: "play.iconrealms.net",
-    minecraftVersion: "placeholder",
+    minecraftVersion: "1.20+",
     logo: "assets/icon.png",
     favicon: "assets/icon.png",
-    lightBanner: "banner-lightmode.png",
-    darkBanner: "banner-darkmode.png",
+    lightBanner: "assets/banner-lightmode.png",
+    darkBanner: "assets/banner-darkmode.png",
     tebexUrl: "https://iconrealms.tebex.io"
   },
   api: {
