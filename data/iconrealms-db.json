@@ -1168,6 +1168,8 @@
     }
   },
   "site": {
-    "lockedBoards": []
+    "lockedBoards": [
+      "iconsmash"
+    ]
   }
 }
