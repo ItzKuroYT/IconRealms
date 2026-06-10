@@ -959,6 +959,32 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "ItzKuro_",
+      "createdAt": "2026-06-10T18:58:01.258Z",
+      "uuid": "3990d27a-f611-430d-b6cd-c796173e9776",
+      "email": "isaaccooper926@gmail.com",
+      "passwordHash": "pbkdf2:160000:a8adb0d715ecc37a2c9490f9ce9f008f:55ec9e0eb4c74ce230005d65e33307d299f56080b3486e6f119ee039098d282741785f14c003d400b841d9e050877ffe30418a2e10d5fdc4c37e98afd3e69602",
+      "avatar": "https://mc-heads.net/avatar/ItzKuro_/128",
+      "inGameRegistered": true,
+      "webSignupCompleted": false,
+      "banned": false,
+      "joinedAt": "2026-06-10T18:58:01.258Z",
+      "rank": "Owner",
+      "lastSeenAt": "2026-06-10T18:58:01.414Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": "",
+      "online": false,
+      "serverName": "",
+      "lastServer": ""
     }
   ],
   "threads": [],
