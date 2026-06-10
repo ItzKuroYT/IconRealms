@@ -30,7 +30,7 @@ const IconRealmsConfig = {
     ["Store", "store.html"]
   ],
   home: {
-    kicker: "Placeholder",
+    kicker: "Landing Pad",
     welcome: "WELCOME TO ICONREALMS!",
     headline: "A New Adventure Awaits",
     intro: "Explore custom game modes, collect unique rewards, level up your journey, and create your own story on IconRealms."
