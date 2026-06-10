@@ -1170,7 +1170,8 @@
   "site": {
     "lockedBoards": [
       "iconsmash",
-      "iconkits"
+      "iconkits",
+      "iconsmp"
     ]
   }
 }
