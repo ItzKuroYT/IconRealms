@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T13:51:52.834Z",
+      "lastSeenAt": "2026-06-10T13:52:53.496Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -109,7 +109,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T13:51:52.834Z",
+      "lastSeenAt": "2026-06-10T13:52:53.496Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -133,7 +133,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T13:51:52.834Z",
+      "lastSeenAt": "2026-06-10T13:52:53.496Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -157,7 +157,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T13:51:52.834Z",
+      "lastSeenAt": "2026-06-10T13:52:53.496Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -647,6 +647,30 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "soup_657",
+      "uuid": "2aa2b82b-7983-4f4b-b6b9-370f348581ed",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/soup_657/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-10T13:52:53.496Z",
+      "joinedAt": "2026-06-10T13:52:53.496Z",
+      "rank": "Member",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-10T13:52:53.496Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
     }
   ],
   "threads": [],
@@ -779,17 +803,22 @@
           "username": "XxANIExX",
           "uuid": "19d5feca-d504-41b0-90cc-b6ce11ddf3d5",
           "rank": "VIP+"
+        },
+        {
+          "username": "soup_657",
+          "uuid": "2aa2b82b-7983-4f4b-b6b9-370f348581ed",
+          "rank": "Member"
         }
       ],
-      "onlineCount": 4,
+      "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 19.999995965029957,
-      "pingMs": 282,
-      "averagePlayerPingMs": 74,
-      "uptimeMs": 42977267,
+      "tps": 20.000002710075304,
+      "pingMs": 225,
+      "averagePlayerPingMs": 73,
+      "uptimeMs": 43037266,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T13:51:52.834Z"
+      "lastHeartbeatAt": "2026-06-10T13:52:53.496Z"
     }
   },
   "site": {
