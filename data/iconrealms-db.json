@@ -1496,17 +1496,17 @@
     {
       "username": "WreckingShark",
       "uuid": "d486ad08-2f2c-4825-8bab-15f647fd9bfe",
-      "email": "",
-      "passwordHash": "",
+      "email": "WreckingShark3.0@gmail.com",
+      "passwordHash": "pbkdf2:160000:89d9e1e3fcd001f4a7a3451e01e119ba:89690897b693400677259710eb6d46aaef973c2cea1213761e48c46570c5f29591747e767a022903d46667a420f0251d8e64402504a14d1d078b6bb991b8121b",
       "avatar": "https://mc-heads.net/avatar/WreckingShark/128",
-      "inGameRegistered": false,
+      "inGameRegistered": true,
       "createdAt": "2026-06-10T22:27:54.923Z",
       "joinedAt": "2026-06-10T22:27:54.923Z",
       "rank": "Mod",
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T22:54:43.052Z",
+      "lastSeenAt": "2026-06-10T22:54:58.935Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1515,7 +1515,9 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "webSignupCompleted": false,
+      "banned": false
     },
     {
       "username": "Dotiscool11",
