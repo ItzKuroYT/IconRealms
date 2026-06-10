@@ -1040,7 +1040,7 @@
       "friends": [],
       "friendRequests": [],
       "settings": {
-        "allowFriendRequests": true
+        "allowFriendRequests": false
       },
       "lastNotificationSeenAt": "2026-06-10T19:23:03.866Z",
       "webSignupCompleted": false,
