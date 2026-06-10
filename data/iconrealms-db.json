@@ -34,10 +34,10 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T18:59:36.696Z",
+      "lastSeenAt": "2026-06-10T19:01:36.766Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -106,10 +106,10 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T18:59:36.696Z",
+      "lastSeenAt": "2026-06-10T19:01:36.766Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -130,10 +130,10 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T18:59:36.696Z",
+      "lastSeenAt": "2026-06-10T19:01:36.766Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -154,10 +154,10 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "VIP+",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T18:59:36.696Z",
+      "lastSeenAt": "2026-06-10T19:01:36.766Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -972,7 +972,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-10T18:59:36.696Z",
+      "lastSeenAt": "2026-06-10T19:01:36.766Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,9 +982,33 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "2026-06-10T19:01:13.465Z",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg"
+    },
+    {
+      "username": "Utttku",
+      "uuid": "4fa9cf5f-a594-42d4-a715-211036c19275",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Utttku/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-10T19:01:36.766Z",
+      "joinedAt": "2026-06-10T19:01:36.766Z",
+      "rank": "Member",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-10T19:01:36.766Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
     }
   ],
   "threads": [
@@ -1102,7 +1126,7 @@
       "ip": "icongen.minehut.gg",
       "maxPlayersEver": 9,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
-      "online": false,
+      "online": true,
       "players": [
         {
           "username": "4687",
@@ -1128,17 +1152,22 @@
           "username": "ItzKuro_",
           "uuid": "3990d27a-f611-430d-b6cd-c796173e9776",
           "rank": "Owner"
+        },
+        {
+          "username": "Utttku",
+          "uuid": "4fa9cf5f-a594-42d4-a715-211036c19275",
+          "rank": "Member"
         }
       ],
-      "onlineCount": 5,
+      "onlineCount": 6,
       "maxPlayers": 500,
-      "tps": 19.99999989941715,
-      "pingMs": 43,
-      "averagePlayerPingMs": 68,
-      "uptimeMs": 61441216,
+      "tps": 19.99999684962581,
+      "pingMs": 951,
+      "averagePlayerPingMs": 83,
+      "uptimeMs": 61561217,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T18:59:36.696Z"
+      "lastHeartbeatAt": "2026-06-10T19:01:36.766Z"
     }
   },
   "site": {
