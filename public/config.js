@@ -7,7 +7,7 @@ const IconRealmsConfig = {
     favicon: "assets/icon.png",
     lightBanner: "assets/banner-lightmode.png",
     darkBanner: "assets/banner-darkmode.png",
-    tebexUrl: "https://iconrealms.tebex.io"
+    tebexUrl: "https://icongens.tebex.io"
   },
   api: {
     // GitHub Pages has no serverless functions, so it should call the Vercel API.
