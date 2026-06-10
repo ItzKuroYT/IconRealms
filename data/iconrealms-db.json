@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:36:12.083Z",
+      "lastSeenAt": "2026-06-10T21:37:12.282Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -85,7 +85,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:36:12.083Z",
+      "lastSeenAt": "2026-06-10T21:37:12.282Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -117,7 +117,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:36:12.083Z",
+      "lastSeenAt": "2026-06-10T21:37:12.282Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -141,7 +141,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:36:12.083Z",
+      "lastSeenAt": "2026-06-10T21:37:12.282Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -165,7 +165,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:36:12.083Z",
+      "lastSeenAt": "2026-06-10T21:37:12.282Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -237,7 +237,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:36:12.083Z",
+      "lastSeenAt": "2026-06-10T21:37:12.282Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -980,7 +980,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-10T21:36:12.083Z",
+      "lastSeenAt": "2026-06-10T21:37:12.282Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1037,7 +1037,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:36:12.083Z",
+      "lastSeenAt": "2026-06-10T21:37:12.282Z",
       "bio": "",
       "following": [],
       "followers": [
@@ -1066,7 +1066,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:36:12.083Z",
+      "lastSeenAt": "2026-06-10T21:37:12.282Z",
       "bio": "",
       "following": [],
       "followers": [
@@ -1216,7 +1216,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:36:12.083Z",
+      "lastSeenAt": "2026-06-10T21:37:12.282Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1600,25 +1600,25 @@
           "rank": "VIP+"
         },
         {
-          "username": "ItzKuro_",
-          "uuid": "3990d27a-f611-430d-b6cd-c796173e9776",
+          "username": "Noobie_LOL",
+          "uuid": "c87cf696-8afa-48f5-9283-6e02bf1ab6f5",
           "rank": "Owner"
         },
         {
-          "username": "Noobie_LOL",
-          "uuid": "c87cf696-8afa-48f5-9283-6e02bf1ab6f5",
+          "username": "ItzKuro_",
+          "uuid": "3990d27a-f611-430d-b6cd-c796173e9776",
           "rank": "Owner"
         }
       ],
       "onlineCount": 10,
       "maxPlayers": 500,
-      "tps": 19.999999848792672,
-      "pingMs": 121,
-      "averagePlayerPingMs": 93,
-      "uptimeMs": 70836567,
+      "tps": 19.950043976477275,
+      "pingMs": 165,
+      "averagePlayerPingMs": 90,
+      "uptimeMs": 70896717,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T21:36:12.083Z"
+      "lastHeartbeatAt": "2026-06-10T21:37:12.282Z"
     }
   },
   "site": {
