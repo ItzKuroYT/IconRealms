@@ -2,11 +2,11 @@ const IconRealmsConfig = {
   brand: {
     name: "IconRealms",
     serverAddress: "play.iconrealms.net",
-    minecraftVersion: "1.20+",
+    minecraftVersion: "placeholder",
     logo: "assets/icon.png",
     favicon: "assets/icon.png",
-    lightBanner: "assets/banner-lightmode.png",
-    darkBanner: "assets/banner-darkmode.png",
+    lightBanner: "banner-lightmode.png",
+    darkBanner: "banner-darkmode.png",
     tebexUrl: "https://iconrealms.tebex.io"
   },
   api: {
@@ -14,7 +14,7 @@ const IconRealmsConfig = {
     // Localhost still uses the local dev server API automatically.
     baseUrl: "https://icon-realms.vercel.app"
   },
-  administrators: ["TheStickBoy", "ItzKuro_", "ItsBurb_"],
+  administrators: ["TheStickBoy", "ItzKuro_"],
   discord: {
     guildId: "1457983897936855199",
     theme: "dark"
@@ -25,14 +25,52 @@ const IconRealmsConfig = {
     ["Forums", "forums.html"],
     ["Gamemodes", "gamemodes.html"],
     ["Community", "community.html"],
-    ["Staff", "staff.html"],
     ["Supporters", "supporters.html"],
+    ["Staff", "staff.html"],
     ["Store", "store.html"]
   ],
   home: {
-    welcome: "Placeholder",
-    headline: "Placeholder",
-    intro: "Placeholder"
+    kicker: "Placeholder",
+    welcome: "WELCOME TO ICONREALMS!",
+    headline: "A New Adventure Awaits",
+    intro: "Explore custom game modes, collect unique rewards, level up your journey, and create your own story on IconRealms."
+  },
+  supporters: {
+    title: "Supporters",
+    intro: "Thank you to the players helping IconRealms grow.",
+    podium: [
+      { username: "iSkiiX", spent: "177.31 USD" },
+      { username: "XxANIExX", spent: "166.41 USD" },
+      { username: "Carrotts4all", spent: "76.92 USD" }
+    ],
+    customersTitle: "Here's some of our other customers",
+    customers: [
+      "Prutorm",
+      "Ryan_cat_lover",
+      "RakeAMake4",
+      "LaMamanDreed",
+      "DiegoooCS",
+      "Phasha",
+      "WreckingShark",
+      "Rewnsot1",
+      "SirFire96",
+      "TroyCast",
+      "Speedy9815",
+      "Mercssses",
+      "KaraToga",
+      "CalCaroots",
+      "XantisDK",
+      "InfectedZomWolf",
+      "Username_20",
+      "AwesomedivxFTW",
+      "qc3r",
+      "AmyLovesCoffee",
+      "ITzOV3R",
+      "vAngels_",
+      "Szkocja_",
+      "WobbIed",
+      "KiJuBeDumb"
+    ]
   },
   gamemodes: [
     {
@@ -81,8 +119,6 @@ const IconRealmsConfig = {
     ["Manager", "#f97316"],
     ["Lead Developer", "#ff7ab8"],
     ["Developer", "#ff4fa3"],
-    ["Lead Builder", "#e58a2f"],
-    ["Builder", "#cc6f00"],
     ["Senior Administrator", "#ff1f1f"],
     ["Administrator", "#ff1f1f"],
     ["Junior Administrator", "#ff4f7b"],
@@ -90,24 +126,25 @@ const IconRealmsConfig = {
     ["Moderator", "#b084cc"],
     ["Junior Moderator", "#c8a2d8"],
     ["Helper", "#39ff5a"],
-    ["Trainee", "#20e6e6"]
-
+    ["Trainee", "#20e6e6"],
+    ["Lead Builder", "#e58a2f"],
+    ["Builder", "#cc6f00"]
   ],
   defaultStaff: [
-    { username: "ItzKuro_", rank: "Ownership", bio: "", friends: [] },
-    { username: "TheStickBoy", rank: "Ownership", bio: "", friends: [] },
-    { username: "ItsBurb_", rank: "Manager", bio: "", friends: [] },
-    { username: "FireAngel18", rank: "Lead Developer", bio: "", friends: [] },
-    { username: "Prutorm", rank: "Developer", bio: "", friends: [] },
-    { username: "TyllerTheGamer", rank: "Developer", bio: "", friends: [] },
-    { username: "OtterMC_YT", rank: "Developer", bio: "", friends: [] },
-    { username: "Noobie_LOL", rank: "Senior Administrator", bio: "", friends: [] },
-    { username: "7kurz", rank: "Administrator", bio: "", friends: [] },
-    { username: "szvecja_", rank: "Junior Administrator", bio: "", friends: [] },
-    { username: "WreckingShark", rank: "Senior Moderator", bio: "", friends: [] },
-    { username: "TroyCast", rank: "Moderator", bio: "", friends: [] },
-    { username: "Japans2good", rank: "Moderator", bio: "", friends: [] },
-    { username: "Carrotts4all", rank: "Lead Builder", bio: "", friends: [] }
+    { username: "OwnershipPlaceholder", rank: "Ownership", bio: "Placeholder staff profile.", friends: [] },
+    { username: "ManagerPlaceholder", rank: "Manager", bio: "Placeholder staff profile.", friends: [] },
+    { username: "LeadDevPlaceholder", rank: "Lead Developer", bio: "Placeholder staff profile.", friends: [] },
+    { username: "DeveloperPlaceholder", rank: "Developer", bio: "Placeholder staff profile.", friends: [] },
+    { username: "SeniorAdminPlaceholder", rank: "Senior Administrator", bio: "Placeholder staff profile.", friends: [] },
+    { username: "AdminPlaceholder", rank: "Administrator", bio: "Placeholder staff profile.", friends: [] },
+    { username: "JuniorAdminPlaceholder", rank: "Junior Administrator", bio: "Placeholder staff profile.", friends: [] },
+    { username: "SeniorModPlaceholder", rank: "Senior Moderator", bio: "Placeholder staff profile.", friends: [] },
+    { username: "ModPlaceholder", rank: "Moderator", bio: "Placeholder staff profile.", friends: [] },
+    { username: "JuniorModPlaceholder", rank: "Junior Moderator", bio: "Placeholder staff profile.", friends: [] },
+    { username: "HelperPlaceholder", rank: "Helper", bio: "Placeholder staff profile.", friends: [] },
+    { username: "TraineePlaceholder", rank: "Trainee", bio: "Placeholder staff profile.", friends: [] },
+    { username: "LeadBuilderPlaceholder", rank: "Lead Builder", bio: "Placeholder staff profile.", friends: [] },
+    { username: "BuilderPlaceholder", rank: "Builder", bio: "Placeholder staff profile.", friends: [] }
   ],
   forumCategories: [
     { id: "news", name: "News" },
@@ -115,7 +152,7 @@ const IconRealmsConfig = {
     { id: "community", name: "Community" }
   ],
   forumBoards: [
-    { id: "announcements", categoryId: "news", name: "Announcements", description: "Official announcement posts", locked: true },
+    { id: "announcements", categoryId: "news", name: "Announcements", description: "Official announcement posts", locked: false },
     { id: "rules", categoryId: "news", name: "Rules", description: "Server and community rules", locked: true },
     { id: "icongens", categoryId: "gamemodes", name: "IconGens", description: "Farming and gens discussion", locked: false },
     { id: "iconsmash", categoryId: "gamemodes", name: "IconSmash", description: "Gens and mace PvP planning", locked: false },
