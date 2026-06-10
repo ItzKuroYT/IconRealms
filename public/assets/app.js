@@ -1,5 +1,6 @@
 const config = window.IconRealmsConfig;
 const page = document.body.dataset.page;
+let activeDmUser = "";
 let state = {
   user: null,
   categories: config.forumCategories,
@@ -39,18 +40,19 @@ function renderLayout() {
       <nav class="topbar">
         <div class="nav">
           ${config.nav.map(([label, href]) => `<a class="${active(label)}" href="${href}">${label}</a>`).join("")}
-          ${state.user?.isAdmin ? `<a class="${page === "admin" ? "active" : ""}" href="admin.html">Admin</a>` : ""}
+          ${state.user?.isAdmin ? `<a class="${page === "admin" ? "active" : ""}" href="${pageUrl("admin")}">Admin</a>` : ""}
         </div>
         <div class="actions">
-          <button class="icon-button" id="themeToggle" type="button" title="Toggle light and dark mode">Mode</button>
+          ${state.user ? `<button class="icon-button notify-button ${unreadNotifications().length ? "has-alert" : ""}" id="notificationToggle" type="button" title="Notifications">!</button>` : ""}
+          <button class="icon-button settings-button" id="settingsToggle" type="button" title="Settings">⚙</button>
           <form class="search" id="searchForm">
             <span>Search</span>
             <input id="searchInput" placeholder="Search">
           </form>
-          <a class="account-button" href="${state.user ? "profile.html" : "login.html"}">${state.user ? escapeHtml(state.user.username) : "Login"}</a>
+          <a class="account-button" href="${state.user ? pageUrl("profile") : pageUrl("login")}">${state.user ? escapeHtml(state.user.username) : "Login"}</a>
         </div>
       </nav>
-      <a class="logo-link" href="index.html">
+      <a class="logo-link" href="${pageUrl("home")}">
         <img id="mainLogo" src="${config.brand.logo}" alt="${config.brand.name}">
         <span class="logo-fallback">${config.brand.name}</span>
       </a>
@@ -63,15 +65,17 @@ function renderLayout() {
       <div class="footer-top">
         <img class="footer-logo" src="${config.brand.logo}" alt="${config.brand.name}">
         <div class="footer-links">
-          <a href="index.html">Home</a>
-          <a href="forums.html">Forums</a>
-          <a href="staff.html">Staff</a>
-          <a href="privacy.html">Privacy Policy</a>
+          <a href="${pageUrl("home")}">Home</a>
+          <a href="${pageUrl("forums")}">Forums</a>
+          <a href="${pageUrl("staff")}">Staff</a>
+          <a href="${pageUrl("privacy")}">Privacy Policy</a>
         </div>
       </div>
       <p>Copyright 2026 ${config.brand.name}</p>
       <small>We are not affiliated with Mojang, AB.</small>
     </footer>
+    ${settingsPanel()}
+    ${state.user ? notificationPanel() + dmDock() : ""}
   `;
 
   setBanner();
@@ -86,8 +90,94 @@ function renderLayout() {
   });
 }
 
+function settingsPanel() {
+  const allowFriendRequests = state.user?.settings?.allowFriendRequests !== false;
+  return `
+    <aside class="floating-panel settings-panel" id="settingsPanel">
+      <h2>Settings</h2>
+      <div class="settings-row">
+        <span>Theme</span>
+        <div class="segmented">
+          <button type="button" data-theme-choice="dark">Dark</button>
+          <button type="button" data-theme-choice="light">Light</button>
+        </div>
+      </div>
+      ${state.user ? `<label class="toggle-row"><input id="friendRequestToggle" type="checkbox" ${allowFriendRequests ? "checked" : ""}> <span>Allow friend requests</span></label>` : `<p>Login to manage account settings.</p>`}
+    </aside>
+  `;
+}
+
+function notificationPanel() {
+  const notifications = allNotifications();
+  return `
+    <aside class="floating-panel notification-panel" id="notificationPanel">
+      <h2>Notifications</h2>
+      <div class="notification-list">
+        ${notifications.length ? notifications.map((item) => item.type === "dm" ? `<button type="button" data-open-dm="${escapeHtml(item.user || "")}"><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.detail)}</small></button>` : `<a href="${item.href}"><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.detail)}</small></a>`).join("") : `<p>No notifications yet.</p>`}
+      </div>
+    </aside>
+  `;
+}
+
+function dmDock() {
+  return `
+    <button class="dm-launcher ${unreadDmCount() ? "has-alert" : ""}" id="dmLauncher" type="button" title="Direct messages">✉</button>
+    <aside class="dm-drawer" id="dmDrawer">
+      <header>
+        <button class="btn secondary dm-back" id="dmBack" type="button">Back</button>
+        <strong id="dmTitle">Direct Messages</strong>
+        <button class="btn secondary" id="dmClose" type="button">Close</button>
+      </header>
+      <div class="dm-body" id="dmBody"></div>
+      <form class="dm-compose" id="dmCompose">
+        <textarea id="dmInput" placeholder="Message a friend"></textarea>
+        <button class="btn" id="dmSend" type="button">Send</button>
+      </form>
+    </aside>
+  `;
+}
+
 function bindGlobalActions() {
-  document.getElementById("themeToggle").addEventListener("click", () => {
+  document.getElementById("settingsToggle")?.addEventListener("click", () => {
+    document.getElementById("settingsPanel")?.classList.toggle("open");
+    document.getElementById("notificationPanel")?.classList.remove("open");
+  });
+  document.querySelectorAll("[data-theme-choice]").forEach((button) => button.addEventListener("click", () => {
+    const next = button.dataset.themeChoice;
+    document.documentElement.dataset.theme = next;
+    localStorage.setItem("theme", next);
+    setBanner();
+  }));
+  document.getElementById("friendRequestToggle")?.addEventListener("change", async (event) => {
+    await api("/api/user/settings", { allowFriendRequests: event.currentTarget.checked });
+    await loadState();
+    renderLayout();
+    renderPage();
+    bindGlobalActions();
+  });
+  document.getElementById("notificationToggle")?.addEventListener("click", async () => {
+    document.getElementById("notificationPanel")?.classList.toggle("open");
+    document.getElementById("settingsPanel")?.classList.remove("open");
+    await api("/api/user/notifications", { action: "mark-read" });
+    state.user.lastNotificationSeenAt = new Date().toISOString();
+    document.getElementById("notificationToggle")?.classList.remove("has-alert");
+  });
+  document.getElementById("dmLauncher")?.addEventListener("click", async () => {
+    await openDmDrawer();
+  });
+  document.getElementById("dmClose")?.addEventListener("click", closeDmDrawer);
+  document.getElementById("dmBack")?.addEventListener("click", () => renderDmList());
+  document.getElementById("dmSend")?.addEventListener("click", sendDrawerDm);
+  document.getElementById("dmInput")?.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" && !event.shiftKey) {
+      event.preventDefault();
+      sendDrawerDm();
+    }
+  });
+  document.querySelectorAll("[data-open-dm]").forEach((button) => button.addEventListener("click", async () => {
+    await openDmDrawer(button.dataset.openDm);
+  }));
+  document.getElementById("themeToggle")?.addEventListener("click", () => {
     const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
     document.documentElement.dataset.theme = next;
     localStorage.setItem("theme", next);
@@ -96,7 +186,7 @@ function bindGlobalActions() {
   document.getElementById("searchForm").addEventListener("submit", (event) => {
     event.preventDefault();
     const q = document.getElementById("searchInput").value.trim();
-    location.href = q ? `forums.html?search=${encodeURIComponent(q)}` : "forums.html";
+    location.href = q ? `${pageUrl("forums")}?search=${encodeURIComponent(q)}` : pageUrl("forums");
   });
 }
 
@@ -165,7 +255,7 @@ function signup() {
         <p class="message" id="formMessage"></p>
       </form>
     </article>
-    <p class="form-note">If <strong>/register</strong> already said registered, you can <a href="login.html">login here</a>.</p>
+    <p class="form-note">If <strong>/register</strong> already said registered, you can <a href="${pageUrl("login")}">login here</a>.</p>
   `;
 }
 
@@ -217,13 +307,13 @@ function boardView(boardId) {
 
 function threadView(threadId) {
   const thread = state.threads.find((item) => item.id === threadId);
-  if (!thread) return `<section class="panel composer"><h1>Thread not found</h1><a class="btn" href="forums.html">Back to forums</a></section>`;
+  if (!thread) return `<section class="panel composer"><h1>Thread not found</h1><a class="btn" href="${pageUrl("forums")}">Back to forums</a></section>`;
   const board = state.boards.find((item) => item.id === thread.boardId);
   return `
     <article class="panel profile-card">
-      <a href="profile.html?user=${encodeURIComponent(thread.author)}"><img class="avatar" src="${avatar(thread.author, 128)}" alt=""></a>
+      <a href="${profileHref(thread.author)}"><img class="avatar" src="${avatar(thread.author, 128)}" alt=""></a>
       <div>
-        <p class="kicker"><a href="profile.html?user=${encodeURIComponent(thread.author)}">${escapeHtml(thread.author)}</a></p>
+        <p class="kicker"><a href="${profileHref(thread.author)}">${escapeHtml(thread.author)}</a></p>
         <h1>${escapeHtml(thread.title)}</h1>
         <div class="rich-text">${renderRichText(thread.body)}</div>
         ${imageGrid(thread.images)}
@@ -231,7 +321,7 @@ function threadView(threadId) {
       </div>
     </article>
     <div class="stack" style="width:min(900px,100%);margin:22px auto">
-      ${(thread.replies || []).map((reply) => `<article class="panel composer"><strong><a href="profile.html?user=${encodeURIComponent(reply.author)}">${escapeHtml(reply.author)}</a></strong><div class="rich-text">${renderRichText(reply.body)}</div>${imageGrid(reply.images)}</article>`).join("")}
+      ${(thread.replies || []).map((reply) => `<article class="panel composer"><strong><a href="${profileHref(reply.author)}">${escapeHtml(reply.author)}</a></strong><div class="rich-text">${renderRichText(reply.body)}</div>${imageGrid(reply.images)}</article>`).join("")}
     </div>
     ${state.user && !thread.locked ? `
       <section class="panel forum-section" style="width:min(900px,100%)">
@@ -260,14 +350,14 @@ function gamemodes() {
   return `
     <section class="section-head"><p class="kicker">Play</p><h1>Gamemodes</h1></section>
     <section class="grid-cards">
-      ${config.gamemodes.map((mode) => `<a class="panel mode-card" href="gamemodes.html?mode=${encodeURIComponent(mode.id || slug(mode.name))}"><p class="kicker">${escapeHtml(mode.tag)}</p><h2>${escapeHtml(mode.name)}</h2><p>${escapeHtml(mode.description)}</p><span class="mode-open">Open tracker</span></a>`).join("")}
+      ${config.gamemodes.map((mode) => `<a class="panel mode-card" href="${pageUrl("gamemodes")}?mode=${encodeURIComponent(mode.id || slug(mode.name))}"><p class="kicker">${escapeHtml(mode.tag)}</p><h2>${escapeHtml(mode.name)}</h2><p>${escapeHtml(mode.description)}</p><span class="mode-open">Open tracker</span></a>`).join("")}
     </section>
   `;
 }
 
 function gamemodeTracker(modeId) {
   const mode = config.gamemodes.find((item) => (item.id || slug(item.name)) === modeId);
-  if (!mode) return `<section class="panel composer"><h1>Gamemode not found</h1><a class="btn" href="gamemodes.html">Back to gamemodes</a></section>`;
+  if (!mode) return `<section class="panel composer"><h1>Gamemode not found</h1><a class="btn" href="${pageUrl("gamemodes")}">Back to gamemodes</a></section>`;
   const tracker = trackerFor(mode);
   const players = tracker?.players || [];
   const online = Boolean(tracker?.online);
@@ -296,7 +386,7 @@ function gamemodeTracker(modeId) {
       <details class="panel tracker-players" ${players.length ? "open" : ""}>
         <summary>Players Online (${players.length})</summary>
         <div class="player-list">
-          ${players.length ? players.map((player) => `<a href="profile.html?user=${encodeURIComponent(player.username)}"><img class="avatar" src="${avatar(player.username, 32)}" alt=""><strong>${escapeHtml(player.username)}</strong><small>${escapeHtml(player.rank || "Member")}</small></a>`).join("") : `<p>No players online.</p>`}
+          ${players.length ? players.map((player) => `<a href="${profileHref(player.username)}"><img class="avatar" src="${avatar(player.username, 32)}" alt=""><strong>${escapeHtml(player.username)}</strong><small>${escapeHtml(player.rank || "Member")}</small></a>`).join("") : `<p>No players online.</p>`}
         </div>
       </details>
     </section>
@@ -320,7 +410,7 @@ function community() {
         <div>
           <h2>Discord, forums, and server updates.</h2>
           <p>Chat with players, share media, make suggestions, and keep up with what is happening on IconRealms.</p>
-          <div class="chips"><a class="chip" href="forums.html">Forums</a><a class="chip" href="news.html">News</a><a class="chip" href="staff.html">Staff</a></div>
+          <div class="chips"><a class="chip" href="${pageUrl("forums")}">Forums</a><a class="chip" href="${pageUrl("news")}">News</a><a class="chip" href="${pageUrl("staff")}">Staff</a></div>
         </div>
       </article>
       ${discordFrame()}
@@ -380,7 +470,7 @@ function staffProfile(username) {
         <h1>${escapeHtml(person.username)}</h1>
         <p>${escapeHtml(person.bio || "")}</p>
         <h2>Friends</h2>
-        <div class="chips">${person.friends?.length ? person.friends.map((friend) => `<a class="chip" href="staff.html?user=${encodeURIComponent(friend)}">${escapeHtml(friend)}</a>`).join("") : `<span class="chip">No friends listed yet</span>`}</div>
+        <div class="chips">${person.friends?.length ? person.friends.map((friend) => `<a class="chip" href="${staffHref(friend)}">${escapeHtml(friend)}</a>`).join("") : `<span class="chip">No friends listed yet</span>`}</div>
         <p style="margin-top:18px"><span class="rank-pill" style="display:inline-block;background:${rank?.[1] || "#5865f2"}">${escapeHtml(person.rank)}</span></p>
       </div>
     </article>
@@ -394,7 +484,7 @@ function profile() {
     : state.user;
   if (requested && !profileUser) return publicMinecraftProfile(requested);
   if (!profileUser) {
-    if (!state.user) return `<section class="panel composer"><h1>Login Required</h1><p>You need to log in before viewing profiles.</p><a class="btn" href="login.html">Login</a></section>`;
+    if (!state.user) return `<section class="panel composer"><h1>Login Required</h1><p>You need to log in before viewing profiles.</p><a class="btn" href="${pageUrl("login")}">Login</a></section>`;
     return `<section class="panel composer"><h1>User not found</h1></section>`;
   }
   const isSelf = state.user && sameUser(state.user.username, profileUser.username);
@@ -418,10 +508,26 @@ function profile() {
           ${state.user && !isSelf ? `<button class="btn secondary" data-social-action="${follows ? "unfollow" : "follow"}" data-username="${escapeHtml(profileUser.username)}">${follows ? "Unfollow" : "Follow"}</button>` : ""}
           ${state.user && !isSelf && !isFriend ? `<button class="btn secondary" data-social-action="friend-request" data-username="${escapeHtml(profileUser.username)}">Add Friend</button>` : ""}
           ${state.user && hasRequest ? `<button class="btn secondary" data-social-action="accept-friend" data-username="${escapeHtml(profileUser.username)}">Accept Friend</button>` : ""}
+          ${state.user && hasRequest ? `<button class="btn secondary" data-social-action="deny-friend" data-username="${escapeHtml(profileUser.username)}">Deny Friend</button>` : ""}
           ${state.user && !isSelf && isFriend ? `<button class="btn secondary" data-social-action="remove-friend" data-username="${escapeHtml(profileUser.username)}">Remove Friend</button>` : ""}
+          ${state.user && !isSelf && isFriend ? `<button class="btn secondary" data-open-dm="${escapeHtml(profileUser.username)}">Message</button>` : ""}
         </div>
       </div>
     </article>
+    ${isSelf && (profileUser.friendRequests || []).length ? `
+      <section class="panel forum-section" style="width:min(900px,100%)">
+        <h2>Friend Requests</h2>
+        <div class="friend-request-list">
+          ${profileUser.friendRequests.map((name) => `<div><a href="${profileHref(name)}">${escapeHtml(name)}</a><span><button class="btn secondary" data-social-action="accept-friend" data-username="${escapeHtml(name)}">Accept</button><button class="btn secondary" data-social-action="deny-friend" data-username="${escapeHtml(name)}">Deny</button></span></div>`).join("")}
+        </div>
+      </section>
+    ` : ""}
+    <section class="panel forum-section" style="width:min(900px,100%)">
+      <h2>Friends</h2>
+      <div class="relationship-list">${(profileUser.friends || []).length ? profileUser.friends.map((name) => `<a class="chip" href="${profileHref(name)}">${escapeHtml(name)}</a>`).join("") : `<span class="chip">No friends yet</span>`}</div>
+      <h2>Followers</h2>
+      <div class="relationship-list">${(profileUser.followers || []).length ? profileUser.followers.map((name) => `<a class="chip" href="${profileHref(name)}">${escapeHtml(name)}</a>`).join("") : `<span class="chip">No followers yet</span>`}</div>
+    </section>
     ${isSelf ? `
       <section class="panel forum-section" style="width:min(900px,100%)">
         <form class="composer" id="bioForm">
@@ -460,7 +566,7 @@ function publicMinecraftProfile(username) {
 }
 
 function admin() {
-  if (!state.user?.isAdmin) return `<section class="panel composer"><h1>Error 67</h1><p>You are not authorized to enter the administrator console.</p><a class="btn" href="login.html">Login</a></section>`;
+  if (!state.user?.isAdmin) return `<section class="panel composer"><h1>Error 67</h1><p>You are not authorized to enter the administrator console.</p><a class="btn" href="${pageUrl("login")}">Login</a></section>`;
   return `
     <section class="section-head"><p class="kicker">Administrator</p><h1>Console</h1></section>
     <section class="admin-grid">
@@ -510,8 +616,8 @@ function privacy() {
 }
 
 function bindPageActions() {
-  bindForm("loginForm", "/api/auth/login", () => location.href = "profile.html");
-  bindForm("signupForm", "/api/auth/signup", () => location.href = "profile.html");
+  bindForm("loginForm", "/api/auth/login", () => location.href = pageUrl("profile"));
+  bindForm("signupForm", "/api/auth/signup", () => location.href = pageUrl("profile"));
   bindForm("threadForm", "/api/forums/threads", () => location.reload(), (form) => ({
     boardId: form.boardId.value,
     title: form.title.value,
@@ -543,7 +649,7 @@ function bindPageActions() {
 
   document.getElementById("logoutBtn")?.addEventListener("click", async () => {
     await api("/api/auth/logout", {});
-    location.href = "index.html";
+    location.href = pageUrl("home");
   });
   document.querySelectorAll("[data-remove-staff]").forEach((button) => button.addEventListener("click", async () => {
     await api("/api/admin/staff", { username: button.dataset.removeStaff }, "DELETE");
@@ -564,11 +670,14 @@ function bindPageActions() {
   }));
   document.querySelectorAll("[data-delete-thread]").forEach((button) => button.addEventListener("click", async () => {
     await api("/api/forums/delete", { threadId: button.dataset.deleteThread }, "DELETE");
-    location.href = "forums.html";
+    location.href = pageUrl("forums");
   }));
   document.querySelectorAll("[data-social-action]").forEach((button) => button.addEventListener("click", async () => {
     await api("/api/user/social", { action: button.dataset.socialAction, username: button.dataset.username });
     location.reload();
+  }));
+  document.querySelectorAll("[data-open-dm]").forEach((button) => button.addEventListener("click", async () => {
+    await openDmDrawer(button.dataset.openDm);
   }));
   document.querySelectorAll("[data-copy-ip]").forEach((button) => button.addEventListener("click", async () => {
     await navigator.clipboard?.writeText(button.dataset.copyIp);
@@ -582,6 +691,82 @@ function bindPageActions() {
   }));
 }
 
+async function openDmDrawer(username = "") {
+  const drawer = document.getElementById("dmDrawer");
+  if (!drawer || !state.user) return;
+  drawer.classList.add("open");
+  await refreshDms();
+  if (username) {
+    activeDmUser = username;
+    await renderDmChat();
+  } else {
+    renderDmList();
+  }
+}
+
+function closeDmDrawer() {
+  document.getElementById("dmDrawer")?.classList.remove("open");
+  activeDmUser = "";
+}
+
+async function refreshDms() {
+  const result = await api("/api/user/dms", { action: "list" });
+  if (result.ok) state.dms = result.conversations || [];
+}
+
+function renderDmList() {
+  activeDmUser = "";
+  const body = document.getElementById("dmBody");
+  const title = document.getElementById("dmTitle");
+  const compose = document.getElementById("dmCompose");
+  if (!body || !title) return;
+  title.textContent = "Direct Messages";
+  if (compose) compose.style.display = "none";
+  body.innerHTML = state.dms.length ? state.dms.map((dm) => {
+    const other = dm.other || dm.participants?.find((name) => !sameUser(name, state.user.username)) || "Unknown";
+    const last = dm.lastMessage;
+    const label = last ? `${sameUser(last.from, state.user.username) ? "You" : other}: "${last.body}"` : "Open chat";
+    return `<button class="dm-row" type="button" data-dm-user="${escapeHtml(other)}"><img class="avatar" src="${avatar(other, 40)}" alt=""><span><strong>${escapeHtml(other)}</strong><small>${escapeHtml(label)}</small></span></button>`;
+  }).join("") : `<p>No DMs yet. Open a friend's profile and press Message.</p>`;
+  body.querySelectorAll("[data-dm-user]").forEach((button) => button.addEventListener("click", async () => {
+    activeDmUser = button.dataset.dmUser;
+    await renderDmChat();
+  }));
+}
+
+async function renderDmChat() {
+  const body = document.getElementById("dmBody");
+  const title = document.getElementById("dmTitle");
+  const compose = document.getElementById("dmCompose");
+  if (!body || !title || !activeDmUser) return;
+  title.textContent = activeDmUser;
+  if (compose) compose.style.display = "grid";
+  const result = await api("/api/user/dms", { action: "get", username: activeDmUser });
+  const messages = result.conversation?.messages || [];
+  body.innerHTML = `
+    <div class="dm-chat">
+      ${messages.length ? messages.map((message) => {
+        const mine = sameUser(message.from, state.user.username);
+        return `<div class="dm-bubble ${mine ? "me" : ""}"><strong>${mine ? "You" : escapeHtml(message.from)}</strong><p>${escapeHtml(message.body)}</p><small>${date(message.createdAt)}</small></div>`;
+      }).join("") : `<p>No messages yet.</p>`}
+    </div>
+  `;
+  body.scrollTop = body.scrollHeight;
+}
+
+async function sendDrawerDm() {
+  const input = document.getElementById("dmInput");
+  if (!input || !activeDmUser || !input.value.trim()) return;
+  const result = await api("/api/user/dms", { action: "send", username: activeDmUser, message: input.value.trim() });
+  if (!result.ok) {
+    input.value = result.error || "Failed to send";
+    return;
+  }
+  input.value = "";
+  await refreshDms();
+  await renderDmChat();
+}
+
 function bindForm(id, url, success, serialize) {
   const form = document.getElementById(id);
   if (!form) return;
@@ -590,7 +775,12 @@ function bindForm(id, url, success, serialize) {
     const body = serialize ? serialize(form) : Object.fromEntries(new FormData(form).entries());
     const result = await api(url, body);
     if (result.ok) return success(result);
-    const message = document.getElementById("formMessage");
+    let message = form.querySelector(".message") || document.getElementById("formMessage");
+    if (!message) {
+      message = document.createElement("p");
+      message.className = "message";
+      form.appendChild(message);
+    }
     if (message) message.textContent = result.error || `Something went wrong. Tried ${apiUrl(url)}.`;
   });
 }
@@ -634,7 +824,7 @@ function parseJson(text) {
 function boardRow(board, threads) {
   const latest = threads.find((thread) => thread.boardId === board.id);
   return `
-    <a class="board-row" href="forums.html?board=${board.id}">
+    <a class="board-row" href="${pageUrl("forums")}?board=${board.id}">
       <span class="forum-icon">Chat</span>
       <div><strong>${escapeHtml(board.name)}</strong><br><small>${escapeHtml(board.description)}${board.locked ? " / Locked" : ""}</small></div>
       ${latest ? latestBlock(latest) : `<small>0 Threads</small>`}
@@ -644,7 +834,7 @@ function boardRow(board, threads) {
 
 function threadRow(thread) {
   return `
-    <a class="thread-row" href="forums.html?thread=${thread.id}">
+    <a class="thread-row" href="${pageUrl("forums")}?thread=${thread.id}">
       <img class="avatar" src="${avatar(thread.author, 48)}" alt="">
       <div><strong>${escapeHtml(thread.title)}</strong><br><small>${escapeHtml(thread.author)} / ${date(thread.createdAt)}</small></div>
       <small>${thread.replies?.length || 0} replies</small>
@@ -665,7 +855,7 @@ function newsCard(thread) {
         <h2>${escapeHtml(thread.title)}</h2>
         <div class="rich-text">${renderRichText(thread.body)}</div>
         ${imageGrid(thread.images)}
-        <div class="byline"><img class="avatar" src="${avatar(thread.author, 40)}" alt=""><strong><a href="profile.html?user=${encodeURIComponent(thread.author)}">${escapeHtml(thread.author)}</a></strong><small>${date(thread.createdAt)}</small></div>
+        <div class="byline"><img class="avatar" src="${avatar(thread.author, 40)}" alt=""><strong><a href="${profileHref(thread.author)}">${escapeHtml(thread.author)}</a></strong><small>${date(thread.createdAt)}</small></div>
       </div>
     </article>
   `;
@@ -679,6 +869,36 @@ function announcementPosts() {
 
 function latestAnnouncement() {
   return announcementPosts()[0] || null;
+}
+
+function allNotifications() {
+  if (!state.user) return [];
+  const following = state.user.following || [];
+  const items = [];
+  for (const thread of state.threads) {
+    if (thread.boardId === "announcements" || thread.boardId === "rules" || thread.announcement) {
+      items.push({ type: "thread", title: thread.title, detail: `Official ${thread.boardId} post`, href: `${pageUrl("forums")}?thread=${thread.id}`, createdAt: thread.createdAt });
+    } else if (following.some((name) => sameUser(name, thread.author))) {
+      items.push({ type: "thread", title: thread.title, detail: `${thread.author} posted a thread`, href: `${pageUrl("forums")}?thread=${thread.id}`, createdAt: thread.createdAt });
+    }
+  }
+  for (const dm of state.dms || []) {
+    const last = dm.lastMessage || (dm.messages || [])[dm.messages?.length - 1];
+    if (!last) continue;
+    const other = dm.other || dm.participants?.find((name) => !sameUser(name, state.user.username)) || last.from;
+    items.push({ type: "dm", user: other, mine: sameUser(last.from, state.user.username), title: `DM from ${sameUser(last.from, state.user.username) ? "you" : other}`, detail: `${sameUser(last.from, state.user.username) ? "You" : other}: "${last.body}"`, href: "#", createdAt: last.createdAt || dm.updatedAt });
+  }
+  return items.sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0)).slice(0, 12);
+}
+
+function unreadNotifications() {
+  const seen = state.user?.lastNotificationSeenAt ? new Date(state.user.lastNotificationSeenAt).getTime() : 0;
+  return allNotifications().filter((item) => new Date(item.createdAt || 0).getTime() > seen && !item.mine);
+}
+
+function unreadDmCount() {
+  const seen = state.user?.lastNotificationSeenAt ? new Date(state.user.lastNotificationSeenAt).getTime() : 0;
+  return allNotifications().filter((item) => item.type === "dm" && !item.mine && new Date(item.createdAt || 0).getTime() > seen).length;
 }
 
 function staffCard(person, color) {
@@ -709,8 +929,8 @@ function directTrail() {
     admin: "Admin",
     privacy: "Privacy"
   };
-  const parts = [`<a href="index.html">Home</a>`];
-  if (page !== "home") parts.push(`<span>/</span><a href="${page}.html">${labels[page] || page}</a>`);
+  const parts = [`<a href="${pageUrl("home")}">Home</a>`];
+  if (page !== "home") parts.push(`<span>/</span><a href="${pageUrl(page)}">${labels[page] || page}</a>`);
   if (page === "forums" && params.get("board")) {
     const board = state.boards.find((item) => item.id === params.get("board"));
     parts.push(`<span>/</span><strong>${escapeHtml(board?.name || "Board")}</strong>`);
@@ -718,7 +938,7 @@ function directTrail() {
   if (page === "forums" && params.get("thread")) {
     const thread = state.threads.find((item) => item.id === params.get("thread"));
     const board = state.boards.find((item) => item.id === thread?.boardId);
-    if (board) parts.push(`<span>/</span><a href="forums.html?board=${board.id}">${escapeHtml(board.name)}</a>`);
+    if (board) parts.push(`<span>/</span><a href="${pageUrl("forums")}?board=${board.id}">${escapeHtml(board.name)}</a>`);
     if (thread) parts.push(`<span>/</span><strong>${escapeHtml(thread.title)}</strong>`);
   }
   if ((page === "staff" || page === "profile") && params.get("user")) {
@@ -807,11 +1027,30 @@ function registeredUser(username) {
 }
 
 function profileHref(username) {
-  return `profile.html?user=${encodeURIComponent(username)}`;
+  return `${pageUrl("profile")}?user=${encodeURIComponent(username)}`;
 }
 
 function staffHref(username) {
-  return registeredUser(username) ? profileHref(username) : `staff.html?user=${encodeURIComponent(username)}`;
+  return registeredUser(username) ? profileHref(username) : `${pageUrl("staff")}?user=${encodeURIComponent(username)}`;
+}
+
+function pageUrl(name) {
+  const routes = {
+    home: "/home/",
+    login: "/login/",
+    signup: "/signup/",
+    forums: "/forums/",
+    news: "/news/",
+    gamemodes: "/gamemodes/",
+    community: "/community/",
+    supporters: "/supporters/",
+    staff: "/staff/",
+    profile: "/profile/",
+    admin: "/admin/",
+    privacy: "/privacy/",
+    store: "/store/"
+  };
+  return routes[name] || "/home/";
 }
 
 function slug(value) {
