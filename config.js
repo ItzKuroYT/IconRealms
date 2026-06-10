@@ -20,14 +20,14 @@ const IconRealmsConfig = {
     theme: "dark"
   },
   nav: [
-    ["Home", "index.html"],
-    ["News", "news.html"],
-    ["Forums", "forums.html"],
-    ["Gamemodes", "gamemodes.html"],
-    ["Community", "community.html"],
-    ["Staff", "staff.html"],
-    ["Supporters", "supporters.html"],
-    ["Store", "store.html"]
+    ["Home", "/home/"],
+    ["News", "/news/"],
+    ["Forums", "/forums/"],
+    ["Gamemodes", "/gamemodes/"],
+    ["Community", "/community/"],
+    ["Staff", "/staff/"],
+    ["Supporters", "/supporters/"],
+    ["Store", "/store/"]
   ],
   home: {
     kicker: "Landing pad",
