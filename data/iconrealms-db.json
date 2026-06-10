@@ -1073,7 +1073,9 @@
         "ItzKuro_"
       ],
       "friends": [],
-      "friendRequests": [],
+      "friendRequests": [
+        "ItzKuro_"
+      ],
       "settings": {
         "allowFriendRequests": true
       },
