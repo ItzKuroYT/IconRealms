@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:41:14.552Z",
+      "lastSeenAt": "2026-06-10T21:42:16.902Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -85,7 +85,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:41:14.552Z",
+      "lastSeenAt": "2026-06-10T21:42:16.902Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -117,7 +117,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:41:14.552Z",
+      "lastSeenAt": "2026-06-10T21:42:16.902Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -141,7 +141,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:41:14.552Z",
+      "lastSeenAt": "2026-06-10T21:42:16.902Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -165,7 +165,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:41:14.552Z",
+      "lastSeenAt": "2026-06-10T21:42:16.902Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -237,7 +237,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:41:14.552Z",
+      "lastSeenAt": "2026-06-10T21:42:16.902Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -980,7 +980,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-10T21:41:14.552Z",
+      "lastSeenAt": "2026-06-10T21:42:16.902Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1037,7 +1037,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:41:14.552Z",
+      "lastSeenAt": "2026-06-10T21:42:16.902Z",
       "bio": "",
       "following": [],
       "followers": [
@@ -1066,7 +1066,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:41:14.552Z",
+      "lastSeenAt": "2026-06-10T21:42:16.902Z",
       "bio": "",
       "following": [],
       "followers": [
@@ -1213,10 +1213,10 @@
       "createdAt": "2026-06-10T20:21:41.923Z",
       "joinedAt": "2026-06-10T20:21:41.923Z",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:41:14.552Z",
+      "lastSeenAt": "2026-06-10T21:42:16.902Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1432,7 +1432,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T21:41:14.552Z",
+      "lastSeenAt": "2026-06-10T21:42:16.902Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1614,11 +1614,6 @@
           "rank": "Owner"
         },
         {
-          "username": "Nike_R",
-          "uuid": "d5ea5fd5-87fe-4c07-a9fb-0b0da2956757",
-          "rank": "Member"
-        },
-        {
           "username": "Noobie_LOL",
           "uuid": "c87cf696-8afa-48f5-9283-6e02bf1ab6f5",
           "rank": "Owner"
@@ -1639,15 +1634,15 @@
           "rank": "VIP+"
         }
       ],
-      "onlineCount": 11,
+      "onlineCount": 10,
       "maxPlayers": 500,
-      "tps": 19.999469260046318,
-      "pingMs": 122,
-      "averagePlayerPingMs": 99,
-      "uptimeMs": 71139017,
+      "tps": 19.267276324348686,
+      "pingMs": 152,
+      "averagePlayerPingMs": 101,
+      "uptimeMs": 71201217,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T21:41:14.552Z"
+      "lastHeartbeatAt": "2026-06-10T21:42:16.902Z"
     }
   },
   "site": {
