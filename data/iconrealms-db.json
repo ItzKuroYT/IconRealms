@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:56:27.982Z",
+      "lastSeenAt": "2026-06-10T14:57:27.992Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -109,7 +109,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:56:27.982Z",
+      "lastSeenAt": "2026-06-10T14:57:27.992Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -133,7 +133,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:56:27.982Z",
+      "lastSeenAt": "2026-06-10T14:57:27.992Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -157,7 +157,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:56:27.982Z",
+      "lastSeenAt": "2026-06-10T14:57:27.992Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -719,6 +719,30 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "NotRavolnix",
+      "uuid": "477b9b45-7052-4430-bc28-b833dbe04fb7",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/NotRavolnix/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-10T14:57:27.992Z",
+      "joinedAt": "2026-06-10T14:57:27.992Z",
+      "rank": "Member",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-10T14:57:27.992Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
     }
   ],
   "threads": [],
@@ -851,17 +875,22 @@
           "username": "XxANIExX",
           "uuid": "19d5feca-d504-41b0-90cc-b6ce11ddf3d5",
           "rank": "VIP+"
+        },
+        {
+          "username": "NotRavolnix",
+          "uuid": "477b9b45-7052-4430-bc28-b833dbe04fb7",
+          "rank": "Member"
         }
       ],
-      "onlineCount": 4,
+      "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 20.00000443996768,
-      "pingMs": 217,
-      "averagePlayerPingMs": 74,
-      "uptimeMs": 46852416,
+      "tps": 20.000005160034636,
+      "pingMs": 183,
+      "averagePlayerPingMs": 86,
+      "uptimeMs": 46912416,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T14:56:27.982Z"
+      "lastHeartbeatAt": "2026-06-10T14:57:27.992Z"
     }
   },
   "site": {
