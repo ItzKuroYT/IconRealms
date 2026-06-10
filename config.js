@@ -66,7 +66,7 @@ const IconRealmsConfig = {
     ["Lead Developer", "#ff7ab8"],
     ["Developer", "#ff4fa3"],
     ["Lead Builder", "#e58a2f"],
-    ["Builder", "#cc6f00"]
+    ["Builder", "#cc6f00"],
     ["Senior Administrator", "#ff1f1f"],
     ["Administrator", "#ff1f1f"],
     ["Junior Administrator", "#ff4f7b"],
@@ -74,7 +74,7 @@ const IconRealmsConfig = {
     ["Moderator", "#b084cc"],
     ["Junior Moderator", "#c8a2d8"],
     ["Helper", "#39ff5a"],
-    ["Trainee", "#20e6e6"],
+    ["Trainee", "#20e6e6"]
 
   ],
   defaultStaff: [
