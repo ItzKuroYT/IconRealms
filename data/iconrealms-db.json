@@ -30,10 +30,10 @@
       "createdAt": "2026-06-10T01:43:56.901Z",
       "joinedAt": "2026-06-10T01:43:56.901Z",
       "rank": "Sr Mod",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T01:55:52.849Z",
+      "lastSeenAt": "2026-06-10T02:10:52.660Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -73,7 +73,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T02:10:22.717Z",
+      "lastSeenAt": "2026-06-10T02:10:52.660Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -93,7 +93,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T02:10:22.717Z",
+      "lastSeenAt": "2026-06-10T02:10:52.660Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -133,7 +133,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T02:10:22.717Z",
+      "lastSeenAt": "2026-06-10T02:10:52.660Z",
       "bio": "Im tuff",
       "following": [],
       "followers": [],
@@ -311,17 +311,22 @@
           "username": "4687",
           "uuid": "17907c46-6f45-4c23-9a7e-35e9b18b26be",
           "rank": "Member"
+        },
+        {
+          "username": "WreckingShark",
+          "uuid": "d486ad08-2f2c-4825-8bab-15f647fd9bfe",
+          "rank": "Sr Mod"
         }
       ],
-      "onlineCount": 3,
+      "onlineCount": 4,
       "maxPlayers": 500,
-      "tps": 19.99985676971851,
-      "pingMs": 813,
-      "averagePlayerPingMs": 68,
-      "uptimeMs": 887167,
+      "tps": 19.999980223166933,
+      "pingMs": 876,
+      "averagePlayerPingMs": 77,
+      "uptimeMs": 917167,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T02:10:22.717Z"
+      "lastHeartbeatAt": "2026-06-10T02:10:52.660Z"
     }
   }
 }
