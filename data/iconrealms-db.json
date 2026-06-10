@@ -91,10 +91,10 @@
       "followers": [
         "ItzKuro_"
       ],
-      "friends": [],
-      "friendRequests": [
+      "friends": [
         "ItzKuro_"
       ],
+      "friendRequests": [],
       "settings": {
         "allowFriendRequests": true
       },
@@ -984,12 +984,14 @@
         "KomaedaDs"
       ],
       "followers": [],
-      "friends": [],
+      "friends": [
+        "KomaedaDs"
+      ],
       "friendRequests": [],
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": "2026-06-10T19:16:41.862Z",
+      "lastNotificationSeenAt": "2026-06-10T19:56:02.143Z",
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg"
