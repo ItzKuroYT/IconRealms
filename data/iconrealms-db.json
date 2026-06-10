@@ -987,7 +987,20 @@
       "lastServer": "icongen.minehut.gg"
     }
   ],
-  "threads": [],
+  "threads": [
+    {
+      "id": "fe2662cb-8df6-4578-a9a0-6f3086b3ae95",
+      "boardId": "announcements",
+      "title": "New website!",
+      "body": "Welcome to the OFFICIAL iconrealms website!\n\nWhat can you do here?\nThere are forums where you can chat!\n\nDm users your friends with (beta)\n\nSee peoples whereabouts/what server they are in!\n\nAnd so much more!",
+      "images": [],
+      "author": "ItzKuro_",
+      "announcement": true,
+      "locked": false,
+      "createdAt": "2026-06-10T19:00:14.132Z",
+      "replies": []
+    }
+  ],
   "staff": [
     {
       "username": "ItzKuro_",
