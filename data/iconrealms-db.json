@@ -1400,7 +1400,15 @@
       "announcement": false,
       "locked": false,
       "createdAt": "2026-06-10T21:12:53.739Z",
-      "replies": []
+      "replies": [
+        {
+          "id": "2b9b7ca3-8615-4a0c-95af-0e22fa783245",
+          "body": "blah blah nerd stfu no one gaf bout ts",
+          "images": [],
+          "author": "KomaedaDs",
+          "createdAt": "2026-06-10T21:30:29.992Z"
+        }
+      ]
     },
     {
       "id": "7c9f09c9-b859-423f-9633-52256042f375",
