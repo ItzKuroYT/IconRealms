@@ -13,7 +13,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T01:54:15.206Z",
+      "lastSeenAt": "2026-06-10T01:55:08.241Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -33,7 +33,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T01:54:15.206Z",
+      "lastSeenAt": "2026-06-10T01:55:08.241Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -53,7 +53,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T01:54:15.206Z",
+      "lastSeenAt": "2026-06-10T01:55:08.241Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -73,7 +73,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T01:54:15.206Z",
+      "lastSeenAt": "2026-06-10T01:55:08.241Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -90,10 +90,10 @@
       "createdAt": "2026-06-10T01:43:56.901Z",
       "joinedAt": "2026-06-10T01:43:56.901Z",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T01:54:15.206Z",
+      "lastSeenAt": "2026-06-10T01:55:08.241Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -133,7 +133,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T01:54:15.206Z",
+      "lastSeenAt": "2026-06-10T01:55:08.241Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -279,14 +279,9 @@
           "username": "ItzKuro_",
           "uuid": "3990d27a-f611-430d-b6cd-c796173e9776",
           "rank": "Owner"
-        },
-        {
-          "username": "Bothecat",
-          "uuid": "8c0b5634-7be0-47aa-a29d-4fae8d186db0",
-          "rank": "Member"
         }
       ],
-      "onlineCount": 6,
+      "onlineCount": 5,
       "maxPlayers": 0,
       "tps": -1,
       "pingMs": 0,
@@ -294,7 +289,7 @@
       "uptimeMs": 0,
       "lastRestartAt": "2026-06-10T01:45:27.141Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T01:54:15.206Z"
+      "lastHeartbeatAt": "2026-06-10T01:55:08.241Z"
     }
   }
 }
