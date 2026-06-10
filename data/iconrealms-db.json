@@ -87,7 +87,9 @@
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-10T20:39:48.174Z",
       "bio": "Kuro is a femboy",
-      "following": [],
+      "following": [
+        "TheStickBoy"
+      ],
       "followers": [
         "ItzKuro_"
       ],
@@ -1036,7 +1038,9 @@
       "lastSeenAt": "2026-06-10T20:39:48.174Z",
       "bio": "",
       "following": [],
-      "followers": [],
+      "followers": [
+        "KomaedaDs"
+      ],
       "friends": [],
       "friendRequests": [],
       "settings": {
