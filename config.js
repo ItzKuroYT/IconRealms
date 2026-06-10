@@ -1,7 +1,7 @@
 const IconRealmsConfig = {
   brand: {
     name: "IconRealms",
-    serverAddress: "play.iconrealms.net",
+    serverAddress: "icongen.minehut.gg",
     minecraftVersion: "1.20+",
     logo: "assets/icon.png",
     favicon: "assets/icon.png",
