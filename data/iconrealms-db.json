@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:34:27.689Z",
+      "lastSeenAt": "2026-06-10T14:35:27.700Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -109,7 +109,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:34:27.689Z",
+      "lastSeenAt": "2026-06-10T14:35:27.700Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -133,7 +133,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:34:27.689Z",
+      "lastSeenAt": "2026-06-10T14:35:27.700Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -157,7 +157,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:34:27.689Z",
+      "lastSeenAt": "2026-06-10T14:35:27.700Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -695,6 +695,30 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "KillerZenux",
+      "uuid": "933cfc5e-24d5-4a2f-bd9e-7fdea4b1ad68",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/KillerZenux/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-10T14:35:27.700Z",
+      "joinedAt": "2026-06-10T14:35:27.700Z",
+      "rank": "Member",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-10T14:35:27.700Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
     }
   ],
   "threads": [],
@@ -827,17 +851,22 @@
           "username": "XxANIExX",
           "uuid": "19d5feca-d504-41b0-90cc-b6ce11ddf3d5",
           "rank": "VIP+"
+        },
+        {
+          "username": "KillerZenux",
+          "uuid": "933cfc5e-24d5-4a2f-bd9e-7fdea4b1ad68",
+          "rank": "Member"
         }
       ],
-      "onlineCount": 4,
+      "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 19.999999996336385,
-      "pingMs": 193,
-      "averagePlayerPingMs": 75,
-      "uptimeMs": 45532167,
+      "tps": 20.00000063014157,
+      "pingMs": 186,
+      "averagePlayerPingMs": 90,
+      "uptimeMs": 45592166,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T14:34:27.689Z"
+      "lastHeartbeatAt": "2026-06-10T14:35:27.700Z"
     }
   },
   "site": {
