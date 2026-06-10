@@ -33,7 +33,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T02:33:52.756Z",
+      "lastSeenAt": "2026-06-10T02:34:22.744Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -53,7 +53,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T02:33:52.756Z",
+      "lastSeenAt": "2026-06-10T02:34:22.744Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -73,7 +73,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T02:33:52.756Z",
+      "lastSeenAt": "2026-06-10T02:34:22.744Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -93,7 +93,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T02:33:52.756Z",
+      "lastSeenAt": "2026-06-10T02:34:22.744Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -133,7 +133,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T02:33:52.756Z",
+      "lastSeenAt": "2026-06-10T02:34:22.744Z",
       "bio": "Im tuff",
       "following": [],
       "followers": [],
@@ -192,10 +192,10 @@
       "createdAt": "2026-06-10T02:29:52.677Z",
       "joinedAt": "2026-06-10T02:29:52.677Z",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T02:33:52.756Z",
+      "lastSeenAt": "2026-06-10T02:34:22.744Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -215,7 +215,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T02:33:52.756Z",
+      "lastSeenAt": "2026-06-10T02:34:22.744Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -363,25 +363,20 @@
           "rank": "Member"
         },
         {
-          "username": "AAAAAAAAAAAAHHH",
-          "uuid": "b56ff555-d08f-442b-8899-8ca1fbccc74d",
-          "rank": "Member"
-        },
-        {
           "username": "BoscoNoob1234",
           "uuid": "20803f07-d052-421e-9659-6ef9b3a20864",
           "rank": "Member"
         }
       ],
-      "onlineCount": 7,
+      "onlineCount": 6,
       "maxPlayers": 500,
-      "tps": 20.00002475506811,
-      "pingMs": 688,
-      "averagePlayerPingMs": 82,
-      "uptimeMs": 2297267,
+      "tps": 19.999700713887503,
+      "pingMs": 819,
+      "averagePlayerPingMs": 84,
+      "uptimeMs": 2327266,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T02:33:52.756Z"
+      "lastHeartbeatAt": "2026-06-10T02:34:22.744Z"
     }
   }
 }
