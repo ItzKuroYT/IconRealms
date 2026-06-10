@@ -1169,7 +1169,8 @@
   },
   "site": {
     "lockedBoards": [
-      "iconsmash"
+      "iconsmash",
+      "iconkits"
     ]
   }
 }
