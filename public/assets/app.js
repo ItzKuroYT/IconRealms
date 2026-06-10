@@ -1,6 +1,5 @@
 const config = window.IconRealmsConfig;
 const page = document.body.dataset.page;
-const routeFolders = new Set(["home", "login", "signup", "forums", "news", "gamemodes", "community", "supporters", "staff", "profile", "admin", "store", "privacy"]);
 let activeDmUser = "";
 let state = {
   user: null,
@@ -20,14 +19,7 @@ document.addEventListener("DOMContentLoaded", start);
 function assetUrl(value) {
   const raw = String(value || "");
   if (!raw || /^(?:[a-z][a-z0-9+.-]*:|\/)/i.test(raw)) return raw;
-  const clean = raw.replace(/^\.\//, "");
-  return isRouteFolderPage() ? `../${clean}` : clean;
-}
-
-function isRouteFolderPage() {
-  const parts = location.pathname.replace(/\\/g, "/").split("/").filter(Boolean);
-  const pageFolder = parts.at(-1) === "index.html" ? parts.at(-2) : parts.at(-1);
-  return routeFolders.has(String(pageFolder || "").toLowerCase());
+  return raw.replace(/^\.\//, "");
 }
 
 async function start() {
@@ -1050,21 +1042,21 @@ function staffHref(username) {
 
 function pageUrl(name) {
   const routes = {
-    home: "/",
-    login: "/login/",
-    signup: "/signup/",
-    forums: "/forums/",
-    news: "/news/",
-    gamemodes: "/gamemodes/",
-    community: "/community/",
-    supporters: "/supporters/",
-    staff: "/staff/",
-    profile: "/profile/",
-    admin: "/admin/",
-    privacy: "/privacy/",
-    store: "/store/"
+    home: "home/",
+    login: "login/",
+    signup: "signup/",
+    forums: "forums/",
+    news: "news/",
+    gamemodes: "gamemodes/",
+    community: "community/",
+    supporters: "supporters/",
+    staff: "staff/",
+    profile: "profile/",
+    admin: "admin/",
+    privacy: "privacy/",
+    store: "store/"
   };
-  return routes[name] || "/";
+  return routes[name] || "home/";
 }
 
 function slug(value) {

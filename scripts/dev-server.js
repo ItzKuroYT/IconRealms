@@ -16,24 +16,14 @@ const types = {
 };
 
 const rewrites = {
-  "/": "/index.html",
-  "/login": "/login.html",
-  "/signup": "/signup.html",
-  "/forums": "/forums.html",
-  "/news": "/news.html",
-  "/gamemodes": "/gamemodes.html",
-  "/community": "/community.html",
-  "/staff": "/staff.html",
-  "/profile": "/profile.html",
-  "/admin": "/admin.html",
-  "/privacy": "/privacy.html"
+  "/": "/index.html"
 };
 
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
   if (url.pathname.startsWith("/api/")) return handleApi(req, res, url.pathname);
 
-  const pathname = rewrites[url.pathname] || url.pathname;
+  const pathname = rewrites[url.pathname] || routePath(url.pathname);
   const filePath = path.normalize(path.join(root, pathname));
   if (!filePath.startsWith(root)) return notFound(res);
   fs.readFile(filePath, (error, data) => {
@@ -43,6 +33,12 @@ const server = http.createServer(async (req, res) => {
     res.end(data);
   });
 });
+
+function routePath(pathname) {
+  if (pathname.endsWith("/")) return `${pathname}index.html`;
+  if (!path.extname(pathname)) return `${pathname}/index.html`;
+  return pathname;
+}
 
 async function handleApi(req, res, pathname) {
   const file = path.join(root, "api", "index.js");
