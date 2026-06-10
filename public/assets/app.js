@@ -9,6 +9,7 @@ let state = {
   accounts: [],
   users: [],
   dms: [],
+  servers: [],
   serverStatus: { online: false, host: config.brand.serverAddress }
 };
 
@@ -253,12 +254,61 @@ function news() {
 }
 
 function gamemodes() {
+  const modeId = new URLSearchParams(location.search).get("mode");
+  if (modeId) return gamemodeTracker(modeId);
   return `
     <section class="section-head"><p class="kicker">Play</p><h1>Gamemodes</h1></section>
     <section class="grid-cards">
-      ${config.gamemodes.map((mode) => `<article class="panel mode-card"><p class="kicker">${escapeHtml(mode.tag)}</p><h2>${escapeHtml(mode.name)}</h2><p>${escapeHtml(mode.description)}</p></article>`).join("")}
+      ${config.gamemodes.map((mode) => `<a class="panel mode-card" href="gamemodes.html?mode=${encodeURIComponent(mode.id || slug(mode.name))}"><p class="kicker">${escapeHtml(mode.tag)}</p><h2>${escapeHtml(mode.name)}</h2><p>${escapeHtml(mode.description)}</p><span class="mode-open">Open tracker</span></a>`).join("")}
     </section>
   `;
+}
+
+function gamemodeTracker(modeId) {
+  const mode = config.gamemodes.find((item) => (item.id || slug(item.name)) === modeId);
+  if (!mode) return `<section class="panel composer"><h1>Gamemode not found</h1><a class="btn" href="gamemodes.html">Back to gamemodes</a></section>`;
+  const tracker = trackerFor(mode);
+  const players = tracker?.players || [];
+  const online = Boolean(tracker?.online);
+  return `
+    <section class="section-head">
+      <p class="kicker">${escapeHtml(mode.tag)}</p>
+      <h1>${escapeHtml(mode.name)} Tracker</h1>
+      <p>${escapeHtml(mode.description)}</p>
+    </section>
+    <section class="tracker-grid">
+      <article class="panel tracker-hero">
+        <div>
+          <p class="kicker">${online ? "Server Online" : "Server Offline"}</p>
+          <h2>${escapeHtml(tracker?.name || mode.serverName || mode.name)}</h2>
+          <button class="copy-ip" type="button" data-copy-ip="${escapeHtml(tracker?.ip || mode.ip || config.brand.serverAddress)}">${escapeHtml(tracker?.ip || mode.ip || config.brand.serverAddress)}</button>
+        </div>
+        <div class="status-dot ${online ? "online" : ""}">${online ? "Online" : "Offline"}</div>
+      </article>
+      ${trackerStat("Players", `${players.length}${tracker?.maxPlayers ? ` / ${tracker.maxPlayers}` : ""}`)}
+      ${trackerStat("Peak Players", tracker?.maxPlayersEver ?? 0)}
+      ${trackerStat("TPS", tracker?.tps && tracker.tps > 0 ? tracker.tps.toFixed(2) : "Waiting")}
+      ${trackerStat("Ping", tracker?.pingMs ? `${tracker.pingMs}ms API / ${tracker.averagePlayerPingMs || 0}ms avg` : "Waiting")}
+      ${trackerStat("Uptime", tracker?.uptimeMs ? formatDuration(tracker.uptimeMs) : "Waiting")}
+      ${trackerStat("Last Restart", tracker?.lastRestartAt ? formatLongDateTime(tracker.lastRestartAt) : "Unknown")}
+      ${trackerStat("Last Crash", tracker?.lastCrashAt ? formatLongDateTime(tracker.lastCrashAt) : "None reported")}
+      <details class="panel tracker-players" ${players.length ? "open" : ""}>
+        <summary>Players Online (${players.length})</summary>
+        <div class="player-list">
+          ${players.length ? players.map((player) => `<a href="profile.html?user=${encodeURIComponent(player.username)}"><img class="avatar" src="${avatar(player.username, 32)}" alt=""><strong>${escapeHtml(player.username)}</strong><small>${escapeHtml(player.rank || "Member")}</small></a>`).join("") : `<p>No players online.</p>`}
+        </div>
+      </details>
+    </section>
+  `;
+}
+
+function trackerFor(mode) {
+  const keys = [mode.serverName, mode.ip, mode.name, mode.id].map(slug);
+  return state.servers.find((server) => keys.includes(slug(server.name)) || keys.includes(slug(server.ip)) || keys.includes(slug(server.id)));
+}
+
+function trackerStat(label, value) {
+  return `<article class="panel tracker-stat"><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></article>`;
 }
 
 function community() {
@@ -478,6 +528,11 @@ function bindPageActions() {
     await api("/api/user/social", { action: button.dataset.socialAction, username: button.dataset.username });
     location.reload();
   }));
+  document.querySelectorAll("[data-copy-ip]").forEach((button) => button.addEventListener("click", async () => {
+    await navigator.clipboard?.writeText(button.dataset.copyIp);
+    button.textContent = "Copied";
+    setTimeout(() => { button.textContent = button.dataset.copyIp; }, 1200);
+  }));
   bindForm("dmForm", "/api/user/social", () => location.reload(), (form) => ({
     action: "dm",
     username: form.username.value,
@@ -685,8 +740,27 @@ function formatLongDate(value) {
   return new Date(value).toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
 }
 
+function formatLongDateTime(value) {
+  if (!value) return "unknown";
+  return new Date(value).toLocaleString(undefined, { month: "long", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" });
+}
+
+function formatDuration(ms) {
+  const totalSeconds = Math.max(0, Math.floor(Number(ms || 0) / 1000));
+  const days = Math.floor(totalSeconds / 86400);
+  const hours = Math.floor((totalSeconds % 86400) / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  if (days) return `${days}d ${hours}h ${minutes}m`;
+  if (hours) return `${hours}h ${minutes}m`;
+  return `${minutes}m`;
+}
+
 function sameUser(a, b) {
   return String(a || "").toLowerCase() === String(b || "").toLowerCase();
+}
+
+function slug(value) {
+  return String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }
 
 function active(label) {

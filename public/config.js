@@ -35,29 +35,44 @@ const IconRealmsConfig = {
   },
   gamemodes: [
     {
+      id: "icongens",
       name: "IconGens",
       tag: "Released",
-      description: "Farming and gens."
+      description: "Farming and gens.",
+      serverName: "icongen.minehut.gg",
+      ip: "icongen.minehut.gg"
     },
     {
+      id: "iconsmash",
       name: "IconSmash",
       tag: "In planning",
-      description: "Gens and mace PvP."
+      description: "Gens and mace PvP.",
+      serverName: "IconSmash",
+      ip: "play.iconrealms.net"
     },
     {
+      id: "iconkits",
       name: "IconKits",
       tag: "In planning",
-      description: "Randomkit PvP."
+      description: "Randomkit PvP.",
+      serverName: "IconKits",
+      ip: "play.iconrealms.net"
     },
     {
+      id: "iconsmp",
       name: "IconSmp",
       tag: "In planning",
-      description: "Minecraft survival server."
+      description: "Minecraft survival server.",
+      serverName: "IconSmp",
+      ip: "play.iconrealms.net"
     },
     {
+      id: "icongamez",
       name: "IconGamez",
       tag: "Conceptual planning",
-      description: "Minigames like Hypixel."
+      description: "Minigames like Hypixel.",
+      serverName: "IconGamez",
+      ip: "play.iconrealms.net"
     }
   ],
   staffRanks: [

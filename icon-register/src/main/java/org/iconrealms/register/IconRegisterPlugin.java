@@ -3,16 +3,21 @@ package org.iconrealms.register;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
+import java.time.Instant;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.ArrayList;
+import java.util.Properties;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -25,10 +30,16 @@ public final class IconRegisterPlugin extends JavaPlugin implements CommandExecu
   private final Gson gson = new Gson();
   private HttpClient client;
   private int heartbeatTask = -1;
+  private long startedAtMillis;
+  private long lastApiPingMs = 0L;
+  private String lastCrashAt = "";
 
   @Override
   public void onEnable() {
+    startedAtMillis = System.currentTimeMillis();
     saveDefaultConfig();
+    loadRuntimeState();
+    writeRuntimeState(false);
     client = HttpClient.newBuilder()
         .connectTimeout(Duration.ofSeconds(getConfig().getInt("request-timeout-seconds", 10)))
         .build();
@@ -46,6 +57,7 @@ public final class IconRegisterPlugin extends JavaPlugin implements CommandExecu
     if (heartbeatTask != -1) {
       getServer().getScheduler().cancelTask(heartbeatTask);
     }
+    writeRuntimeState(true);
     sendHeartbeat();
   }
 
@@ -158,18 +170,33 @@ public final class IconRegisterPlugin extends JavaPlugin implements CommandExecu
       return;
     }
 
-    List<Map<String, String>> players = new ArrayList<>();
+    List<Map<String, Object>> players = new ArrayList<>();
+    int pingTotal = 0;
     for (Player player : getServer().getOnlinePlayers()) {
-      Map<String, String> item = new HashMap<>();
+      Map<String, Object> item = new HashMap<>();
+      int ping = pingFor(player);
       item.put("username", player.getName());
       item.put("uuid", player.getUniqueId().toString());
       item.put("rank", rankFor(player));
+      item.put("pingMs", ping);
+      pingTotal += Math.max(0, ping);
       players.add(item);
     }
 
+    Map<String, Object> metrics = new HashMap<>();
+    metrics.put("tps", tps());
+    metrics.put("apiPingMs", lastApiPingMs);
+    metrics.put("averagePlayerPingMs", players.isEmpty() ? 0 : Math.round((double) pingTotal / players.size()));
+    metrics.put("uptimeMs", System.currentTimeMillis() - startedAtMillis);
+    metrics.put("maxPlayers", getServer().getMaxPlayers());
+    metrics.put("lastRestartAt", Instant.ofEpochMilli(startedAtMillis).toString());
+    metrics.put("lastCrashAt", lastCrashAt);
+
     Map<String, Object> payload = new HashMap<>();
     payload.put("serverName", getConfig().getString("server-name", "server"));
+    payload.put("serverIp", getConfig().getString("server-ip", getConfig().getString("server-name", "server")));
     payload.put("players", players);
+    payload.put("metrics", metrics);
 
     HttpRequest request = HttpRequest.newBuilder()
         .uri(URI.create(websiteUrl + "/api/plugin/heartbeat"))
@@ -180,7 +207,9 @@ public final class IconRegisterPlugin extends JavaPlugin implements CommandExecu
         .build();
 
     try {
+      long started = System.nanoTime();
       client.send(request, HttpResponse.BodyHandlers.discarding());
+      lastApiPingMs = Math.max(1L, Duration.ofNanos(System.nanoTime() - started).toMillis());
     } catch (IOException exception) {
       getLogger().fine("Heartbeat failed: " + exception.getMessage());
     } catch (InterruptedException exception) {
@@ -197,6 +226,58 @@ public final class IconRegisterPlugin extends JavaPlugin implements CommandExecu
       }
     }
     return "Member";
+  }
+
+  private int pingFor(Player player) {
+    try {
+      Object value = player.getClass().getMethod("getPing").invoke(player);
+      return value instanceof Number number ? number.intValue() : 0;
+    } catch (ReflectiveOperationException exception) {
+      return 0;
+    }
+  }
+
+  private double tps() {
+    try {
+      Object value = getServer().getClass().getMethod("getTPS").invoke(getServer());
+      if (value instanceof double[] tpsValues && tpsValues.length > 0) {
+        return tpsValues[0];
+      }
+    } catch (ReflectiveOperationException exception) {
+      return -1D;
+    }
+    return -1D;
+  }
+
+  private void loadRuntimeState() {
+    File file = runtimeStateFile();
+    if (!file.exists()) return;
+    Properties properties = new Properties();
+    try (FileInputStream input = new FileInputStream(file)) {
+      properties.load(input);
+      boolean cleanStop = Boolean.parseBoolean(properties.getProperty("clean-stop", "true"));
+      if (!cleanStop) {
+        lastCrashAt = properties.getProperty("started-at", Instant.now().toString());
+      }
+    } catch (IOException exception) {
+      getLogger().fine("Could not read runtime state: " + exception.getMessage());
+    }
+  }
+
+  private void writeRuntimeState(boolean cleanStop) {
+    getDataFolder().mkdirs();
+    Properties properties = new Properties();
+    properties.setProperty("clean-stop", Boolean.toString(cleanStop));
+    properties.setProperty("started-at", Instant.ofEpochMilli(startedAtMillis).toString());
+    try (FileOutputStream output = new FileOutputStream(runtimeStateFile())) {
+      properties.store(output, "icon-register runtime state");
+    } catch (IOException exception) {
+      getLogger().fine("Could not write runtime state: " + exception.getMessage());
+    }
+  }
+
+  private File runtimeStateFile() {
+    return new File(getDataFolder(), "runtime-state.properties");
   }
 
   private String trimSlash(String value) {

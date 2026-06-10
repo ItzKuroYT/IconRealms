@@ -16,6 +16,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -34,6 +35,9 @@ public final class IconRegisterVelocityPlugin {
   private String websiteUrl = System.getenv().getOrDefault("ICON_REGISTER_WEBSITE_URL", "");
   private String sharedSecret = System.getenv().getOrDefault("ICON_REGISTER_SHARED_SECRET", "");
   private String serverName = System.getenv().getOrDefault("ICON_REGISTER_SERVER_NAME", "velocity");
+  private String serverIp = System.getenv().getOrDefault("ICON_REGISTER_SERVER_IP", serverName);
+  private final long startedAtMillis = System.currentTimeMillis();
+  private long lastApiPingMs = 0L;
 
   @Inject
   public IconRegisterVelocityPlugin(ProxyServer server, Logger logger) {
@@ -101,19 +105,32 @@ public final class IconRegisterVelocityPlugin {
 
   private void sendHeartbeat() {
     if (!configured()) return;
-    List<Map<String, String>> players = new ArrayList<>();
+    List<Map<String, Object>> players = new ArrayList<>();
     for (Player player : server.getAllPlayers()) {
-      Map<String, String> item = new HashMap<>();
+      Map<String, Object> item = new HashMap<>();
       item.put("username", player.getUsername());
       item.put("uuid", player.getUniqueId().toString());
       item.put("rank", rankFor(player));
       players.add(item);
     }
+    Map<String, Object> metrics = new HashMap<>();
+    metrics.put("tps", -1);
+    metrics.put("apiPingMs", lastApiPingMs);
+    metrics.put("averagePlayerPingMs", 0);
+    metrics.put("uptimeMs", System.currentTimeMillis() - startedAtMillis);
+    metrics.put("maxPlayers", server.getConfiguration().getShowMaxPlayers());
+    metrics.put("lastRestartAt", Instant.ofEpochMilli(startedAtMillis).toString());
+    metrics.put("lastCrashAt", "");
+
     Map<String, Object> payload = new HashMap<>();
     payload.put("serverName", serverName);
+    payload.put("serverIp", serverIp);
     payload.put("players", players);
+    payload.put("metrics", metrics);
     try {
+      long started = System.nanoTime();
       client.send(request("/api/plugin/heartbeat", payload), HttpResponse.BodyHandlers.discarding());
+      lastApiPingMs = Math.max(1L, Duration.ofNanos(System.nanoTime() - started).toMillis());
     } catch (IOException exception) {
       logger.debug("Heartbeat failed", exception);
     } catch (InterruptedException exception) {
