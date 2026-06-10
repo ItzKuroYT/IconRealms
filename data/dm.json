@@ -1,3 +1,21 @@
 {
-  "conversations": []
+  "conversations": [
+    {
+      "id": "itzkuro___komaedads",
+      "participants": [
+        "ItzKuro_",
+        "KomaedaDs"
+      ],
+      "messages": [
+        {
+          "id": "fcf31224-dccd-4268-b69e-f45709fce788",
+          "from": "ItzKuro_",
+          "to": "KomaedaDs",
+          "body": "Can you see this",
+          "createdAt": "2026-06-10T19:56:24.576Z"
+        }
+      ],
+      "updatedAt": "2026-06-10T19:56:24.576Z"
+    }
+  ]
 }
