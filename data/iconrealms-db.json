@@ -93,7 +93,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T01:56:52.655Z",
+      "lastSeenAt": "2026-06-10T01:57:22.547Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -133,7 +133,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T01:57:13.602Z",
+      "lastSeenAt": "2026-06-10T01:57:22.547Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -290,13 +290,13 @@
       ],
       "onlineCount": 2,
       "maxPlayers": 500,
-      "tps": 20.00000366960933,
-      "pingMs": 724,
-      "averagePlayerPingMs": 131,
-      "uptimeMs": 77167,
+      "tps": 20.00000665911962,
+      "pingMs": 768,
+      "averagePlayerPingMs": 83,
+      "uptimeMs": 107167,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T01:56:52.655Z"
+      "lastHeartbeatAt": "2026-06-10T01:57:22.547Z"
     }
   }
 }
