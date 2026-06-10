@@ -650,6 +650,85 @@ textarea { min-height: 130px; resize: vertical; }
   grid-template-columns: 1fr 350px;
   gap: 24px;
 }
+.supporter-podium {
+  width: min(1040px, 100%);
+  margin: 0 auto 24px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  align-items: end;
+}
+.podium-card {
+  min-height: 240px;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 10px;
+  padding: 24px;
+  text-align: center;
+  border-top: 5px solid var(--cyan);
+}
+.podium-card.first {
+  min-height: 290px;
+  border-top-color: var(--accent);
+  transform: translateY(-10px);
+}
+.podium-card.second { border-top-color: var(--accent-2); }
+.podium-card span {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.podium-card img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: var(--panel-2);
+}
+.podium-card strong {
+  font-size: 22px;
+}
+.podium-card small {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.supporter-carousel {
+  width: min(1040px, 100%);
+  margin: 0 auto;
+  padding: 22px;
+  overflow: hidden;
+}
+.supporter-carousel h2 {
+  margin-bottom: 16px;
+}
+.supporter-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(210px, 1fr);
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 8px;
+}
+.customer-card {
+  scroll-snap-align: start;
+  min-height: 112px;
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 4px 12px;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+}
+.customer-card img { grid-row: span 2; }
+.customer-card strong {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .admin-card {
   display: grid;
   gap: 14px;
@@ -713,6 +792,8 @@ textarea { min-height: 130px; resize: vertical; }
   .topbar { display: grid; justify-items: center; }
   .nav, .actions { justify-content: center; }
   .layout, .welcome, .news-card, .community-layout, .profile-card { grid-template-columns: 1fr; }
+  .supporter-podium { grid-template-columns: 1fr; }
+  .podium-card.first { transform: none; }
   .tracker-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .tracker-hero { align-items: flex-start; flex-direction: column; }
   .board-row { grid-template-columns: 50px 1fr; }

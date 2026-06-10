@@ -8,6 +8,7 @@
     { "source": "/news", "destination": "/news.html" },
     { "source": "/gamemodes", "destination": "/gamemodes.html" },
     { "source": "/community", "destination": "/community.html" },
+    { "source": "/supporters", "destination": "/supporters.html" },
     { "source": "/staff", "destination": "/staff.html" },
     { "source": "/profile", "destination": "/profile.html" },
     { "source": "/admin", "destination": "/admin.html" },

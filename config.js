@@ -2,11 +2,11 @@ const IconRealmsConfig = {
   brand: {
     name: "IconRealms",
     serverAddress: "play.iconrealms.net",
-    minecraftVersion: "placeholder",
+    minecraftVersion: "1.20+",
     logo: "assets/icon.png",
     favicon: "assets/icon.png",
-    lightBanner: "banner-lightmode.png",
-    darkBanner: "banner-darkmode.png",
+    lightBanner: "assets/banner-lightmode.png",
+    darkBanner: "assets/banner-darkmode.png",
     tebexUrl: "https://iconrealms.tebex.io"
   },
   api: {
@@ -26,12 +26,51 @@ const IconRealmsConfig = {
     ["Gamemodes", "gamemodes.html"],
     ["Community", "community.html"],
     ["Staff", "staff.html"],
+    ["Supporters", "supporters.html"],
     ["Store", "store.html"]
   ],
   home: {
-    welcome: "Placeholder",
-    headline: "Placeholder",
-    intro: "Placeholder"
+    kicker: "Landing pad",
+    welcome: "WELCOME TO ICONREALMS!",
+    headline: "A New Adventure Awaits",
+    intro: "Explore custom game modes, collect unique rewards, level up your journey, and create your own story on IconRealms."
+  },
+  supporters: {
+    title: "Supporters",
+    intro: "Thank you to the players helping IconRealms grow.",
+    podium: [
+      { username: "iSkiiX", spent: "177.31 USD" },
+      { username: "XxANIExX", spent: "166.41 USD" },
+      { username: "Carrotts4all", spent: "76.92 USD" }
+    ],
+    customersTitle: "Here's some of our other customers",
+    customers: [
+      "Prutorm",
+      "Ryan_cat_lover",
+      "RakeAMake4",
+      "LaMamanDreed",
+      "DiegoooCS",
+      "Phasha",
+      "WreckingShark",
+      "Rewnsot1",
+      "SirFire96",
+      "TroyCast",
+      "Speedy9815",
+      "Mercssses",
+      "KaraToga",
+      "CalCaroots",
+      "XantisDK",
+      "InfectedZomWolf",
+      "Username_20",
+      "AwesomedivxFTW",
+      "qc3r",
+      "AmyLovesCoffee",
+      "ITzOV3R",
+      "vAngels_",
+      "Szkocja_",
+      "WobbIed",
+      "KiJuBeDumb"
+    ]
   },
   gamemodes: [
     {
@@ -102,10 +141,10 @@ const IconRealmsConfig = {
     { username: "OtterMC_YT", rank: "Developer", bio: "", friends: [] },
     { username: "Noobie_LOL", rank: "Senior Administrator", bio: "", friends: [] },
     { username: "7kurz", rank: "Administrator", bio: "", friends: [] },
-    { username: "szvecja", rank: "Junior Administrator", bio: "", friends: [] },
+    { username: "szvecja_", rank: "Junior Administrator", bio: "", friends: [] },
     { username: "WreckingShark", rank: "Senior Moderator", bio: "", friends: [] },
     { username: "TroyCast", rank: "Moderator", bio: "", friends: [] },
-    { username: "Japan2good", rank: "Moderator", bio: "", friends: [] },
+    { username: "Japans2good", rank: "Moderator", bio: "", friends: [] },
     { username: "Carrotts4all", rank: "Lead Builder", bio: "", friends: [] }
   ],
   forumCategories: [

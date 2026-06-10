@@ -25,13 +25,52 @@ const IconRealmsConfig = {
     ["Forums", "forums.html"],
     ["Gamemodes", "gamemodes.html"],
     ["Community", "community.html"],
+    ["Supporters", "supporters.html"],
     ["Staff", "staff.html"],
     ["Store", "store.html"]
   ],
   home: {
-    welcome: "Placeholder",
-    headline: "Placeholder",
-    intro: "Placeholder"
+    kicker: "Placeholder",
+    welcome: "WELCOME TO ICONREALMS!",
+    headline: "A New Adventure Awaits",
+    intro: "Explore custom game modes, collect unique rewards, level up your journey, and create your own story on IconRealms."
+  },
+  supporters: {
+    title: "Supporters",
+    intro: "Thank you to the players helping IconRealms grow.",
+    podium: [
+      { username: "iSkiiX", spent: "177.31 USD" },
+      { username: "XxANIExX", spent: "166.41 USD" },
+      { username: "Carrotts4all", spent: "76.92 USD" }
+    ],
+    customersTitle: "Here's some of our other customers",
+    customers: [
+      "Prutorm",
+      "Ryan_cat_lover",
+      "RakeAMake4",
+      "LaMamanDreed",
+      "DiegoooCS",
+      "Phasha",
+      "WreckingShark",
+      "Rewnsot1",
+      "SirFire96",
+      "TroyCast",
+      "Speedy9815",
+      "Mercssses",
+      "KaraToga",
+      "CalCaroots",
+      "XantisDK",
+      "InfectedZomWolf",
+      "Username_20",
+      "AwesomedivxFTW",
+      "qc3r",
+      "AmyLovesCoffee",
+      "ITzOV3R",
+      "vAngels_",
+      "Szkocja_",
+      "WobbIed",
+      "KiJuBeDumb"
+    ]
   },
   gamemodes: [
     {

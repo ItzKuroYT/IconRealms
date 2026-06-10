@@ -12,6 +12,7 @@ const files = [
   "news.html",
   "gamemodes.html",
   "community.html",
+  "supporters.html",
   "staff.html",
   "profile.html",
   "admin.html",

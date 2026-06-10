@@ -39,6 +39,7 @@ function renderLayout() {
       <nav class="topbar">
         <div class="nav">
           ${config.nav.map(([label, href]) => `<a class="${active(label)}" href="${href}">${label}</a>`).join("")}
+          ${state.user?.isAdmin ? `<a class="${page === "admin" ? "active" : ""}" href="admin.html">Admin</a>` : ""}
         </div>
         <div class="actions">
           <button class="icon-button" id="themeToggle" type="button" title="Toggle light and dark mode">Mode</button>
@@ -106,7 +107,7 @@ function setBanner() {
 }
 
 function renderPage() {
-  const views = { home, login, signup, forums, news, gamemodes, community, staff, profile, admin, privacy };
+  const views = { home, login, signup, forums, news, gamemodes, community, supporters, staff, profile, admin, privacy };
   document.getElementById("pageContent").innerHTML = (views[page] || home)();
   bindPageActions();
   loadServerStatus();
@@ -120,7 +121,7 @@ function home() {
       <div class="stack">
         <article class="welcome">
           <div>
-            <p class="kicker">Placeholder</p>
+            <p class="kicker">${escapeHtml(config.home.kicker || "")}</p>
             <h1>${escapeHtml(config.home.headline)}</h1>
             <p>${escapeHtml(config.home.intro)}</p>
           </div>
@@ -197,7 +198,7 @@ function boardView(boardId) {
       <h1>${escapeHtml(board?.name || "Forum")}</h1>
       <p>${escapeHtml(board?.description || "")}${board?.locked ? " This board is locked." : ""}</p>
     </section>
-    ${state.user && !board?.locked ? `
+    ${state.user && (!board?.locked || state.user.isAdmin) ? `
       <section class="panel forum-section">
         <form class="composer" id="threadForm">
           <input name="title" placeholder="Thread title" required>
@@ -327,6 +328,31 @@ function community() {
   `;
 }
 
+function supporters() {
+  const data = config.supporters || {};
+  return `
+    <section class="section-head"><p class="kicker">Community</p><h1>${escapeHtml(data.title || "Supporters")}</h1><p>${escapeHtml(data.intro || "")}</p></section>
+    <section class="supporter-podium">
+      ${(data.podium || []).map((person, index) => supporterPodium(person, index)).join("")}
+    </section>
+    <section class="supporter-carousel panel">
+      <h2>${escapeHtml(data.customersTitle || "Customers")}</h2>
+      <div class="supporter-track">
+        ${(data.customers || []).map((username) => supporterMini(username)).join("")}
+      </div>
+    </section>
+  `;
+}
+
+function supporterPodium(person, index) {
+  const places = ["first", "second", "third"];
+  return `<a class="panel podium-card ${places[index] || ""}" href="${profileHref(person.username)}"><span>#${index + 1}</span><img src="${avatar(person.username, 96)}" alt=""><strong>${escapeHtml(person.username)}</strong><small>Spent: ${escapeHtml(person.spent)}</small></a>`;
+}
+
+function supporterMini(username) {
+  return `<a class="customer-card" href="${profileHref(username)}"><img class="avatar" src="${avatar(username, 48)}" alt=""><strong>${escapeHtml(username)}</strong><small>View profile</small></a>`;
+}
+
 function staff() {
   const username = new URLSearchParams(location.search).get("user");
   if (username) return staffProfile(username);
@@ -366,6 +392,7 @@ function profile() {
   const profileUser = requested
     ? state.users.find((user) => sameUser(user.username, requested))
     : state.user;
+  if (requested && !profileUser) return publicMinecraftProfile(requested);
   if (!profileUser) {
     if (!state.user) return `<section class="panel composer"><h1>Login Required</h1><p>You need to log in before viewing profiles.</p><a class="btn" href="login.html">Login</a></section>`;
     return `<section class="panel composer"><h1>User not found</h1></section>`;
@@ -417,8 +444,23 @@ function profile() {
   `;
 }
 
+function publicMinecraftProfile(username) {
+  return `
+    <article class="panel profile-card">
+      <img src="${avatar(username, 160)}" alt="">
+      <div>
+        <p class="kicker">Public Profile</p>
+        <h1>${escapeHtml(username)}</h1>
+        <h2 class="player-rank">Supporter</h2>
+        <p>This player has not linked a website account yet.</p>
+        <div class="chips"><span class="chip">Minecraft profile</span></div>
+      </div>
+    </article>
+  `;
+}
+
 function admin() {
-  if (!state.user?.isAdmin) return `<section class="panel composer"><h1>Admin Login Required</h1><p>Admins are controlled in config.js.</p><a class="btn" href="login.html">Login</a></section>`;
+  if (!state.user?.isAdmin) return `<section class="panel composer"><h1>Error 67</h1><p>You are not authorized to enter the administrator console.</p><a class="btn" href="login.html">Login</a></section>`;
   return `
     <section class="section-head"><p class="kicker">Administrator</p><h1>Console</h1></section>
     <section class="admin-grid">
@@ -640,7 +682,7 @@ function latestAnnouncement() {
 }
 
 function staffCard(person, color) {
-  return `<a class="panel staff-card" href="staff.html?user=${encodeURIComponent(person.username)}"><img src="${person.avatar || avatar(person.username, 96)}" alt=""><strong>${escapeHtml(person.username)}</strong><span class="rank-pill" style="background:${color}">${escapeHtml(person.rank)}</span></a>`;
+  return `<a class="panel staff-card" href="${staffHref(person.username)}"><img src="${person.avatar || avatar(person.username, 96)}" alt=""><strong>${escapeHtml(person.username)}</strong><span class="rank-pill" style="background:${color}">${escapeHtml(person.rank)}</span></a>`;
 }
 
 function serverBox(status = config.brand.minecraftVersion) {
@@ -661,6 +703,7 @@ function directTrail() {
     news: "News",
     gamemodes: "Gamemodes",
     community: "Community",
+    supporters: "Supporters",
     staff: "Staff",
     profile: "Profile",
     admin: "Admin",
@@ -757,6 +800,18 @@ function formatDuration(ms) {
 
 function sameUser(a, b) {
   return String(a || "").toLowerCase() === String(b || "").toLowerCase();
+}
+
+function registeredUser(username) {
+  return state.users.find((user) => sameUser(user.username, username));
+}
+
+function profileHref(username) {
+  return `profile.html?user=${encodeURIComponent(username)}`;
+}
+
+function staffHref(username) {
+  return registeredUser(username) ? profileHref(username) : `staff.html?user=${encodeURIComponent(username)}`;
 }
 
 function slug(value) {
