@@ -20,12 +20,12 @@ const IconRealmsConfig = {
     theme: "dark"
   },
   nav: [
-    ["Home", "/home/"],
+    ["Home", "/home/index.html"],
     ["News", "/news/"],
-    ["Forums", "/forums/"],
-    ["Gamemodes", "/gamemodes/"],
-    ["Community", "/community/"],
-    ["Staff", "/staff/"],
+    ["Forums", "/forums/index.html"],
+    ["Gamemodes", "/gamemodes/index.html"],
+    ["Community", "/community/index.html"],
+    ["Staff", "/staff/index.html"],
     ["Supporters", "/supporters/"],
     ["Store", "/store/"]
   ],
