@@ -1011,7 +1011,22 @@
       "lastNotificationSeenAt": ""
     }
   ],
-  "threads": [],
+  "threads": [
+    {
+      "id": "7c9f09c9-b859-423f-9633-52256042f375",
+      "boardId": "announcements",
+      "title": "New Website!",
+      "body": "Guys, after about 4 days of nonstop work (and after I accidentally broke/deleted basically everything yesterday 💀), the official IconRealms website is finally LIVE! 🎉\n\n\nTo log in:\n\nJoin the server and run:/register <email> <password>\nThen head to the website and sign in using your Minecraft username and the same password you registered with.\n\nNote: You don't actually need to use your real email. I'd honestly recommend just using something simple like YourUsername@gmail.com.\n\nCheck it out, make an account, and let me know if you run into any bugs or have Suggestions!\n\nThis website shows staff, customers/supporters, it has forums, beta dms, and so much more!",
+      "images": [
+        "https://i.imgur.com/GYGu1ci.jpeg"
+      ],
+      "author": "ItzKuro_",
+      "announcement": true,
+      "locked": false,
+      "createdAt": "2026-06-10T19:09:40.478Z",
+      "replies": []
+    }
+  ],
   "staff": [
     {
       "username": "ItzKuro_",
