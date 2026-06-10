@@ -16,6 +16,12 @@ let state = {
 
 document.addEventListener("DOMContentLoaded", start);
 
+function assetUrl(value) {
+  const raw = String(value || "");
+  if (!raw || /^(?:[a-z][a-z0-9+.-]*:|\/)/i.test(raw)) return raw;
+  return raw.replace(/^\.\//, "");
+}
+
 async function start() {
   document.documentElement.dataset.theme = localStorage.getItem("theme") || "dark";
   await loadState();
@@ -53,7 +59,7 @@ function renderLayout() {
         </div>
       </nav>
       <a class="logo-link" href="${pageUrl("home")}">
-        <img id="mainLogo" src="${config.brand.logo}" alt="${config.brand.name}">
+        <img id="mainLogo" src="${assetUrl(config.brand.logo)}" alt="${config.brand.name}">
         <span class="logo-fallback">${config.brand.name}</span>
       </a>
     </header>
@@ -63,7 +69,7 @@ function renderLayout() {
     </main>
     <footer class="footer">
       <div class="footer-top">
-        <img class="footer-logo" src="${config.brand.logo}" alt="${config.brand.name}">
+        <img class="footer-logo" src="${assetUrl(config.brand.logo)}" alt="${config.brand.name}">
         <div class="footer-links">
           <a href="${pageUrl("home")}">Home</a>
           <a href="${pageUrl("forums")}">Forums</a>
@@ -192,7 +198,7 @@ function bindGlobalActions() {
 
 function setBanner() {
   const isLight = document.documentElement.dataset.theme === "light";
-  const banner = isLight ? config.brand.lightBanner : config.brand.darkBanner;
+  const banner = assetUrl(isLight ? config.brand.lightBanner : config.brand.darkBanner);
   document.querySelector(".site-header").style.setProperty("--banner", `url("${banner}")`);
 }
 
@@ -1036,21 +1042,21 @@ function staffHref(username) {
 
 function pageUrl(name) {
   const routes = {
-    home: "/home/",
-    login: "/login/",
-    signup: "/signup/",
-    forums: "/forums/",
-    news: "/news/",
-    gamemodes: "/gamemodes/",
-    community: "/community/",
-    supporters: "/supporters/",
-    staff: "/staff/",
-    profile: "/profile/",
-    admin: "/admin/",
-    privacy: "/privacy/",
-    store: "/store/"
+    home: "home/",
+    login: "login/",
+    signup: "signup/",
+    forums: "forums/",
+    news: "news/",
+    gamemodes: "gamemodes/",
+    community: "community/",
+    supporters: "supporters/",
+    staff: "staff/",
+    profile: "profile/",
+    admin: "admin/",
+    privacy: "privacy/",
+    store: "store/"
   };
-  return routes[name] || "/home/";
+  return routes[name] || "home/";
 }
 
 function slug(value) {

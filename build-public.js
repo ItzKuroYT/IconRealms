@@ -34,7 +34,10 @@ fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
 
 for (const file of files) copyFile(file);
-for (const [file, route] of pages) copyFile(file, path.join(route, "index.html"));
+for (const [file, route] of pages) {
+  copyPageFile(file, path.join(out, route, "index.html"));
+  copyPageFile(file, path.join(root, route, "index.html"));
+}
 for (const file of optionalFiles) {
   if (fs.existsSync(path.join(root, file))) copyFile(file);
 }
@@ -61,4 +64,21 @@ function copyDir(relativePath) {
     process.exit(1);
   }
   fs.cpSync(from, to, { recursive: true });
+}
+
+function copyRouteFile(relativePath, route) {
+  copyPageFile(relativePath, path.join(root, route, "index.html"));
+}
+
+function copyPageFile(relativePath, to) {
+  const from = path.join(root, relativePath);
+  let html = fs.readFileSync(from, "utf8");
+  html = addFolderBase(html);
+  fs.mkdirSync(path.dirname(to), { recursive: true });
+  fs.writeFileSync(to, html);
+}
+
+function addFolderBase(html) {
+  if (html.includes("<base ")) return html;
+  return html.replace("<head>", "<head>\n  <base href=\"../\">");
 }

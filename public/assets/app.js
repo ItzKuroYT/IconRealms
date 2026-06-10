@@ -1,5 +1,6 @@
 const config = window.IconRealmsConfig;
 const page = document.body.dataset.page;
+const routeFolders = new Set(["home", "login", "signup", "forums", "news", "gamemodes", "community", "supporters", "staff", "profile", "admin", "store", "privacy"]);
 let activeDmUser = "";
 let state = {
   user: null,
@@ -15,6 +16,19 @@ let state = {
 };
 
 document.addEventListener("DOMContentLoaded", start);
+
+function assetUrl(value) {
+  const raw = String(value || "");
+  if (!raw || /^(?:[a-z][a-z0-9+.-]*:|\/)/i.test(raw)) return raw;
+  const clean = raw.replace(/^\.\//, "");
+  return isRouteFolderPage() ? `../${clean}` : clean;
+}
+
+function isRouteFolderPage() {
+  const parts = location.pathname.replace(/\\/g, "/").split("/").filter(Boolean);
+  const pageFolder = parts.at(-1) === "index.html" ? parts.at(-2) : parts.at(-1);
+  return routeFolders.has(String(pageFolder || "").toLowerCase());
+}
 
 async function start() {
   document.documentElement.dataset.theme = localStorage.getItem("theme") || "dark";
@@ -53,7 +67,7 @@ function renderLayout() {
         </div>
       </nav>
       <a class="logo-link" href="${pageUrl("home")}">
-        <img id="mainLogo" src="${config.brand.logo}" alt="${config.brand.name}">
+        <img id="mainLogo" src="${assetUrl(config.brand.logo)}" alt="${config.brand.name}">
         <span class="logo-fallback">${config.brand.name}</span>
       </a>
     </header>
@@ -63,7 +77,7 @@ function renderLayout() {
     </main>
     <footer class="footer">
       <div class="footer-top">
-        <img class="footer-logo" src="${config.brand.logo}" alt="${config.brand.name}">
+        <img class="footer-logo" src="${assetUrl(config.brand.logo)}" alt="${config.brand.name}">
         <div class="footer-links">
           <a href="${pageUrl("home")}">Home</a>
           <a href="${pageUrl("forums")}">Forums</a>
@@ -192,7 +206,7 @@ function bindGlobalActions() {
 
 function setBanner() {
   const isLight = document.documentElement.dataset.theme === "light";
-  const banner = isLight ? config.brand.lightBanner : config.brand.darkBanner;
+  const banner = assetUrl(isLight ? config.brand.lightBanner : config.brand.darkBanner);
   document.querySelector(".site-header").style.setProperty("--banner", `url("${banner}")`);
 }
 
@@ -1036,7 +1050,7 @@ function staffHref(username) {
 
 function pageUrl(name) {
   const routes = {
-    home: "/home/",
+    home: "/",
     login: "/login/",
     signup: "/signup/",
     forums: "/forums/",
@@ -1050,7 +1064,7 @@ function pageUrl(name) {
     privacy: "/privacy/",
     store: "/store/"
   };
-  return routes[name] || "/home/";
+  return routes[name] || "/";
 }
 
 function slug(value) {
