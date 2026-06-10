@@ -1,0 +1,7 @@
+{
+  "id": "icon-register",
+  "name": "icon-register",
+  "version": "1.0.0",
+  "main": "org.iconrealms.register.velocity.IconRegisterVelocityPlugin",
+  "authors": ["IconRealms"]
+}
