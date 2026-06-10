@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:57:27.992Z",
+      "lastSeenAt": "2026-06-10T14:58:57.995Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -109,7 +109,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:57:27.992Z",
+      "lastSeenAt": "2026-06-10T14:58:57.995Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -133,7 +133,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:57:27.992Z",
+      "lastSeenAt": "2026-06-10T14:58:57.995Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -157,7 +157,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T14:57:27.992Z",
+      "lastSeenAt": "2026-06-10T14:58:57.995Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -730,7 +730,7 @@
       "createdAt": "2026-06-10T14:57:27.992Z",
       "joinedAt": "2026-06-10T14:57:27.992Z",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-10T14:57:27.992Z",
@@ -875,22 +875,17 @@
           "username": "XxANIExX",
           "uuid": "19d5feca-d504-41b0-90cc-b6ce11ddf3d5",
           "rank": "VIP+"
-        },
-        {
-          "username": "NotRavolnix",
-          "uuid": "477b9b45-7052-4430-bc28-b833dbe04fb7",
-          "rank": "Member"
         }
       ],
-      "onlineCount": 5,
+      "onlineCount": 4,
       "maxPlayers": 500,
-      "tps": 20.000005160034636,
-      "pingMs": 183,
-      "averagePlayerPingMs": 86,
-      "uptimeMs": 46912416,
+      "tps": 19.99999860682774,
+      "pingMs": 190,
+      "averagePlayerPingMs": 75,
+      "uptimeMs": 47002416,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T14:57:27.992Z"
+      "lastHeartbeatAt": "2026-06-10T14:58:57.995Z"
     }
   },
   "site": {
