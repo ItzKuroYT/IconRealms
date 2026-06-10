@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T18:23:06.758Z",
+      "lastSeenAt": "2026-06-10T18:24:36.700Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -109,7 +109,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T18:23:06.758Z",
+      "lastSeenAt": "2026-06-10T18:24:36.700Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -133,7 +133,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T18:23:06.758Z",
+      "lastSeenAt": "2026-06-10T18:24:36.700Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -157,7 +157,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T18:23:06.758Z",
+      "lastSeenAt": "2026-06-10T18:24:36.700Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -541,7 +541,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T18:23:06.758Z",
+      "lastSeenAt": "2026-06-10T18:24:36.700Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -887,6 +887,54 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "CodingJEP",
+      "uuid": "03e0ea14-5216-4119-8e56-0fb349989b92",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/CodingJEP/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-10T18:24:36.700Z",
+      "joinedAt": "2026-06-10T18:24:36.700Z",
+      "rank": "Member",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-10T18:24:36.700Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "TheMCP123",
+      "uuid": "2af4a0fd-8246-4963-a861-d0b2ef36fc22",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/TheMCP123/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-10T18:24:36.700Z",
+      "joinedAt": "2026-06-10T18:24:36.700Z",
+      "rank": "Member",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-10T18:24:36.700Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
     }
   ],
   "threads": [],
@@ -1024,17 +1072,27 @@
           "username": "royuki",
           "uuid": "c4323ac1-2f82-4016-8f2b-ffc5251cb1d1",
           "rank": "Member"
+        },
+        {
+          "username": "CodingJEP",
+          "uuid": "03e0ea14-5216-4119-8e56-0fb349989b92",
+          "rank": "Member"
+        },
+        {
+          "username": "TheMCP123",
+          "uuid": "2af4a0fd-8246-4963-a861-d0b2ef36fc22",
+          "rank": "Member"
         }
       ],
-      "onlineCount": 5,
+      "onlineCount": 7,
       "maxPlayers": 500,
-      "tps": 20.0000036902588,
-      "pingMs": 202,
-      "averagePlayerPingMs": 74,
-      "uptimeMs": 59251216,
+      "tps": 19.999999247960062,
+      "pingMs": 151,
+      "averagePlayerPingMs": 78,
+      "uptimeMs": 59341217,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T18:23:06.758Z"
+      "lastHeartbeatAt": "2026-06-10T18:24:36.700Z"
     }
   },
   "site": {
