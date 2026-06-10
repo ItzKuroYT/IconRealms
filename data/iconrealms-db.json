@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T08:32:36.791Z",
+      "lastSeenAt": "2026-06-10T08:34:06.775Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -61,7 +61,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T08:32:36.791Z",
+      "lastSeenAt": "2026-06-10T08:34:06.775Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -85,7 +85,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T08:32:36.791Z",
+      "lastSeenAt": "2026-06-10T08:34:06.775Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -109,7 +109,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T08:32:36.791Z",
+      "lastSeenAt": "2026-06-10T08:34:06.775Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -133,7 +133,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T08:32:36.791Z",
+      "lastSeenAt": "2026-06-10T08:34:06.775Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -157,7 +157,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T08:32:36.791Z",
+      "lastSeenAt": "2026-06-10T08:34:06.775Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -359,6 +359,30 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "satan9saint1",
+      "uuid": "cf0dd1f7-ba03-4282-b874-0f4e38891783",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/satan9saint1/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-10T08:34:06.775Z",
+      "joinedAt": "2026-06-10T08:34:06.775Z",
+      "rank": "Member",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-10T08:34:06.775Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
     }
   ],
   "threads": [],
@@ -501,17 +525,22 @@
           "username": "KomaedaDs",
           "uuid": "c5ffe0ff-50b2-4e38-b779-c2d096ffc3e6",
           "rank": "VIP+"
+        },
+        {
+          "username": "satan9saint1",
+          "uuid": "cf0dd1f7-ba03-4282-b874-0f4e38891783",
+          "rank": "Member"
         }
       ],
-      "onlineCount": 6,
+      "onlineCount": 7,
       "maxPlayers": 500,
-      "tps": 20.00000452356472,
-      "pingMs": 153,
-      "averagePlayerPingMs": 85,
-      "uptimeMs": 23821266,
+      "tps": 20.000019554723533,
+      "pingMs": 155,
+      "averagePlayerPingMs": 125,
+      "uptimeMs": 23911266,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T08:32:36.791Z"
+      "lastHeartbeatAt": "2026-06-10T08:34:06.775Z"
     }
   },
   "site": {
