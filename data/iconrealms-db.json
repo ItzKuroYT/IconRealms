@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T20:28:41.924Z",
+      "lastSeenAt": "2026-06-10T20:30:13.732Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -85,7 +85,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T20:28:41.924Z",
+      "lastSeenAt": "2026-06-10T20:30:13.732Z",
       "bio": "Kuro is a femboy",
       "following": [],
       "followers": [
@@ -115,7 +115,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T20:28:41.924Z",
+      "lastSeenAt": "2026-06-10T20:30:13.732Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -139,7 +139,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T20:28:41.924Z",
+      "lastSeenAt": "2026-06-10T20:30:13.732Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -163,7 +163,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T20:28:41.924Z",
+      "lastSeenAt": "2026-06-10T20:30:13.732Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -235,7 +235,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T20:28:41.924Z",
+      "lastSeenAt": "2026-06-10T20:30:13.732Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -978,7 +978,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-10T20:28:41.924Z",
+      "lastSeenAt": "2026-06-10T20:30:13.732Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs"
@@ -1033,7 +1033,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T20:28:41.924Z",
+      "lastSeenAt": "2026-06-10T20:30:13.732Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1205,7 +1205,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T20:28:41.924Z",
+      "lastSeenAt": "2026-06-10T20:30:13.732Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1229,7 +1229,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T20:28:41.924Z",
+      "lastSeenAt": "2026-06-10T20:30:13.732Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1391,11 +1391,6 @@
           "rank": "Member"
         },
         {
-          "username": "KomaedaDs",
-          "uuid": "c5ffe0ff-50b2-4e38-b779-c2d096ffc3e6",
-          "rank": "VIP+"
-        },
-        {
           "username": "TheStickBoy",
           "uuid": "373f4753-733b-4f0e-bf10-442b5721ae2f",
           "rank": "Owner"
@@ -1409,17 +1404,22 @@
           "username": "ItsBacon0",
           "uuid": "90200832-7dfe-4f30-8b7a-31ea2935c4c5",
           "rank": "Member"
+        },
+        {
+          "username": "KomaedaDs",
+          "uuid": "c5ffe0ff-50b2-4e38-b779-c2d096ffc3e6",
+          "rank": "VIP+"
         }
       ],
       "onlineCount": 10,
       "maxPlayers": 500,
-      "tps": 20.00000118434645,
-      "pingMs": 170,
-      "averagePlayerPingMs": 102,
-      "uptimeMs": 66786417,
+      "tps": 19.433806756551743,
+      "pingMs": 153,
+      "averagePlayerPingMs": 78,
+      "uptimeMs": 66878117,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T20:28:41.924Z"
+      "lastHeartbeatAt": "2026-06-10T20:30:13.732Z"
     }
   },
   "site": {
