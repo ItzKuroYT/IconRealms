@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T12:02:22.878Z",
+      "lastSeenAt": "2026-06-10T12:03:52.764Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -109,7 +109,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T12:02:22.878Z",
+      "lastSeenAt": "2026-06-10T12:03:52.764Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -133,7 +133,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T12:02:22.878Z",
+      "lastSeenAt": "2026-06-10T12:03:52.764Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -157,7 +157,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T12:02:22.878Z",
+      "lastSeenAt": "2026-06-10T12:03:52.764Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -373,7 +373,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T12:02:22.878Z",
+      "lastSeenAt": "2026-06-10T12:03:52.764Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -623,6 +623,30 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "amOUPPY",
+      "uuid": "bac9a930-404e-4b2a-aa48-c5a8ad1ff123",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/amOUPPY/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-10T12:03:52.764Z",
+      "joinedAt": "2026-06-10T12:03:52.764Z",
+      "rank": "Member",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-10T12:03:52.764Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
     }
   ],
   "threads": [],
@@ -760,17 +784,22 @@
           "username": "satan9saint1",
           "uuid": "cf0dd1f7-ba03-4282-b874-0f4e38891783",
           "rank": "Member"
+        },
+        {
+          "username": "amOUPPY",
+          "uuid": "bac9a930-404e-4b2a-aa48-c5a8ad1ff123",
+          "rank": "Member"
         }
       ],
-      "onlineCount": 5,
+      "onlineCount": 6,
       "maxPlayers": 500,
-      "tps": 20.000003196669955,
-      "pingMs": 536,
-      "averagePlayerPingMs": 118,
-      "uptimeMs": 36407267,
+      "tps": 20.00000699417397,
+      "pingMs": 239,
+      "averagePlayerPingMs": 119,
+      "uptimeMs": 36497266,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-10T12:02:22.878Z"
+      "lastHeartbeatAt": "2026-06-10T12:03:52.764Z"
     }
   },
   "site": {
