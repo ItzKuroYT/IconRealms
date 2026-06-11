@@ -1520,7 +1520,9 @@
         "Szkocja_"
       ],
       "friends": [],
-      "friendRequests": [],
+      "friendRequests": [
+        "Szkocja_"
+      ],
       "settings": {
         "allowFriendRequests": true
       },
