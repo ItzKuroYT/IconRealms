@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T06:23:34.867Z",
+      "lastSeenAt": "2026-06-11T06:24:34.929Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-11T06:20:38.711Z",
+      "lastSeenAt": "2026-06-11T06:24:34.929Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1002,7 +1002,7 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "2026-06-10T22:14:43.621Z",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg"
     },
@@ -2223,17 +2223,22 @@
           "username": "4687",
           "uuid": "17907c46-6f45-4c23-9a7e-35e9b18b26be",
           "rank": "Member"
+        },
+        {
+          "username": "ItzKuro_",
+          "uuid": "3990d27a-f611-430d-b6cd-c796173e9776",
+          "rank": "Owner"
         }
       ],
-      "onlineCount": 1,
+      "onlineCount": 2,
       "maxPlayers": 500,
-      "tps": 19.966722025267206,
-      "pingMs": 145,
-      "averagePlayerPingMs": 44,
-      "uptimeMs": 76352,
+      "tps": 19.9833279497912,
+      "pingMs": 150,
+      "averagePlayerPingMs": 41,
+      "uptimeMs": 136402,
       "lastRestartAt": "2026-06-11T06:22:18.377Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T06:23:34.867Z"
+      "lastHeartbeatAt": "2026-06-11T06:24:34.929Z"
     }
   },
   "site": {
