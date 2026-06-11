@@ -214,7 +214,7 @@ function scheduleAd() {
 }
 
 function nextAd() {
-  const ads = (state.ads || []).filter((ad) => ad.enabled !== false && (ad.showOn === "website" || ad.showOn === "both" || !ad.showOn));
+  const ads = (state.ads || []).filter((ad) => ad.enabled !== false);
   if (!ads.length || sessionStorage.getItem("iconrealms_ad_seen_page") === "true") return null;
   const now = Date.now();
   return ads.find((ad) => {
@@ -784,11 +784,6 @@ function admin() {
             <option value="audio">Audio</option>
           </select>
           <input name="mediaUrl" placeholder="Image, video, or audio URL">
-          <select name="showOn">
-            <option value="website">Website only</option>
-            <option value="both">Website + launcher</option>
-            <option value="launcher">Launcher only</option>
-          </select>
           <input name="intervalSeconds" type="number" min="60" value="600" placeholder="Cooldown seconds">
           <input name="closeDelaySeconds" type="number" min="1" max="10" value="1" placeholder="Close delay seconds">
           <label class="inline-check"><input type="checkbox" name="enabled" checked> Enabled</label>
@@ -877,7 +872,7 @@ function bindPageActions() {
     mediaUrl: form.mediaUrl.value,
     mediaType: form.mediaType.value,
     placement: form.placement.value,
-    showOn: form.showOn.value,
+    showOn: "website",
     intervalSeconds: form.intervalSeconds.value,
     closeDelaySeconds: form.closeDelaySeconds.value,
     enabled: form.enabled.checked
@@ -1033,7 +1028,7 @@ function bindForm(id, url, success, serialize) {
   });
 }
 
-async function api(url, body, method = "POST") {
+async function api(url, body, method = "POST", retriedIndexRoute = false) {
   let res;
   try {
     res = await fetch(apiUrl(url), {
@@ -1047,6 +1042,11 @@ async function api(url, body, method = "POST") {
   }
   const text = await res.text();
   const json = text ? parseJson(text) : {};
+  if (!res.ok && !retriedIndexRoute && url.startsWith("/api/") && !url.startsWith("/api/index")) {
+    const indexUrl = `/api/index?path=${encodeURIComponent(url.replace(/^\/api\/?/, ""))}`;
+    const retry = await api(indexUrl, body, method, true);
+    if (retry.ok || retry.error !== "API route not found.") return retry;
+  }
   return {
     ok: res.ok,
     error: json.error || (!res.ok ? text.slice(0, 180) || `Request failed (${res.status})` : undefined),
