@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:53:34.362Z",
+      "lastSeenAt": "2026-06-11T04:55:04.363Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -119,7 +119,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:53:34.362Z",
+      "lastSeenAt": "2026-06-11T04:55:04.363Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -143,7 +143,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:53:34.362Z",
+      "lastSeenAt": "2026-06-11T04:55:04.363Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -167,7 +167,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:53:34.362Z",
+      "lastSeenAt": "2026-06-11T04:55:04.363Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-11T04:53:34.362Z",
+      "lastSeenAt": "2026-06-11T04:55:04.363Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1002,7 +1002,7 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "2026-06-10T22:14:43.621Z",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg"
     },
@@ -1982,7 +1982,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:53:34.362Z",
+      "lastSeenAt": "2026-06-11T04:55:04.363Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2003,10 +2003,10 @@
       "createdAt": "2026-06-11T04:53:34.362Z",
       "joinedAt": "2026-06-11T04:53:34.362Z",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:53:34.362Z",
+      "lastSeenAt": "2026-06-11T04:55:04.363Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2181,27 +2181,17 @@
           "username": ".reinhardtius",
           "uuid": "00000000-0000-0000-0009-01ff2da8fe9f",
           "rank": "Member"
-        },
-        {
-          "username": "ItzKuro_",
-          "uuid": "3990d27a-f611-430d-b6cd-c796173e9776",
-          "rank": "Owner"
-        },
-        {
-          "username": "Arrmie",
-          "uuid": "1964e74d-c3dd-477b-8575-d5eef379f87c",
-          "rank": "Member"
         }
       ],
-      "onlineCount": 7,
+      "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 19.99999862481275,
-      "pingMs": 160,
-      "averagePlayerPingMs": 67,
-      "uptimeMs": 97078867,
+      "tps": 20.000001281265693,
+      "pingMs": 149,
+      "averagePlayerPingMs": 59,
+      "uptimeMs": 97168867,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T04:53:34.362Z"
+      "lastHeartbeatAt": "2026-06-11T04:55:04.363Z"
     }
   },
   "site": {
