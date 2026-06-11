@@ -1,13 +1,13 @@
 const IconRealmsConfig = {
   brand: {
     name: "IconRealms",
-    serverAddress: "play.iconrealms.net",
+    serverAddress: "icongen.minehut.gg",
     minecraftVersion: "1.20+",
     logo: "assets/icon.png",
     favicon: "assets/icon.png",
     lightBanner: "assets/banner-lightmode.png",
     darkBanner: "assets/banner-darkmode.png",
-    tebexUrl: "https://iconrealms.tebex.io"
+    tebexUrl: "https://icongens.tebex.io"
   },
   api: {
     // GitHub Pages has no serverless functions, so it should call the Vercel API.
