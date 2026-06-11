@@ -2068,6 +2068,20 @@
   ],
   "threads": [
     {
+      "id": "26c5ab1f-9404-4e1d-9e4d-d11cd3428038",
+      "boardId": "announcements",
+      "title": "**🚀 IconGens Season 4**",
+      "body": "\n✅ - Fixed backend stuff (hopefully wont break everyones stats)\n\n✅ - made fusions have a chance of giving Huge, Shiny, Rainbow, \n\n✅ - Added stuff to fishing such as\n- /index\n- more fish\n- fish mutations\n",
+      "images": [
+        "https://i.imgur.com/GYGu1ci.jpeg"
+      ],
+      "author": "ItzKuro_",
+      "announcement": true,
+      "locked": false,
+      "createdAt": "2026-06-11T06:23:21.653Z",
+      "replies": []
+    },
+    {
       "id": "30027cab-4f44-4dbf-a34f-c07568931292",
       "boardId": "rules",
       "title": "SERVER RULES",
