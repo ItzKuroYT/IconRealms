@@ -34,7 +34,7 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-11T07:57:57.715Z",
@@ -116,7 +116,7 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-11T07:57:57.715Z",
@@ -140,7 +140,7 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-11T07:57:57.715Z",
@@ -164,7 +164,7 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "ICONIC",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-11T07:57:57.715Z",
@@ -1002,7 +1002,7 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "2026-06-11T06:45:01.173Z",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg"
     },
@@ -2252,42 +2252,16 @@
       "maxPlayersEver": 13,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
       "online": true,
-      "players": [
-        {
-          "username": "4687",
-          "uuid": "17907c46-6f45-4c23-9a7e-35e9b18b26be",
-          "rank": "Member"
-        },
-        {
-          "username": "ItzKuro_",
-          "uuid": "3990d27a-f611-430d-b6cd-c796173e9776",
-          "rank": "Owner"
-        },
-        {
-          "username": "FarGloria1998",
-          "uuid": "6e4ce78a-1c86-4a23-9bef-c7f498b2e5e7",
-          "rank": "Member"
-        },
-        {
-          "username": "XxANIExX",
-          "uuid": "19d5feca-d504-41b0-90cc-b6ce11ddf3d5",
-          "rank": "ICONIC"
-        },
-        {
-          "username": "whov",
-          "uuid": "27afbda7-43dc-4a00-a58f-39694ff680cc",
-          "rank": "Member"
-        }
-      ],
-      "onlineCount": 5,
+      "players": [],
+      "onlineCount": 0,
       "maxPlayers": 500,
-      "tps": 20.00000523996807,
-      "pingMs": 49,
-      "averagePlayerPingMs": 70,
-      "uptimeMs": 5739202,
-      "lastRestartAt": "2026-06-11T06:22:18.377Z",
+      "tps": 17.450430992260078,
+      "pingMs": 0,
+      "averagePlayerPingMs": 0,
+      "uptimeMs": 20056,
+      "lastRestartAt": "2026-06-11T08:00:07.165Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T07:57:57.715Z"
+      "lastHeartbeatAt": "2026-06-11T08:00:27.417Z"
     }
   },
   "site": {
