@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T07:06:53.325Z",
+      "lastSeenAt": "2026-06-11T07:08:23.302Z",
       "bio": "dih",
       "following": [],
       "followers": [],
@@ -140,10 +140,10 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "Member",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T06:20:38.711Z",
+      "lastSeenAt": "2026-06-11T07:08:23.302Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-11T07:06:53.325Z",
+      "lastSeenAt": "2026-06-11T07:08:23.302Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -2078,7 +2078,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T07:06:53.325Z",
+      "lastSeenAt": "2026-06-11T07:08:23.302Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2243,17 +2243,22 @@
           "username": "swightnxe1223",
           "uuid": "954b6da7-b9ca-4ce1-99ff-c9ee22296795",
           "rank": "Member"
+        },
+        {
+          "username": "FarGloria1998",
+          "uuid": "6e4ce78a-1c86-4a23-9bef-c7f498b2e5e7",
+          "rank": "Member"
         }
       ],
-      "onlineCount": 3,
+      "onlineCount": 4,
       "maxPlayers": 500,
-      "tps": 20.000000456952552,
-      "pingMs": 138,
-      "averagePlayerPingMs": 126,
-      "uptimeMs": 2674751,
+      "tps": 20.000001032139938,
+      "pingMs": 169,
+      "averagePlayerPingMs": 128,
+      "uptimeMs": 2764752,
       "lastRestartAt": "2026-06-11T06:22:18.377Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T07:06:53.325Z"
+      "lastHeartbeatAt": "2026-06-11T07:08:23.302Z"
     }
   },
   "site": {
