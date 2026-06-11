@@ -1516,7 +1516,9 @@
       "lastSeenAt": "2026-06-11T00:20:22.744Z",
       "bio": "",
       "following": [],
-      "followers": [],
+      "followers": [
+        "Szkocja_"
+      ],
       "friends": [],
       "friendRequests": [],
       "settings": {
@@ -1592,7 +1594,8 @@
       "following": [
         "ItzKuro_",
         "TheStickBoy",
-        "Noobie_LOL"
+        "Noobie_LOL",
+        "WreckingShark"
       ],
       "followers": [],
       "friends": [],
