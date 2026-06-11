@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T16:36:00.495Z",
+      "lastSeenAt": "2026-06-11T16:37:30.463Z",
       "bio": "dih",
       "following": [],
       "followers": [],
@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T16:36:00.495Z",
+      "lastSeenAt": "2026-06-11T16:37:30.463Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -119,7 +119,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T16:36:00.495Z",
+      "lastSeenAt": "2026-06-11T16:37:30.463Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -143,7 +143,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T16:36:00.495Z",
+      "lastSeenAt": "2026-06-11T16:37:30.463Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -167,7 +167,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T16:36:00.495Z",
+      "lastSeenAt": "2026-06-11T16:37:30.463Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2630,13 +2630,13 @@
       ],
       "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 20.00000021748543,
-      "pingMs": 160,
-      "averagePlayerPingMs": 106,
-      "uptimeMs": 30952305,
+      "tps": 20.000001010491307,
+      "pingMs": 199,
+      "averagePlayerPingMs": 86,
+      "uptimeMs": 31042308,
       "lastRestartAt": "2026-06-11T08:00:07.165Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T16:36:00.495Z"
+      "lastHeartbeatAt": "2026-06-11T16:37:30.463Z"
     }
   },
   "site": {
