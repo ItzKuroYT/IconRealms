@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T08:10:57.398Z",
+      "lastSeenAt": "2026-06-11T21:03:30.326Z",
       "bio": "dih",
       "following": [],
       "followers": [],
@@ -84,10 +84,10 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "VIP+",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:23:32.095Z",
+      "lastSeenAt": "2026-06-11T21:03:30.326Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -115,11 +115,11 @@
       "inGameRegistered": false,
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
-      "rank": "Member",
-      "online": false,
+      "rank": "default",
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T07:57:57.715Z",
+      "lastSeenAt": "2026-06-11T21:03:30.326Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -139,11 +139,11 @@
       "inGameRegistered": false,
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
-      "rank": "Member",
-      "online": false,
+      "rank": "default",
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T07:57:57.715Z",
+      "lastSeenAt": "2026-06-11T21:03:30.326Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -163,11 +163,11 @@
       "inGameRegistered": false,
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
-      "rank": "ICONIC",
-      "online": false,
+      "rank": "Iconic",
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T07:57:57.715Z",
+      "lastSeenAt": "2026-06-11T21:03:30.326Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -211,11 +211,11 @@
       "inGameRegistered": false,
       "createdAt": "2026-06-10T06:25:28.036Z",
       "joinedAt": "2026-06-10T06:25:28.036Z",
-      "rank": "Member",
+      "rank": "hero",
       "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T08:04:04.288Z",
+      "lastSeenAt": "2026-06-11T09:07:27.427Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-11T08:10:57.398Z",
+      "lastSeenAt": "2026-06-11T21:03:30.326Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -990,10 +990,12 @@
         "Noobie_LOL"
       ],
       "followers": [
-        "Szkocja_"
+        "Szkocja_",
+        "Noobie_LOL"
       ],
       "friends": [
-        "KomaedaDs"
+        "KomaedaDs",
+        "Noobie_LOL"
       ],
       "friendRequests": [
         "Szkocja_"
@@ -1049,7 +1051,8 @@
       "followers": [
         "KomaedaDs",
         "ItzKuro_",
-        "Szkocja_"
+        "Szkocja_",
+        "Noobie_LOL"
       ],
       "friends": [],
       "friendRequests": [],
@@ -1075,16 +1078,20 @@
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-10T23:30:49.342Z",
       "bio": "",
-      "following": [],
+      "following": [
+        "TheStickBoy",
+        "ItzKuro_",
+        "Szkocja_"
+      ],
       "followers": [
         "ItzKuro_",
         "Szkocja_"
       ],
-      "friends": [],
-      "friendRequests": [
-        "ItzKuro_",
-        "Szkocja_"
+      "friends": [
+        "Szkocja_",
+        "ItzKuro_"
       ],
+      "friendRequests": [],
       "settings": {
         "allowFriendRequests": true
       },
@@ -1587,11 +1594,11 @@
       "inGameRegistered": true,
       "createdAt": "2026-06-10T23:27:18.048Z",
       "joinedAt": "2026-06-10T23:27:18.048Z",
-      "rank": "Mod",
+      "rank": "Jr Admin",
       "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T00:33:52.757Z",
+      "lastSeenAt": "2026-06-11T20:53:30.360Z",
       "bio": "Im a duck.",
       "following": [
         "ItzKuro_",
@@ -1599,13 +1606,17 @@
         "Noobie_LOL",
         "WreckingShark"
       ],
-      "followers": [],
-      "friends": [],
+      "followers": [
+        "Noobie_LOL"
+      ],
+      "friends": [
+        "Noobie_LOL"
+      ],
       "friendRequests": [],
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": "2026-06-11T00:50:56.151Z",
+      "lastNotificationSeenAt": "2026-06-11T08:37:27.819Z",
       "webSignupCompleted": false,
       "banned": false
     },
@@ -1714,11 +1725,11 @@
       "inGameRegistered": false,
       "createdAt": "2026-06-11T00:48:56.061Z",
       "joinedAt": "2026-06-11T00:48:56.061Z",
-      "rank": "Member",
-      "online": false,
+      "rank": "hero",
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:00:25.623Z",
+      "lastSeenAt": "2026-06-11T21:03:30.326Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1834,11 +1845,11 @@
       "inGameRegistered": false,
       "createdAt": "2026-06-11T03:20:49.709Z",
       "joinedAt": "2026-06-11T03:20:49.709Z",
-      "rank": "VIP",
+      "rank": "hero",
       "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:24:32.693Z",
+      "lastSeenAt": "2026-06-11T20:14:29.689Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2112,6 +2123,774 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "SubStellis",
+      "uuid": "b6895cc3-19a6-498a-a40c-f6aca8fb20c9",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/SubStellis/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T10:01:57.590Z",
+      "joinedAt": "2026-06-11T10:01:57.590Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T10:03:27.308Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "18Fire",
+      "uuid": "c31a5312-3a80-4082-8271-e9ccd20f03f6",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/18Fire/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T10:08:57.322Z",
+      "joinedAt": "2026-06-11T10:08:57.322Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T10:09:57.959Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": ".wemmbu92535",
+      "uuid": "00000000-0000-0000-0009-01f1637e665a",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/.wemmbu92535/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T10:16:27.303Z",
+      "joinedAt": "2026-06-11T10:16:27.303Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T10:17:27.323Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Maxent_",
+      "uuid": "1b77c079-831c-4824-be80-6803eff86c55",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Maxent_/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T11:12:57.298Z",
+      "joinedAt": "2026-06-11T11:12:57.298Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T11:12:57.298Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "_GroxMC_",
+      "uuid": "e5c5ffd0-ac0e-4bd6-8a13-1d4f868abbaa",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/_GroxMC_/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T12:07:57.312Z",
+      "joinedAt": "2026-06-11T12:07:57.312Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T12:08:57.318Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "PrecutButt",
+      "uuid": "ae6fd39d-d8e4-4d70-9e3f-2df791a5027d",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/PrecutButt/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T12:17:57.340Z",
+      "joinedAt": "2026-06-11T12:17:57.340Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T12:19:27.327Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Ryanthesponge",
+      "uuid": "8b85619a-34c0-4b21-a0f3-325c1aad4673",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Ryanthesponge/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T12:30:27.379Z",
+      "joinedAt": "2026-06-11T12:30:27.379Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T12:30:27.379Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "jus_idk",
+      "uuid": "53025a54-0cd9-44b5-b00e-96fe35ac2fcd",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/jus_idk/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T12:37:57.304Z",
+      "joinedAt": "2026-06-11T12:37:57.304Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T12:38:57.332Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "iron_m_and_m",
+      "uuid": "96ecb0c9-3d1c-463b-ac9b-d6eea848bd5e",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/iron_m_and_m/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T12:49:57.357Z",
+      "joinedAt": "2026-06-11T12:49:57.357Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T12:55:28.108Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "DarkAngel1093",
+      "uuid": "64789088-dd4e-4175-884f-0a3135660bc4",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/DarkAngel1093/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T12:49:57.357Z",
+      "joinedAt": "2026-06-11T12:49:57.357Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T12:55:28.108Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Elitedennis",
+      "uuid": "154333ae-9ff5-40cd-897d-6ef66f50b32a",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Elitedennis/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T13:29:28.125Z",
+      "joinedAt": "2026-06-11T13:29:28.125Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T13:36:58.125Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Fw3than",
+      "uuid": "ad9af2cb-ac9e-4183-baea-bdefc0991d6e",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Fw3than/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T14:11:28.297Z",
+      "joinedAt": "2026-06-11T14:11:28.297Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T14:12:58.187Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "flxpper_",
+      "uuid": "41796cff-415d-4c41-a778-967e161fd52c",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/flxpper_/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T14:37:28.153Z",
+      "joinedAt": "2026-06-11T14:37:28.153Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T14:40:28.179Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Chromebaron",
+      "uuid": "919aaff7-c013-40e0-9315-6a493b16f4a3",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Chromebaron/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T15:31:58.204Z",
+      "joinedAt": "2026-06-11T15:31:58.204Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T15:32:58.253Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "goingglobe52789",
+      "uuid": "cdbc7881-e706-4fa1-99c7-64614db53d4a",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/goingglobe52789/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T16:00:28.353Z",
+      "joinedAt": "2026-06-11T16:00:28.353Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T16:01:58.236Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Offline_ItsBro",
+      "uuid": "f653d93b-4f28-4789-ae04-3e1ab270deda",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Offline_ItsBro/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T16:14:29.633Z",
+      "joinedAt": "2026-06-11T16:14:29.633Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T16:15:59.631Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "AvoidMyRoy",
+      "uuid": "3586b5b0-eba0-479e-ac42-c2cc8bdfbe75",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/AvoidMyRoy/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T16:31:29.625Z",
+      "joinedAt": "2026-06-11T16:31:29.625Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T16:32:29.626Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "super_wolfi123",
+      "uuid": "7fbd7fd0-a895-40a5-baf8-9bab6ea99c3a",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/super_wolfi123/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T17:14:59.632Z",
+      "joinedAt": "2026-06-11T17:14:59.632Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T17:16:29.628Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "H4YD3N_2010",
+      "uuid": "b94e5445-2120-488f-a0a5-fe636afecaf6",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/H4YD3N_2010/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T17:29:59.668Z",
+      "joinedAt": "2026-06-11T17:29:59.668Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T17:31:29.615Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "saneME",
+      "uuid": "611010b4-e14b-4c06-889b-15329b946d60",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/saneME/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T17:38:59.636Z",
+      "joinedAt": "2026-06-11T17:38:59.636Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T17:43:29.646Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "CatgirlSkyy_",
+      "uuid": "c6c5dd0c-515d-4e3f-85fe-0f55e525bc53",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/CatgirlSkyy_/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T17:39:59.642Z",
+      "joinedAt": "2026-06-11T17:39:59.642Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T17:40:59.642Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Verdantsnow",
+      "uuid": "82461fe8-4cc2-458c-bc8a-8063e91e24af",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Verdantsnow/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T17:46:59.633Z",
+      "joinedAt": "2026-06-11T17:46:59.633Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T17:48:29.633Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Panickings",
+      "uuid": "8d136237-029e-4c5c-a600-8607f2608ecf",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Panickings/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T18:08:59.680Z",
+      "joinedAt": "2026-06-11T18:08:59.680Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T18:11:29.685Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "ChickyXamich",
+      "uuid": "e81791eb-7742-497f-ba6c-a4f7610bbb9d",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/ChickyXamich/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T18:19:29.684Z",
+      "joinedAt": "2026-06-11T18:19:29.684Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T18:20:29.725Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "bananboniek",
+      "uuid": "7a9ab9bc-6844-41a9-9788-390b723efd34",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/bananboniek/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T18:34:59.719Z",
+      "joinedAt": "2026-06-11T18:34:59.719Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T18:37:59.682Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "AyyyKayyy4427",
+      "uuid": "787e3f9c-0180-4e3c-84e2-768d13f7ad92",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/AyyyKayyy4427/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T18:34:59.719Z",
+      "joinedAt": "2026-06-11T18:34:59.719Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T18:34:59.719Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "KrazyKost",
+      "uuid": "868d83ec-ea3b-477c-be30-05f5381c8619",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/KrazyKost/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T18:45:59.697Z",
+      "joinedAt": "2026-06-11T18:45:59.697Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T18:46:59.711Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "DerSyntaxfehler",
+      "uuid": "63930ae5-344c-4ffd-995c-84008e07f364",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/DerSyntaxfehler/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T18:46:59.711Z",
+      "joinedAt": "2026-06-11T18:46:59.711Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T18:52:59.661Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "CreatorPringle",
+      "uuid": "d74ee9db-e4b3-4b2d-a06d-3765d4dbd3eb",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/CreatorPringle/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T18:56:59.672Z",
+      "joinedAt": "2026-06-11T18:56:59.672Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T18:57:59.690Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "swagmobo",
+      "uuid": "cee2c10e-dff9-4616-b6f7-ff0435b425ba",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/swagmobo/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T20:04:29.703Z",
+      "joinedAt": "2026-06-11T20:04:29.703Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T20:08:59.728Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Kaelvorr",
+      "uuid": "b4d6fbbe-9995-47c0-a2d6-e0123f00171f",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Kaelvorr/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T20:48:00.373Z",
+      "joinedAt": "2026-06-11T20:48:00.373Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T20:52:30.355Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Xx_Donk_xX",
+      "uuid": "33f53568-f1cc-404e-97e1-df0fb3306aa5",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Xx_Donk_xX/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T20:49:30.409Z",
+      "joinedAt": "2026-06-11T20:49:30.409Z",
+      "rank": "default",
+      "online": false,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T20:51:00.365Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
     }
   ],
   "threads": [
@@ -2153,14 +2932,14 @@
   "staff": [
     {
       "username": "ItzKuro_",
-      "rank": "Ownership",
+      "rank": "Owner",
       "bio": "",
       "friends": [],
       "avatar": "https://mc-heads.net/avatar/ItzKuro_/128"
     },
     {
       "username": "TheStickBoy",
-      "rank": "Ownership",
+      "rank": "Owner",
       "bio": "",
       "friends": [],
       "avatar": "https://mc-heads.net/avatar/TheStickBoy/128"
@@ -2173,57 +2952,36 @@
       "avatar": "https://mc-heads.net/avatar/ItsBurb_/128"
     },
     {
-      "username": "FireAngel18",
-      "rank": "Lead Developer",
-      "bio": "",
-      "friends": [],
-      "avatar": "https://mc-heads.net/avatar/FireAngel18/128"
-    },
-    {
-      "username": "Prutorm",
-      "rank": "Developer",
-      "bio": "",
-      "friends": [],
-      "avatar": "https://mc-heads.net/avatar/Prutorm/128"
-    },
-    {
-      "username": "TyllerTheGamer",
-      "rank": "Developer",
-      "bio": "",
-      "friends": [],
-      "avatar": "https://mc-heads.net/avatar/TyllerTheGamer/128"
-    },
-    {
-      "username": "OtterMC_YT",
-      "rank": "Developer",
-      "bio": "",
-      "friends": [],
-      "avatar": "https://mc-heads.net/avatar/OtterMC_YT/128"
-    },
-    {
       "username": "Noobie_LOL",
-      "rank": "Senior Administrator",
+      "rank": "Sr Admin",
       "bio": "",
       "friends": [],
       "avatar": "https://mc-heads.net/avatar/Noobie_LOL/128"
     },
     {
       "username": "WreckingShark",
-      "rank": "Senior Moderator",
+      "rank": "Sr Mod",
       "bio": "",
       "friends": [],
       "avatar": "https://mc-heads.net/avatar/WreckingShark/128"
     },
     {
-      "username": "TroyCast",
-      "rank": "Moderator",
+      "username": "Szkocja_ ",
+      "rank": "Jr Admin",
       "bio": "",
       "friends": [],
-      "avatar": "https://mc-heads.net/avatar/TroyCast/128"
+      "avatar": "https://mc-heads.net/avatar/Szkocja_%20/128"
+    },
+    {
+      "username": "RakeAMake4",
+      "rank": "Developer",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/RakeAMake4/128"
     },
     {
       "username": "Japans2good",
-      "rank": "Moderator",
+      "rank": "Mod",
       "bio": "",
       "friends": [],
       "avatar": "https://mc-heads.net/avatar/Japans2good/128"
@@ -2236,11 +2994,25 @@
       "avatar": "https://mc-heads.net/avatar/Carrotts4all/128"
     },
     {
-      "username": "Szkocja_ ",
-      "rank": "Junior Administrator",
+      "username": "TroyCast",
+      "rank": "Mod",
       "bio": "",
       "friends": [],
-      "avatar": "https://mc-heads.net/avatar/Szkocja_%20/128"
+      "avatar": "https://mc-heads.net/avatar/TroyCast/128"
+    },
+    {
+      "username": "Prutorm",
+      "rank": "Developer",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/Prutorm/128"
+    },
+    {
+      "username": "OtterMC_YT",
+      "rank": "Developer",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/OtterMC_YT/128"
     }
   ],
   "dms": [],
@@ -2254,8 +3026,33 @@
       "online": true,
       "players": [
         {
+          "username": "whov",
+          "uuid": "27afbda7-43dc-4a00-a58f-39694ff680cc",
+          "rank": "default"
+        },
+        {
           "username": "4687",
           "uuid": "17907c46-6f45-4c23-9a7e-35e9b18b26be",
+          "rank": "hero"
+        },
+        {
+          "username": "KomaedaDs",
+          "uuid": "c5ffe0ff-50b2-4e38-b779-c2d096ffc3e6",
+          "rank": "VIP+"
+        },
+        {
+          "username": "XxANIExX",
+          "uuid": "19d5feca-d504-41b0-90cc-b6ce11ddf3d5",
+          "rank": "Iconic"
+        },
+        {
+          "username": "FarGloria1998",
+          "uuid": "6e4ce78a-1c86-4a23-9bef-c7f498b2e5e7",
+          "rank": "default"
+        },
+        {
+          "username": "5bmm",
+          "uuid": "237e6aef-c463-4ada-90b0-25b8fb752a4c",
           "rank": "hero"
         },
         {
@@ -2264,15 +3061,15 @@
           "rank": "Owner"
         }
       ],
-      "onlineCount": 2,
+      "onlineCount": 7,
       "maxPlayers": 500,
-      "tps": 19.999989693260932,
-      "pingMs": 163,
-      "averagePlayerPingMs": 55,
-      "uptimeMs": 650082,
+      "tps": 19.999999645295595,
+      "pingMs": 148,
+      "averagePlayerPingMs": 95,
+      "uptimeMs": 47003032,
       "lastRestartAt": "2026-06-11T08:00:07.165Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T08:10:57.398Z"
+      "lastHeartbeatAt": "2026-06-11T21:03:30.326Z"
     }
   },
   "site": {
