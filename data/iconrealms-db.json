@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T20:19:59.697Z",
+      "lastSeenAt": "2026-06-11T20:21:29.730Z",
       "bio": "dih",
       "following": [],
       "followers": [],
@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T20:19:59.697Z",
+      "lastSeenAt": "2026-06-11T20:21:29.730Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -119,7 +119,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T20:19:59.697Z",
+      "lastSeenAt": "2026-06-11T20:21:29.730Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -143,7 +143,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T20:19:59.697Z",
+      "lastSeenAt": "2026-06-11T20:21:29.730Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -167,7 +167,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T20:19:59.697Z",
+      "lastSeenAt": "2026-06-11T20:21:29.730Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1725,11 +1725,11 @@
       "inGameRegistered": false,
       "createdAt": "2026-06-11T00:48:56.061Z",
       "joinedAt": "2026-06-11T00:48:56.061Z",
-      "rank": "default",
+      "rank": "hero",
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T20:19:59.697Z",
+      "lastSeenAt": "2026-06-11T20:21:29.730Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3005,18 +3005,18 @@
         {
           "username": "5bmm",
           "uuid": "237e6aef-c463-4ada-90b0-25b8fb752a4c",
-          "rank": "default"
+          "rank": "hero"
         }
       ],
       "onlineCount": 6,
       "maxPlayers": 500,
-      "tps": 19.999998022314934,
-      "pingMs": 147,
-      "averagePlayerPingMs": 92,
-      "uptimeMs": 44392382,
+      "tps": 20.000000718734412,
+      "pingMs": 154,
+      "averagePlayerPingMs": 87,
+      "uptimeMs": 44482369,
       "lastRestartAt": "2026-06-11T08:00:07.165Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T20:19:59.697Z"
+      "lastHeartbeatAt": "2026-06-11T20:21:29.730Z"
     }
   },
   "site": {
