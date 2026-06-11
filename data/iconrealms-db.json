@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T22:05:09.369Z",
+      "lastSeenAt": "2026-06-11T22:06:09.424Z",
       "bio": "dih",
       "following": [],
       "followers": [],
@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T22:05:09.369Z",
+      "lastSeenAt": "2026-06-11T22:06:09.424Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -119,7 +119,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T22:05:09.369Z",
+      "lastSeenAt": "2026-06-11T22:06:09.424Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -143,7 +143,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T22:05:09.369Z",
+      "lastSeenAt": "2026-06-11T22:06:09.424Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -167,7 +167,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T22:05:09.369Z",
+      "lastSeenAt": "2026-06-11T22:06:09.424Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-11T22:05:09.369Z",
+      "lastSeenAt": "2026-06-11T22:06:09.424Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1598,7 +1598,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T22:05:09.369Z",
+      "lastSeenAt": "2026-06-11T22:06:09.424Z",
       "bio": "Im a duck.",
       "following": [
         "ItzKuro_",
@@ -2963,6 +2963,54 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "joymichkai",
+      "uuid": "45e54bea-768a-4bc2-9fa3-de02df7e6413",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/joymichkai/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T22:06:09.424Z",
+      "joinedAt": "2026-06-11T22:06:09.424Z",
+      "rank": "default",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T22:06:09.424Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Fire_Thorns",
+      "uuid": "defd2afa-93ef-4c01-82f2-91f8b6597924",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Fire_Thorns/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T22:06:09.424Z",
+      "joinedAt": "2026-06-11T22:06:09.424Z",
+      "rank": "default",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T22:06:09.424Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
     }
   ],
   "threads": [
@@ -3131,17 +3179,27 @@
           "username": "Szkocja_",
           "uuid": "0a76bc19-ccdb-44e8-a5f4-9d2b4ac748ae",
           "rank": "Jr Admin"
+        },
+        {
+          "username": "joymichkai",
+          "uuid": "45e54bea-768a-4bc2-9fa3-de02df7e6413",
+          "rank": "default"
+        },
+        {
+          "username": "Fire_Thorns",
+          "uuid": "defd2afa-93ef-4c01-82f2-91f8b6597924",
+          "rank": "default"
         }
       ],
-      "onlineCount": 7,
+      "onlineCount": 9,
       "maxPlayers": 500,
-      "tps": 20.000001013155753,
-      "pingMs": 164,
-      "averagePlayerPingMs": 95,
-      "uptimeMs": 50702031,
+      "tps": 20.000001546711196,
+      "pingMs": 152,
+      "averagePlayerPingMs": 100,
+      "uptimeMs": 50762050,
       "lastRestartAt": "2026-06-11T08:00:07.165Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T22:05:09.369Z"
+      "lastHeartbeatAt": "2026-06-11T22:06:09.424Z"
     }
   },
   "site": {
