@@ -1,6 +1,7 @@
 const config = window.IconRealmsConfig;
 const page = document.body.dataset.page;
 let activeDmUser = "";
+let adTimer = 0;
 let state = {
   user: null,
   categories: config.forumCategories,
@@ -12,6 +13,7 @@ let state = {
   dms: [],
   servers: [],
   supporters: config.supporters,
+  ads: [],
   serverStatus: { online: false, host: config.brand.serverAddress }
 };
 
@@ -29,6 +31,7 @@ async function start() {
   renderLayout();
   renderPage();
   bindGlobalActions();
+  scheduleAd();
 }
 
 async function loadState() {
@@ -83,6 +86,7 @@ function renderLayout() {
     </footer>
     ${settingsPanel()}
     ${state.user ? notificationPanel() + dmDock() : ""}
+    ${adShell()}
   `;
 
   setBanner();
@@ -144,6 +148,10 @@ function dmDock() {
   `;
 }
 
+function adShell() {
+  return `<aside class="ad-popup" id="adPopup" aria-live="polite"></aside>`;
+}
+
 function bindGlobalActions() {
   document.getElementById("settingsToggle")?.addEventListener("click", () => {
     document.getElementById("settingsPanel")?.classList.toggle("open");
@@ -195,6 +203,71 @@ function bindGlobalActions() {
     const q = document.getElementById("searchInput").value.trim();
     location.href = q ? `${pageUrl("forums")}?search=${encodeURIComponent(q)}` : pageUrl("forums");
   });
+}
+
+function scheduleAd() {
+  clearTimeout(adTimer);
+  const ad = nextAd();
+  const popup = document.getElementById("adPopup");
+  if (!ad || !popup) return;
+  adTimer = setTimeout(() => showAd(ad), Math.max(2500, Number(ad.appearDelayMs || 4500)));
+}
+
+function nextAd() {
+  const ads = (state.ads || []).filter((ad) => ad.enabled !== false && (ad.showOn === "website" || ad.showOn === "both" || !ad.showOn));
+  if (!ads.length || sessionStorage.getItem("iconrealms_ad_seen_page") === "true") return null;
+  const now = Date.now();
+  return ads.find((ad) => {
+    const last = Number(localStorage.getItem(`iconrealms_ad_${ad.id}`) || 0);
+    const interval = Math.max(60, Number(ad.intervalSeconds || 600)) * 1000;
+    return now - last >= interval;
+  }) || null;
+}
+
+function showAd(ad) {
+  const popup = document.getElementById("adPopup");
+  if (!popup) return;
+  const closeDelay = Math.max(1, Number(ad.closeDelaySeconds || 1));
+  popup.className = `ad-popup open ${escapeAttribute(ad.placement || "bottom-right")}`;
+  popup.innerHTML = `
+    <div class="ad-card">
+      <div class="ad-top">
+        <span>Sponsored</span>
+        <button class="ad-close" id="adCloseBtn" type="button" disabled>Skip in ${closeDelay}s</button>
+      </div>
+      ${adMedia(ad)}
+      ${ad.text ? `<p>${escapeHtml(ad.text)}</p>` : ""}
+      ${ad.linkUrl ? `<a class="btn secondary ad-link" href="${escapeAttribute(ad.linkUrl)}" target="_blank" rel="noopener">Open Link</a>` : ""}
+    </div>
+  `;
+  sessionStorage.setItem("iconrealms_ad_seen_page", "true");
+  localStorage.setItem(`iconrealms_ad_${ad.id}`, String(Date.now()));
+  const close = document.getElementById("adCloseBtn");
+  setTimeout(() => {
+    if (!close) return;
+    close.disabled = false;
+    close.textContent = "Close";
+  }, closeDelay * 1000);
+  close?.addEventListener("click", () => {
+    if (close.disabled) return;
+    popup.classList.remove("open");
+    popup.innerHTML = "";
+  });
+}
+
+function adMedia(ad) {
+  if (!ad.mediaUrl) return "";
+  const type = ad.mediaType === "auto" ? mediaType(ad.mediaUrl) : ad.mediaType;
+  const url = escapeAttribute(ad.mediaUrl);
+  if (type === "video") return `<video class="ad-media" src="${url}" controls playsinline></video>`;
+  if (type === "audio") return `<audio class="ad-audio" src="${url}" controls></audio>`;
+  return `<img class="ad-media" src="${url}" alt="">`;
+}
+
+function mediaType(url) {
+  if (/\.(mp4|webm|ogg)(\?.*)?$/i.test(url)) return "video";
+  if (/\.(mp3|wav|m4a|aac|oga)(\?.*)?$/i.test(url)) return "audio";
+  return "image";
 }
 
 function setBanner() {
@@ -689,6 +762,52 @@ function admin() {
           ${(supporterData.customers || []).map((name) => `<button class="btn secondary" data-remove-supporter="${escapeHtml(name)}">Remove ${escapeHtml(name)}</button>`).join("")}
         </div>
       </article>
+      <article class="panel admin-card admin-card-wide ad-admin-card">
+        <h2>Ad Campaigns</h2>
+        <p class="admin-note">Ads appear occasionally in a corner of the website. Visitors can close each one after the delay you set.</p>
+        <form id="adForm" class="ad-admin-form">
+          <input name="name" placeholder="Campaign name (internal)" required>
+          <input name="text" placeholder="Display text">
+          <input name="linkUrl" placeholder="Link URL, https://...">
+          <select name="placement">
+            <option value="bottom-right">Bottom right</option>
+            <option value="bottom-left">Bottom left</option>
+            <option value="top-right">Top right</option>
+            <option value="top-left">Top left</option>
+            <option value="bottom-center">Bottom center</option>
+            <option value="top-center">Top center</option>
+          </select>
+          <select name="mediaType">
+            <option value="auto">Auto media type</option>
+            <option value="image">Image</option>
+            <option value="video">Video</option>
+            <option value="audio">Audio</option>
+          </select>
+          <input name="mediaUrl" placeholder="Image, video, or audio URL">
+          <select name="showOn">
+            <option value="website">Website only</option>
+            <option value="both">Website + launcher</option>
+            <option value="launcher">Launcher only</option>
+          </select>
+          <input name="intervalSeconds" type="number" min="60" value="600" placeholder="Cooldown seconds">
+          <input name="closeDelaySeconds" type="number" min="1" max="10" value="1" placeholder="Close delay seconds">
+          <label class="inline-check"><input type="checkbox" name="enabled" checked> Enabled</label>
+          <button class="btn">Add Campaign</button>
+        </form>
+        <div class="admin-list ad-admin-list">
+          ${(state.ads || []).length ? state.ads.map((ad) => `
+            <div class="admin-row ad-admin-row">
+              <span class="ad-preview-swatch">${ad.mediaUrl ? adMedia({ ...ad, text: "" }) : ""}</span>
+              <div>
+                <strong>${escapeHtml(ad.name || "Untitled campaign")}</strong>
+                <small>${escapeHtml(ad.text || "No display text")} / ${escapeHtml(ad.placement || "bottom-right")} / every ${escapeHtml(ad.intervalSeconds || 600)}s</small>
+              </div>
+              <button class="btn secondary" data-ad-toggle="${escapeHtml(ad.id)}" data-ad-enabled="${ad.enabled === false ? "true" : "false"}">${ad.enabled === false ? "Enable" : "Disable"}</button>
+              <button class="btn danger" data-ad-delete="${escapeHtml(ad.id)}">Delete</button>
+            </div>
+          `).join("") : `<p class="admin-note">No ad campaigns yet.</p>`}
+        </div>
+      </article>
     </section>
   `;
 }
@@ -751,6 +870,18 @@ function bindPageActions() {
     action: "add-customer",
     username: form.username.value
   }));
+  bindForm("adForm", "/api/admin/ads", () => location.reload(), (form) => ({
+    name: form.name.value,
+    text: form.text.value,
+    linkUrl: form.linkUrl.value,
+    mediaUrl: form.mediaUrl.value,
+    mediaType: form.mediaType.value,
+    placement: form.placement.value,
+    showOn: form.showOn.value,
+    intervalSeconds: form.intervalSeconds.value,
+    closeDelaySeconds: form.closeDelaySeconds.value,
+    enabled: form.enabled.checked
+  }));
 
   document.getElementById("logoutBtn")?.addEventListener("click", async () => {
     await api("/api/auth/logout", {});
@@ -775,6 +906,14 @@ function bindPageActions() {
   }));
   document.querySelectorAll("[data-remove-supporter]").forEach((button) => button.addEventListener("click", async () => {
     await api("/api/admin/supporters", { action: "remove-customer", username: button.dataset.removeSupporter }, "PATCH");
+    location.reload();
+  }));
+  document.querySelectorAll("[data-ad-toggle]").forEach((button) => button.addEventListener("click", async () => {
+    await api("/api/admin/ads", { action: "toggle", id: button.dataset.adToggle, enabled: button.dataset.adEnabled === "true" }, "PATCH");
+    location.reload();
+  }));
+  document.querySelectorAll("[data-ad-delete]").forEach((button) => button.addEventListener("click", async () => {
+    await api("/api/admin/ads", { action: "delete", id: button.dataset.adDelete }, "DELETE");
     location.reload();
   }));
   document.querySelectorAll("[data-delete-thread]").forEach((button) => button.addEventListener("click", async () => {
@@ -1196,4 +1335,8 @@ function escapeHtml(value) {
     '"': "&quot;",
     "'": "&#039;"
   })[char]);
+}
+
+function escapeAttribute(value) {
+  return escapeHtml(value);
 }
