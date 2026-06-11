@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T22:22:09.890Z",
+      "lastSeenAt": "2026-06-11T22:23:39.889Z",
       "bio": "dih",
       "following": [],
       "followers": [],
@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T22:22:09.890Z",
+      "lastSeenAt": "2026-06-11T22:23:39.889Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -119,7 +119,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T22:22:09.890Z",
+      "lastSeenAt": "2026-06-11T22:23:39.889Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -143,7 +143,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T22:22:09.890Z",
+      "lastSeenAt": "2026-06-11T22:23:39.889Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -167,7 +167,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T22:22:09.890Z",
+      "lastSeenAt": "2026-06-11T22:23:39.889Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-11T22:22:09.890Z",
+      "lastSeenAt": "2026-06-11T22:23:39.889Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -2998,10 +2998,10 @@
       "createdAt": "2026-06-11T22:06:09.424Z",
       "joinedAt": "2026-06-11T22:06:09.424Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T22:22:09.890Z",
+      "lastSeenAt": "2026-06-11T22:23:39.889Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3198,22 +3198,17 @@
           "username": "4687",
           "uuid": "17907c46-6f45-4c23-9a7e-35e9b18b26be",
           "rank": "hero"
-        },
-        {
-          "username": "Fire_Thorns",
-          "uuid": "defd2afa-93ef-4c01-82f2-91f8b6597924",
-          "rank": "default"
         }
       ],
-      "onlineCount": 7,
+      "onlineCount": 6,
       "maxPlayers": 500,
-      "tps": 20.000004501249972,
-      "pingMs": 193,
-      "averagePlayerPingMs": 95,
-      "uptimeMs": 51722580,
+      "tps": 20.00000022614488,
+      "pingMs": 150,
+      "averagePlayerPingMs": 94,
+      "uptimeMs": 51812572,
       "lastRestartAt": "2026-06-11T08:00:07.165Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T22:22:09.890Z"
+      "lastHeartbeatAt": "2026-06-11T22:23:39.889Z"
     }
   },
   "site": {
