@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T18:51:29.794Z",
+      "lastSeenAt": "2026-06-11T18:52:59.661Z",
       "bio": "dih",
       "following": [],
       "followers": [],
@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T18:51:29.794Z",
+      "lastSeenAt": "2026-06-11T18:52:59.661Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -119,7 +119,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T18:51:29.794Z",
+      "lastSeenAt": "2026-06-11T18:52:59.661Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -143,7 +143,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T18:51:29.794Z",
+      "lastSeenAt": "2026-06-11T18:52:59.661Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -167,7 +167,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T18:51:29.794Z",
+      "lastSeenAt": "2026-06-11T18:52:59.661Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2782,10 +2782,10 @@
       "createdAt": "2026-06-11T18:46:59.711Z",
       "joinedAt": "2026-06-11T18:46:59.711Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T18:51:29.794Z",
+      "lastSeenAt": "2026-06-11T18:52:59.661Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2953,22 +2953,17 @@
           "username": "FarGloria1998",
           "uuid": "6e4ce78a-1c86-4a23-9bef-c7f498b2e5e7",
           "rank": "default"
-        },
-        {
-          "username": "DerSyntaxfehler",
-          "uuid": "63930ae5-344c-4ffd-995c-84008e07f364",
-          "rank": "default"
         }
       ],
-      "onlineCount": 6,
+      "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 19.999998865279,
-      "pingMs": 161,
-      "averagePlayerPingMs": 118,
-      "uptimeMs": 39082368,
+      "tps": 19.99999968326395,
+      "pingMs": 139,
+      "averagePlayerPingMs": 104,
+      "uptimeMs": 39172358,
       "lastRestartAt": "2026-06-11T08:00:07.165Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T18:51:29.794Z"
+      "lastHeartbeatAt": "2026-06-11T18:52:59.661Z"
     }
   },
   "site": {
