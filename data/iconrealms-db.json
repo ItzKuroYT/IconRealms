@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T06:16:08.722Z",
+      "lastSeenAt": "2026-06-11T06:17:08.739Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -119,7 +119,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T06:16:08.722Z",
+      "lastSeenAt": "2026-06-11T06:17:08.739Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -143,7 +143,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T06:16:08.722Z",
+      "lastSeenAt": "2026-06-11T06:17:08.739Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -167,7 +167,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T06:16:08.722Z",
+      "lastSeenAt": "2026-06-11T06:17:08.739Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-11T04:55:04.363Z",
+      "lastSeenAt": "2026-06-11T06:17:08.739Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1002,7 +1002,7 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "2026-06-10T22:14:43.621Z",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg"
     },
@@ -1982,7 +1982,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T06:16:08.722Z",
+      "lastSeenAt": "2026-06-11T06:17:08.739Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2229,17 +2229,22 @@
           "username": "4687",
           "uuid": "17907c46-6f45-4c23-9a7e-35e9b18b26be",
           "rank": "Member"
+        },
+        {
+          "username": "ItzKuro_",
+          "uuid": "3990d27a-f611-430d-b6cd-c796173e9776",
+          "rank": "Owner"
         }
       ],
-      "onlineCount": 5,
+      "onlineCount": 6,
       "maxPlayers": 500,
-      "tps": 20.00000035703581,
-      "pingMs": 142,
-      "averagePlayerPingMs": 78,
-      "uptimeMs": 102033216,
+      "tps": 19.999999794171526,
+      "pingMs": 150,
+      "averagePlayerPingMs": 61,
+      "uptimeMs": 102093217,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T06:16:08.722Z"
+      "lastHeartbeatAt": "2026-06-11T06:17:08.739Z"
     }
   },
   "site": {
