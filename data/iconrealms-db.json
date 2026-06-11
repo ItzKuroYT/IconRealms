@@ -2152,11 +2152,102 @@
   ],
   "staff": [
     {
-      "username": "Szkocja_ ",
+      "username": "ItzKuro_",
+      "rank": "Ownership",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/ItzKuro_/128"
+    },
+    {
+      "username": "TheStickBoy",
+      "rank": "Ownership",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/TheStickBoy/128"
+    },
+    {
+      "username": "ItsBurb_",
+      "rank": "Manager",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/ItsBurb_/128"
+    },
+    {
+      "username": "FireAngel18",
+      "rank": "Lead Developer",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/FireAngel18/128"
+    },
+    {
+      "username": "Prutorm",
+      "rank": "Developer",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/Prutorm/128"
+    },
+    {
+      "username": "TyllerTheGamer",
+      "rank": "Developer",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/TyllerTheGamer/128"
+    },
+    {
+      "username": "OtterMC_YT",
+      "rank": "Developer",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/OtterMC_YT/128"
+    },
+    {
+      "username": "Noobie_LOL",
+      "rank": "Senior Administrator",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/Noobie_LOL/128"
+    },
+    {
+      "username": "7kurz",
+      "rank": "Administrator",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/7kurz/128"
+    },
+    {
+      "username": "szvecja_",
       "rank": "Junior Administrator",
       "bio": "",
       "friends": [],
-      "avatar": "https://mc-heads.net/avatar/Szkocja_%20/128"
+      "avatar": "https://mc-heads.net/avatar/szvecja_/128"
+    },
+    {
+      "username": "WreckingShark",
+      "rank": "Senior Moderator",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/WreckingShark/128"
+    },
+    {
+      "username": "TroyCast",
+      "rank": "Moderator",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/TroyCast/128"
+    },
+    {
+      "username": "Japans2good",
+      "rank": "Moderator",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/Japans2good/128"
+    },
+    {
+      "username": "Carrotts4all",
+      "rank": "Lead Builder",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/Carrotts4all/128"
     }
   ],
   "dms": [],
