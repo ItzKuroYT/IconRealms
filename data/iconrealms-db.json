@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:57:34.351Z",
+      "lastSeenAt": "2026-06-11T04:58:36.457Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -119,7 +119,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:57:34.351Z",
+      "lastSeenAt": "2026-06-11T04:58:36.457Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -143,7 +143,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:57:34.351Z",
+      "lastSeenAt": "2026-06-11T04:58:36.457Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -167,7 +167,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:57:34.351Z",
+      "lastSeenAt": "2026-06-11T04:58:36.457Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1982,7 +1982,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:57:34.351Z",
+      "lastSeenAt": "2026-06-11T04:58:36.457Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2158,11 +2158,6 @@
       "online": true,
       "players": [
         {
-          "username": "4687",
-          "uuid": "17907c46-6f45-4c23-9a7e-35e9b18b26be",
-          "rank": "Member"
-        },
-        {
           "username": "whov",
           "uuid": "27afbda7-43dc-4a00-a58f-39694ff680cc",
           "rank": "Member"
@@ -2181,17 +2176,22 @@
           "username": ".reinhardtius",
           "uuid": "00000000-0000-0000-0009-01ff2da8fe9f",
           "rank": "Member"
+        },
+        {
+          "username": "4687",
+          "uuid": "17907c46-6f45-4c23-9a7e-35e9b18b26be",
+          "rank": "Member"
         }
       ],
       "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 20.000000424646135,
-      "pingMs": 143,
-      "averagePlayerPingMs": 63,
-      "uptimeMs": 97318867,
+      "tps": 19.300579684003235,
+      "pingMs": 200,
+      "averagePlayerPingMs": 53,
+      "uptimeMs": 97380967,
       "lastRestartAt": "2026-06-10T01:55:35.354Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T04:57:34.351Z"
+      "lastHeartbeatAt": "2026-06-11T04:58:36.457Z"
     }
   },
   "site": {
