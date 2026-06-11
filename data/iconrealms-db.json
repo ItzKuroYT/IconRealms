@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T12:06:27.301Z",
+      "lastSeenAt": "2026-06-11T12:07:57.312Z",
       "bio": "dih",
       "following": [],
       "followers": [],
@@ -119,7 +119,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T12:06:27.301Z",
+      "lastSeenAt": "2026-06-11T12:07:57.312Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -143,7 +143,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T12:06:27.301Z",
+      "lastSeenAt": "2026-06-11T12:07:57.312Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -167,7 +167,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T12:06:27.301Z",
+      "lastSeenAt": "2026-06-11T12:07:57.312Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2219,6 +2219,30 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "_GroxMC_",
+      "uuid": "e5c5ffd0-ac0e-4bd6-8a13-1d4f868abbaa",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/_GroxMC_/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-11T12:07:57.312Z",
+      "joinedAt": "2026-06-11T12:07:57.312Z",
+      "rank": "default",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-11T12:07:57.312Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
     }
   ],
   "threads": [
@@ -2309,17 +2333,22 @@
           "username": "FarGloria1998",
           "uuid": "6e4ce78a-1c86-4a23-9bef-c7f498b2e5e7",
           "rank": "default"
+        },
+        {
+          "username": "_GroxMC_",
+          "uuid": "e5c5ffd0-ac0e-4bd6-8a13-1d4f868abbaa",
+          "rank": "default"
         }
       ],
-      "onlineCount": 4,
+      "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 19.999986032982278,
-      "pingMs": 142,
-      "averagePlayerPingMs": 90,
-      "uptimeMs": 14780000,
+      "tps": 19.99999692123278,
+      "pingMs": 143,
+      "averagePlayerPingMs": 95,
+      "uptimeMs": 14870008,
       "lastRestartAt": "2026-06-11T08:00:07.165Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T12:06:27.301Z"
+      "lastHeartbeatAt": "2026-06-11T12:07:57.312Z"
     }
   },
   "site": {
