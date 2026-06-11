@@ -1080,10 +1080,11 @@
         "ItzKuro_",
         "Szkocja_"
       ],
-      "friends": [],
-      "friendRequests": [
-        "ItzKuro_",
+      "friends": [
         "Szkocja_"
+      ],
+      "friendRequests": [
+        "ItzKuro_"
       ],
       "settings": {
         "allowFriendRequests": true
@@ -1600,7 +1601,9 @@
         "WreckingShark"
       ],
       "followers": [],
-      "friends": [],
+      "friends": [
+        "Noobie_LOL"
+      ],
       "friendRequests": [],
       "settings": {
         "allowFriendRequests": true
