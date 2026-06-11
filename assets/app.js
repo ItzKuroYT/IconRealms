@@ -11,6 +11,7 @@ let state = {
   users: [],
   dms: [],
   servers: [],
+  supporters: config.supporters,
   serverStatus: { online: false, host: config.brand.serverAddress }
 };
 
@@ -425,7 +426,7 @@ function community() {
 }
 
 function supporters() {
-  const data = config.supporters || {};
+  const data = state.supporters || config.supporters || {};
   return `
     <section class="section-head"><p class="kicker">Community</p><h1>${escapeHtml(data.title || "Supporters")}</h1><p>${escapeHtml(data.intro || "")}</p></section>
     <section class="supporter-podium">
@@ -499,17 +500,19 @@ function profile() {
   const hasRequest = state.user && (state.user.friendRequests || []).some((name) => sameUser(name, profileUser.username));
   const profileDms = state.dms.filter((dm) => dm.participants.some((name) => sameUser(name, profileUser.username)));
   return `
-    <article class="panel profile-card">
-      <img src="${profileUser.avatar || avatar(profileUser.username, 128)}" alt="">
-      <div>
+    <article class="panel profile-hero-card">
+      <div class="profile-avatar-ring"><img src="${profileUser.avatar || avatar(profileUser.username, 128)}" alt=""></div>
+      <div class="profile-main">
         <p class="kicker">${escapeHtml(statusLine(profileUser))}</p>
         <h1>${escapeHtml(profileUser.username)}</h1>
         <h2 class="player-rank">${escapeHtml(profileUser.rank || "Member")}</h2>
         <p>${escapeHtml(profileUser.bio || "No bio yet.")}</p>
-        <p>Joined ${escapeHtml(formatLongDate(profileUser.joinedAt || profileUser.createdAt))}</p>
-        <div class="chips">
-          <span class="chip">${(profileUser.followers || []).length} followers</span>
-          <span class="chip">${(profileUser.friends || []).length} friends</span>
+        <div class="profile-meta">
+          <span>Joined ${escapeHtml(formatLongDate(profileUser.joinedAt || profileUser.createdAt))}</span>
+          <span>${(profileUser.followers || []).length} followers</span>
+          <span>${(profileUser.friends || []).length} friends</span>
+        </div>
+        <div class="profile-actions">
           ${isSelf ? `<button class="btn secondary" id="logoutBtn">Logout</button>` : ""}
           ${state.user && !isSelf ? `<button class="btn secondary" data-social-action="${follows ? "unfollow" : "follow"}" data-username="${escapeHtml(profileUser.username)}">${follows ? "Unfollow" : "Follow"}</button>` : ""}
           ${state.user && !isSelf && !isFriend ? `<button class="btn secondary" data-social-action="friend-request" data-username="${escapeHtml(profileUser.username)}">Add Friend</button>` : ""}
@@ -520,6 +523,7 @@ function profile() {
         </div>
       </div>
     </article>
+    ${profileStats(profileUser)}
     ${isSelf && (profileUser.friendRequests || []).length ? `
       <section class="panel forum-section" style="width:min(900px,100%)">
         <h2>Friend Requests</h2>
@@ -571,8 +575,55 @@ function publicMinecraftProfile(username) {
   `;
 }
 
+function profileStats(profileUser) {
+  const statGroups = Object.values(profileUser.statsByServer || {});
+  const cards = config.gamemodes.map((mode) => {
+    const modeId = mode.id || slug(mode.name);
+    const group = statGroups.find((item) => sameStatSource(item, mode));
+    const fields = (config.profileStats || []).filter((field) => !field.gamemodeId || field.gamemodeId === modeId);
+    const rows = group?.stats
+      ? fields.map((field) => statRow(field.label, group.stats[field.key])).filter(Boolean).join("")
+      : "";
+    return `
+      <details class="profile-stat-game" ${modeId === "icongens" ? "open" : ""}>
+        <summary>
+          <span>${escapeHtml(mode.name)}</span>
+          <small>${escapeHtml(group?.serverName || mode.ip || mode.serverName || "No data yet")}</small>
+        </summary>
+        <div class="profile-stat-rows">
+          ${rows || `<p>No stats for this player.</p>`}
+          ${group?.updatedAt ? `<small>Updated ${escapeHtml(relativeTime(group.updatedAt))} ago</small>` : ""}
+        </div>
+      </details>
+    `;
+  }).join("");
+  return `
+    <section class="panel profile-stats-panel">
+      <div class="profile-tabs">
+        <details open>
+          <summary>Stats</summary>
+          <div class="profile-stat-list">${cards}</div>
+        </details>
+      </div>
+    </section>
+  `;
+}
+
+function sameStatSource(group, mode) {
+  if (!group) return false;
+  const keys = [group.gamemodeId, group.serverId, group.serverName, group.serverIp].map(slug);
+  const modeKeys = [mode.id, mode.name, mode.serverName, mode.ip].map(slug);
+  return keys.some((key) => key && modeKeys.includes(key));
+}
+
+function statRow(label, value) {
+  if (value === undefined || value === null || value === "") return "";
+  return `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`;
+}
+
 function admin() {
   if (!state.user?.isAdmin) return `<section class="panel composer"><h1>Error 67</h1><p>You are not authorized to enter the administrator console.</p><a class="btn" href="${pageUrl("login")}">Login</a></section>`;
+  const supporterData = state.supporters || config.supporters || {};
   return `
     <section class="section-head"><p class="kicker">Administrator</p><h1>Console</h1></section>
     <section class="admin-grid">
@@ -604,6 +655,29 @@ function admin() {
         <h2>Users</h2>
         <form id="banForm"><input name="username" placeholder="Username" required><button class="btn danger">Ban User</button></form>
         <div class="admin-list">${state.accounts.map((account) => `<button class="btn secondary" data-ban="${escapeHtml(account.username)}" data-banned="${!account.banned}">${account.banned ? "Unban" : "Ban"} ${escapeHtml(account.username)}</button>`).join("")}</div>
+      </article>
+      <article class="panel admin-card admin-card-wide">
+        <h2>Supporters</h2>
+        <form id="supporterTextForm">
+          <input name="title" placeholder="Supporter page title" value="${escapeHtml(supporterData.title || "")}">
+          <input name="intro" placeholder="Intro text" value="${escapeHtml(supporterData.intro || "")}">
+          <input name="customersTitle" placeholder="Customer carousel title" value="${escapeHtml(supporterData.customersTitle || "")}">
+          <button class="btn">Save Supporter Text</button>
+        </form>
+        <form id="supporterPodiumForm">
+          <select name="place"><option value="1">1st Place</option><option value="2">2nd Place</option><option value="3">3rd Place</option></select>
+          <input name="username" placeholder="Player username" required>
+          <input name="spent" placeholder="Spent amount, ex: 177.31 USD" required>
+          <button class="btn">Save Podium Player</button>
+        </form>
+        <form id="supporterCustomerForm">
+          <input name="username" placeholder="Add customer username" required>
+          <button class="btn">Add Customer</button>
+        </form>
+        <div class="admin-list supporter-admin-list">
+          ${(supporterData.podium || []).map((person, index) => `<div class="admin-row"><strong>#${index + 1} ${escapeHtml(person.username)}</strong><span>${escapeHtml(person.spent)}</span></div>`).join("")}
+          ${(supporterData.customers || []).map((name) => `<button class="btn secondary" data-remove-supporter="${escapeHtml(name)}">Remove ${escapeHtml(name)}</button>`).join("")}
+        </div>
       </article>
     </section>
   `;
@@ -652,6 +726,21 @@ function bindPageActions() {
     bio: form.bio.value
   }));
   bindForm("banForm", "/api/admin/users", () => location.reload(), (form) => ({ username: form.username.value, banned: true }));
+  bindForm("supporterTextForm", "/api/admin/supporters", () => location.reload(), (form) => ({
+    title: form.title.value,
+    intro: form.intro.value,
+    customersTitle: form.customersTitle.value
+  }));
+  bindForm("supporterPodiumForm", "/api/admin/supporters", () => location.reload(), (form) => ({
+    action: "podium",
+    place: form.place.value,
+    username: form.username.value,
+    spent: form.spent.value
+  }));
+  bindForm("supporterCustomerForm", "/api/admin/supporters", () => location.reload(), (form) => ({
+    action: "add-customer",
+    username: form.username.value
+  }));
 
   document.getElementById("logoutBtn")?.addEventListener("click", async () => {
     await api("/api/auth/logout", {});
@@ -672,6 +761,10 @@ function bindPageActions() {
   }));
   document.querySelectorAll("[data-ban]").forEach((button) => button.addEventListener("click", async () => {
     await api("/api/admin/users", { username: button.dataset.ban, banned: button.dataset.banned === "true" }, "PATCH");
+    location.reload();
+  }));
+  document.querySelectorAll("[data-remove-supporter]").forEach((button) => button.addEventListener("click", async () => {
+    await api("/api/admin/supporters", { action: "remove-customer", username: button.dataset.removeSupporter }, "PATCH");
     location.reload();
   }));
   document.querySelectorAll("[data-delete-thread]").forEach((button) => button.addEventListener("click", async () => {

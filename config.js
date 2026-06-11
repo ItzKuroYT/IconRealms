@@ -114,26 +114,38 @@ const IconRealmsConfig = {
       ip: "play.iconrealms.net"
     }
   ],
+  profileStats: [
+    { key: "prestige", label: "Prestige", gamemodeId: "icongens" },
+    { key: "multiplier", label: "Multiplier", gamemodeId: "icongens" },
+    { key: "balance", label: "Balance", gamemodeId: "icongens" },
+    { key: "genSlots", label: "Gen Slots", gamemodeId: "icongens" },
+    { key: "credits", label: "Credits", gamemodeId: "icongens" },
+    { key: "kills", label: "Kills", gamemodeId: "icongens" },
+    { key: "deaths", label: "Deaths", gamemodeId: "icongens" },
+    { key: "ac", label: "AC", gamemodeId: "icongens" },
+    { key: "fc", label: "FC", gamemodeId: "icongens" },
+    { key: "mc", label: "MC", gamemodeId: "icongens" }
+  ],
   staffRanks: [
-    ["Ownership", "#ff0000"],
+    ["Owner", "#ff0000"],
     ["Manager", "#f97316"],
     ["Lead Developer", "#ff7ab8"],
     ["Developer", "#ff4fa3"],
     ["Lead Builder", "#e58a2f"],
     ["Builder", "#cc6f00"],
-    ["Senior Administrator", "#ff1f1f"],
-    ["Administrator", "#ff1f1f"],
-    ["Junior Administrator", "#ff4f7b"],
-    ["Senior Moderator", "#8e44ad"],
-    ["Moderator", "#b084cc"],
-    ["Junior Moderator", "#c8a2d8"],
+    ["Sr Admin", "#ff1f1f"],
+    ["Admin", "#ff1f1f"],
+    ["Jr Admin", "#ff4f7b"],
+    ["Sr Mod", "#8e44ad"],
+    ["Mod", "#b084cc"],
+    ["Jr Mod", "#c8a2d8"],
     ["Helper", "#39ff5a"],
     ["Trainee", "#20e6e6"]
 
   ],
   defaultStaff: [
-    { username: "ItzKuro_", rank: "Ownership", bio: "", friends: [] },
-    { username: "TheStickBoy", rank: "Ownership", bio: "", friends: [] },
+    { username: "ItzKuro_", rank: "Owner", bio: "", friends: [] },
+    { username: "TheStickBoy", rank: "Owner", bio: "", friends: [] },
     { username: "ItsBurb_", rank: "Manager", bio: "", friends: [] },
     { username: "FireAngel18", rank: "Lead Developer", bio: "", friends: [] },
     { username: "Prutorm", rank: "Developer", bio: "", friends: [] },
