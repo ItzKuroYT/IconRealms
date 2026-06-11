@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T07:16:56.077Z",
+      "lastSeenAt": "2026-06-11T07:18:26.057Z",
       "bio": "dih",
       "following": [],
       "followers": [],
@@ -119,7 +119,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T07:16:56.077Z",
+      "lastSeenAt": "2026-06-11T07:18:26.057Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -143,7 +143,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T07:16:56.077Z",
+      "lastSeenAt": "2026-06-11T07:18:26.057Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -167,7 +167,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T07:16:56.077Z",
+      "lastSeenAt": "2026-06-11T07:18:26.057Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-11T07:16:56.077Z",
+      "lastSeenAt": "2026-06-11T07:18:26.057Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -2075,10 +2075,10 @@
       "createdAt": "2026-06-11T07:06:53.325Z",
       "joinedAt": "2026-06-11T07:06:53.325Z",
       "rank": "Member",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T07:16:56.077Z",
+      "lastSeenAt": "2026-06-11T07:18:26.057Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2240,11 +2240,6 @@
           "rank": "Owner"
         },
         {
-          "username": "swightnxe1223",
-          "uuid": "954b6da7-b9ca-4ce1-99ff-c9ee22296795",
-          "rank": "Member"
-        },
-        {
           "username": "FarGloria1998",
           "uuid": "6e4ce78a-1c86-4a23-9bef-c7f498b2e5e7",
           "rank": "Member"
@@ -2260,15 +2255,15 @@
           "rank": "Member"
         }
       ],
-      "onlineCount": 6,
+      "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 19.999997200000394,
-      "pingMs": 174,
-      "averagePlayerPingMs": 114,
-      "uptimeMs": 3277552,
+      "tps": 20.000003906745143,
+      "pingMs": 148,
+      "averagePlayerPingMs": 70,
+      "uptimeMs": 3367552,
       "lastRestartAt": "2026-06-11T06:22:18.377Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T07:16:56.077Z"
+      "lastHeartbeatAt": "2026-06-11T07:18:26.057Z"
     }
   },
   "site": {
