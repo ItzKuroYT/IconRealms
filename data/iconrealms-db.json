@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T18:19:29.684Z",
+      "lastSeenAt": "2026-06-11T18:20:29.725Z",
       "bio": "dih",
       "following": [],
       "followers": [],
@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T18:19:29.684Z",
+      "lastSeenAt": "2026-06-11T18:20:29.725Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -119,7 +119,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T18:19:29.684Z",
+      "lastSeenAt": "2026-06-11T18:20:29.725Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -143,7 +143,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T18:19:29.684Z",
+      "lastSeenAt": "2026-06-11T18:20:29.725Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -167,7 +167,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T18:19:29.684Z",
+      "lastSeenAt": "2026-06-11T18:20:29.725Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2686,10 +2686,10 @@
       "createdAt": "2026-06-11T18:19:29.684Z",
       "joinedAt": "2026-06-11T18:19:29.684Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T18:19:29.684Z",
+      "lastSeenAt": "2026-06-11T18:20:29.725Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -2857,22 +2857,17 @@
           "username": "FarGloria1998",
           "uuid": "6e4ce78a-1c86-4a23-9bef-c7f498b2e5e7",
           "rank": "default"
-        },
-        {
-          "username": "ChickyXamich",
-          "uuid": "e81791eb-7742-497f-ba6c-a4f7610bbb9d",
-          "rank": "default"
         }
       ],
-      "onlineCount": 6,
+      "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 20.000000290424648,
-      "pingMs": 241,
-      "averagePlayerPingMs": 92,
-      "uptimeMs": 37162372,
+      "tps": 20.000000000666112,
+      "pingMs": 192,
+      "averagePlayerPingMs": 99,
+      "uptimeMs": 37222358,
       "lastRestartAt": "2026-06-11T08:00:07.165Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-11T18:19:29.684Z"
+      "lastHeartbeatAt": "2026-06-11T18:20:29.725Z"
     }
   },
   "site": {
