@@ -151,12 +151,11 @@ const IconRealmsConfig = {
     { username: "Prutorm", rank: "Developer", bio: "", friends: [] },
     { username: "TyllerTheGamer", rank: "Developer", bio: "", friends: [] },
     { username: "OtterMC_YT", rank: "Developer", bio: "", friends: [] },
-    { username: "Noobie_LOL", rank: "Senior Administrator", bio: "", friends: [] },
-    { username: "7kurz", rank: "Administrator", bio: "", friends: [] },
-    { username: "szvecja_", rank: "Junior Administrator", bio: "", friends: [] },
-    { username: "WreckingShark", rank: "Senior Moderator", bio: "", friends: [] },
-    { username: "TroyCast", rank: "Moderator", bio: "", friends: [] },
-    { username: "Japans2good", rank: "Moderator", bio: "", friends: [] },
+    { username: "Noobie_LOL", rank: "Sr Admin", bio: "", friends: [] },
+    { username: "szvocja_", rank: "Jr Admin", bio: "", friends: [] },
+    { username: "WreckingShark", rank: "Sr Mod", bio: "", friends: [] },
+    { username: "TroyCast", rank: "Mod", bio: "", friends: [] },
+    { username: "Japans2good", rank: "Mod", bio: "", friends: [] },
     { username: "Carrotts4all", rank: "Lead Builder", bio: "", friends: [] }
   ],
   forumCategories: [

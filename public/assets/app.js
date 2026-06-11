@@ -626,7 +626,7 @@ function admin() {
   const supporterData = state.supporters || config.supporters || {};
   return `
     <section class="section-head"><p class="kicker">Administrator</p><h1>Console</h1></section>
-    <section class="admin-grid">
+    <section class="admin-grid admin-console">
       <article class="panel admin-card">
         <h2>Staff Page</h2>
         <form id="staffForm">
@@ -638,7 +638,7 @@ function admin() {
         </form>
         <div class="admin-list">${state.staff.map((person) => `<button class="btn secondary" data-remove-staff="${escapeHtml(person.username)}">Remove ${escapeHtml(person.username)}</button>`).join("")}</div>
       </article>
-      <article class="panel admin-card">
+      <article class="panel admin-card admin-card-wide">
         <h2>Forums</h2>
         <form id="adminThreadForm">
           <select name="boardId">${state.boards.map((board) => `<option value="${board.id}">${escapeHtml(board.name)}</option>`).join("")}</select>
@@ -653,8 +653,18 @@ function admin() {
       </article>
       <article class="panel admin-card">
         <h2>Users</h2>
-        <form id="banForm"><input name="username" placeholder="Username" required><button class="btn danger">Ban User</button></form>
-        <div class="admin-list">${state.accounts.map((account) => `<button class="btn secondary" data-ban="${escapeHtml(account.username)}" data-banned="${!account.banned}">${account.banned ? "Unban" : "Ban"} ${escapeHtml(account.username)}</button>`).join("")}</div>
+        <form id="banForm" class="admin-user-form">
+          <select name="username" required>
+            <option value="">Select user</option>
+            ${state.accounts.map((account) => `<option value="${escapeHtml(account.username)}">${escapeHtml(account.username)}${account.banned ? " (banned)" : ""}</option>`).join("")}
+          </select>
+          <select name="banned">
+            <option value="true">Ban selected user</option>
+            <option value="false">Unban selected user</option>
+          </select>
+          <button class="btn danger">Apply User Action</button>
+        </form>
+        <div class="admin-note">${state.accounts.length} registered account${state.accounts.length === 1 ? "" : "s"} loaded.</div>
       </article>
       <article class="panel admin-card admin-card-wide">
         <h2>Supporters</h2>
@@ -725,7 +735,7 @@ function bindPageActions() {
   bindForm("bioForm", "/api/user/profile", () => location.reload(), (form) => ({
     bio: form.bio.value
   }));
-  bindForm("banForm", "/api/admin/users", () => location.reload(), (form) => ({ username: form.username.value, banned: true }));
+  bindForm("banForm", "/api/admin/users", () => location.reload(), (form) => ({ username: form.username.value, banned: form.banned.value === "true" }));
   bindForm("supporterTextForm", "/api/admin/supporters", () => location.reload(), (form) => ({
     title: form.title.value,
     intro: form.intro.value,
