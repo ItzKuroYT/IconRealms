@@ -90,7 +90,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T06:11:32.738Z",
+      "lastSeenAt": "2026-06-12T06:16:32.763Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -115,11 +115,11 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-12T06:11:32.738Z",
+          "updatedAt": "2026-06-12T06:16:32.763Z",
           "stats": {
             "prestige": "1700",
             "multiplier": "559.59",
-            "balance": "26.4qa",
+            "balance": "26.5qa",
             "genSlots": "112046",
             "credits": "928",
             "kills": "0",
@@ -169,7 +169,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T06:11:32.738Z",
+      "lastSeenAt": "2026-06-12T06:16:32.763Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -186,7 +186,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-12T06:11:32.738Z",
+          "updatedAt": "2026-06-12T06:16:32.763Z",
           "stats": {
             "prestige": "0",
             "multiplier": "1.00",
@@ -215,7 +215,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T06:11:32.738Z",
+      "lastSeenAt": "2026-06-12T06:16:32.763Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -232,7 +232,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-12T06:11:32.738Z",
+          "updatedAt": "2026-06-12T06:16:32.763Z",
           "stats": {
             "prestige": "1700",
             "multiplier": "6997.80",
@@ -311,7 +311,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T06:11:32.738Z",
+      "lastSeenAt": "2026-06-12T06:16:32.763Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -328,7 +328,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-12T06:11:32.738Z",
+          "updatedAt": "2026-06-12T06:16:32.763Z",
           "stats": {
             "prestige": "0",
             "multiplier": "1.10",
@@ -1106,7 +1106,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-12T06:11:32.738Z",
+      "lastSeenAt": "2026-06-12T06:16:32.763Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1138,7 +1138,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-12T06:11:32.738Z",
+          "updatedAt": "2026-06-12T06:16:32.763Z",
           "stats": {
             "prestige": "141",
             "multiplier": "677.25",
@@ -3480,7 +3480,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T06:11:32.738Z",
+      "lastSeenAt": "2026-06-12T06:16:32.763Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3499,7 +3499,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-12T06:11:32.738Z",
+          "updatedAt": "2026-06-12T06:16:32.763Z",
           "stats": {
             "prestige": "87",
             "multiplier": "14.60",
@@ -4053,7 +4053,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T06:11:32.738Z",
+      "lastSeenAt": "2026-06-12T06:16:32.763Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -4061,16 +4061,16 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-12T06:11:32.738Z",
+          "updatedAt": "2026-06-12T06:16:32.763Z",
           "stats": {
             "prestige": "6",
             "multiplier": "1.30",
-            "balance": "298k",
+            "balance": "291.6k",
             "genSlots": "25",
-            "credits": "1",
+            "credits": "3",
             "kills": "0",
             "deaths": "0",
-            "ac": "172",
+            "ac": "179",
             "fc": "0",
             "mc": "0"
           }
@@ -4382,7 +4382,7 @@
           "stats": {
             "prestige": "1700",
             "multiplier": "559.59",
-            "balance": "26.4qa",
+            "balance": "26.5qa",
             "genSlots": "112046",
             "credits": "928",
             "kills": "0",
@@ -4401,12 +4401,12 @@
           "stats": {
             "prestige": "6",
             "multiplier": "1.30",
-            "balance": "298k",
+            "balance": "291.6k",
             "genSlots": "25",
-            "credits": "1",
+            "credits": "3",
             "kills": "0",
             "deaths": "0",
-            "ac": "172",
+            "ac": "179",
             "fc": "0",
             "mc": "0",
             "_gamemodeId": "icongens",
@@ -4435,13 +4435,13 @@
       ],
       "onlineCount": 7,
       "maxPlayers": 500,
-      "tps": 20.000000999500465,
-      "pingMs": 155,
-      "averagePlayerPingMs": 87,
-      "uptimeMs": 21041034,
+      "tps": 19.999998997502132,
+      "pingMs": 142,
+      "averagePlayerPingMs": 383,
+      "uptimeMs": 21341030,
       "lastRestartAt": "2026-06-12T00:20:51.562Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-12T06:11:32.738Z"
+      "lastHeartbeatAt": "2026-06-12T06:16:32.763Z"
     }
   },
   "site": {
