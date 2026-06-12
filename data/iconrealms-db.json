@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T00:39:16.481Z",
+      "lastSeenAt": "2026-06-12T00:40:16.508Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-12T00:39:16.481Z",
+      "lastSeenAt": "2026-06-12T00:40:16.508Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1729,7 +1729,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T00:39:16.481Z",
+      "lastSeenAt": "2026-06-12T00:40:16.508Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3241,7 +3241,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T00:39:16.481Z",
+      "lastSeenAt": "2026-06-12T00:40:16.508Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3262,10 +3262,10 @@
       "createdAt": "2026-06-12T00:39:16.481Z",
       "joinedAt": "2026-06-12T00:39:16.481Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T00:39:16.481Z",
+      "lastSeenAt": "2026-06-12T00:40:16.508Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3435,22 +3435,17 @@
           "username": "5bmm",
           "uuid": "237e6aef-c463-4ada-90b0-25b8fb752a4c",
           "rank": "hero"
-        },
-        {
-          "username": "ziggy3612",
-          "uuid": "2a250de9-fbb5-46f9-9d93-984fa32c5de3",
-          "rank": "default"
         }
       ],
-      "onlineCount": 5,
+      "onlineCount": 4,
       "maxPlayers": 500,
-      "tps": 20.000002647127744,
-      "pingMs": 160,
-      "averagePlayerPingMs": 101,
-      "uptimeMs": 1104755,
+      "tps": 20.000000174521233,
+      "pingMs": 148,
+      "averagePlayerPingMs": 77,
+      "uptimeMs": 1164757,
       "lastRestartAt": "2026-06-12T00:20:51.562Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-12T00:39:16.481Z"
+      "lastHeartbeatAt": "2026-06-12T00:40:16.508Z"
     }
   },
   "site": {
