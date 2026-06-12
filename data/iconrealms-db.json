@@ -5074,21 +5074,6 @@
         "closeDelaySeconds": 1,
         "enabled": true,
         "updatedAt": "2026-06-12T17:26:42.616Z"
-      },
-      {
-        "id": "b5dd4264-93b2-4a2f-b11e-cf3822a501d9",
-        "createdAt": "2026-06-12T17:21:11.158Z",
-        "name": "Test ad",
-        "text": "Test ad",
-        "linkUrl": "https://www.youtube.com/watch?v=5vFhLSeX1-U",
-        "mediaUrl": "https://www.youtube.com/watch?v=5vFhLSeX1-U",
-        "mediaType": "auto",
-        "placement": "bottom-right",
-        "showOn": "website",
-        "intervalSeconds": 60,
-        "closeDelaySeconds": 2,
-        "enabled": true,
-        "updatedAt": "2026-06-12T17:21:11.158Z"
       }
     ]
   }
