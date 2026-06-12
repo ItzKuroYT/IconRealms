@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T01:47:40.018Z",
+      "lastSeenAt": "2026-06-12T01:49:10.034Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -239,7 +239,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T01:47:40.018Z",
+      "lastSeenAt": "2026-06-12T01:49:10.034Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-12T01:47:40.018Z",
+      "lastSeenAt": "2026-06-12T01:49:10.034Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1827,7 +1827,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T01:47:40.018Z",
+      "lastSeenAt": "2026-06-12T01:49:10.034Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3240,10 +3240,10 @@
       "createdAt": "2026-06-12T00:31:38.310Z",
       "joinedAt": "2026-06-12T00:31:38.310Z",
       "rank": "default",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T01:46:10.038Z",
+      "lastSeenAt": "2026-06-12T01:49:10.034Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3341,7 +3341,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T01:47:40.018Z",
+      "lastSeenAt": "2026-06-12T01:49:10.034Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3530,17 +3530,22 @@
           "username": "KomaedaDs",
           "uuid": "c5ffe0ff-50b2-4e38-b779-c2d096ffc3e6",
           "rank": "VIP+"
+        },
+        {
+          "username": "Random8261",
+          "uuid": "cedeb28b-03c1-4946-b074-7e4c521b46d8",
+          "rank": "default"
         }
       ],
-      "onlineCount": 5,
+      "onlineCount": 6,
       "maxPlayers": 500,
-      "tps": 19.99999566028404,
-      "pingMs": 148,
-      "averagePlayerPingMs": 51,
-      "uptimeMs": 5208306,
+      "tps": 19.99999909242302,
+      "pingMs": 142,
+      "averagePlayerPingMs": 57,
+      "uptimeMs": 5298322,
       "lastRestartAt": "2026-06-12T00:20:51.562Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-12T01:47:40.018Z"
+      "lastHeartbeatAt": "2026-06-12T01:49:10.034Z"
     }
   },
   "site": {
