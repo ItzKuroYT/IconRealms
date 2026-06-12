@@ -418,10 +418,11 @@ function threadView(threadId) {
 }
 
 function news() {
-  const posts = announcementPosts();
+  const posts = feedPosts("newsPage");
+  const pageConfig = config.newsPage || {};
   return `
-    <section class="section-head"><p class="kicker">Updates</p><h1>News</h1></section>
-    <div class="stack" style="width:min(1040px,100%);margin:0 auto">${posts.map(newsCard).join("") || `<article class="panel composer"><p>No news yet.</p></article>`}</div>
+    <section class="section-head"><p class="kicker">${escapeHtml(pageConfig.kicker || "Updates")}</p><h1>${escapeHtml(pageConfig.title || "News")}</h1></section>
+    <div class="stack" style="width:min(1040px,100%);margin:0 auto">${posts.map(newsCard).join("") || `<article class="panel composer"><p>${escapeHtml(pageConfig.emptyText || "No news yet.")}</p></article>`}</div>
   `;
 }
 
@@ -752,11 +753,12 @@ function admin() {
           <input name="title" placeholder="Post title" required>
           <textarea name="body" placeholder="Post body" required></textarea>
           <input name="images" placeholder="Image URLs, comma separated">
-          <label class="inline-check"><input type="checkbox" name="announcement" value="true"> Announcement</label>
+          <label class="inline-check"><input type="checkbox" name="announcement" value="true"> Post Announcement</label>
+          <label class="inline-check"><input type="checkbox" name="newsletter" value="true"> Post Newsletter</label>
           <button class="btn">Add Forum Post</button>
         </form>
         <div class="admin-list">${state.boards.map((board) => `<button class="btn secondary" data-board="${board.id}" data-locked="${!board.locked}">${board.locked ? "Unlock" : "Lock"} ${escapeHtml(board.name)}</button>`).join("")}</div>
-        <div class="admin-list">${state.threads.map((thread) => `<div class="admin-row"><strong>${escapeHtml(thread.title)}</strong><button class="btn secondary" data-thread-action="lock" data-thread="${thread.id}">${thread.locked ? "Unlock" : "Lock"}</button><button class="btn secondary" data-thread-action="announce" data-thread="${thread.id}">Announce</button><button class="btn danger" data-thread-action="delete" data-thread="${thread.id}">Delete</button></div>`).join("")}</div>
+        <div class="admin-list">${state.threads.map((thread) => `<div class="admin-row"><strong>${escapeHtml(thread.title)}</strong><button class="btn secondary" data-thread-action="lock" data-thread="${thread.id}">${thread.locked ? "Unlock" : "Lock"}</button><button class="btn secondary" data-thread-action="announce" data-thread="${thread.id}">Announce</button><button class="btn secondary" data-thread-action="newsletter" data-thread="${thread.id}">Newsletter</button><button class="btn danger" data-thread-action="delete" data-thread="${thread.id}">Delete</button></div>`).join("")}</div>
       </article>
       <article class="panel admin-card">
         <h2>Users</h2>
@@ -882,7 +884,8 @@ function bindPageActions() {
     title: form.title.value,
     body: form.body.value,
     images: splitImages(form.images?.value),
-    announcement: form.announcement.checked
+    announcement: form.announcement.checked,
+    newsletter: form.newsletter.checked
   }));
   bindForm("bioForm", "/api/user/profile", () => location.reload(), (form) => ({
     bio: form.bio.value
@@ -1151,22 +1154,43 @@ function newsCard(thread) {
   `;
 }
 
-function announcementPosts() {
-  return state.threads
-    .filter((thread) => thread.boardId === "announcements" || thread.announcement)
+function feedPosts(feedName) {
+  const feed = contentFeed(feedName);
+  const limit = Number(feed.limit || 0);
+  const posts = state.threads
+    .filter((thread) => threadMatchesFeed(thread, feed))
     .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+  return limit > 0 ? posts.slice(0, limit) : posts;
+}
+
+function contentFeed(feedName) {
+  const defaults = {
+    homeLatest: { boardIds: ["announcements"], includeAnnouncements: true, includeNewsletterFlag: false, limit: 1 },
+    newsPage: { boardIds: ["newsletter"], includeAnnouncements: false, includeNewsletterFlag: true, limit: 20 },
+    notifications: { boardIds: ["announcements", "rules"], includeAnnouncements: true, includeNewsletterFlag: false }
+  };
+  return { ...(defaults[feedName] || {}), ...(config.contentFeeds?.[feedName] || {}) };
+}
+
+function threadMatchesFeed(thread, feed) {
+  const boardIds = feed.boardIds || [];
+  if (boardIds.includes(thread.boardId)) return true;
+  if (feed.includeAnnouncements && thread.announcement) return true;
+  if (feed.includeNewsletterFlag && thread.newsletter) return true;
+  return false;
 }
 
 function latestAnnouncement() {
-  return announcementPosts()[0] || null;
+  return feedPosts("homeLatest")[0] || null;
 }
 
 function allNotifications() {
   if (!state.user) return [];
   const following = state.user.following || [];
   const items = [];
+  const notificationFeed = contentFeed("notifications");
   for (const thread of state.threads) {
-    if (thread.boardId === "announcements" || thread.boardId === "rules" || thread.announcement) {
+    if (threadMatchesFeed(thread, notificationFeed)) {
       items.push({ type: "thread", title: thread.title, detail: `Official ${thread.boardId} post`, href: `${pageUrl("forums")}?thread=${thread.id}`, createdAt: thread.createdAt });
     } else if (following.some((name) => sameUser(name, thread.author))) {
       items.push({ type: "thread", title: thread.title, detail: `${thread.author} posted a thread`, href: `${pageUrl("forums")}?thread=${thread.id}`, createdAt: thread.createdAt });

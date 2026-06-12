@@ -35,6 +35,30 @@ const IconRealmsConfig = {
     headline: "A New Adventure Awaits",
     intro: "Explore custom game modes, collect unique rewards, level up your journey, and create your own story on IconRealms."
   },
+  newsPage: {
+    kicker: "Updates",
+    title: "News",
+    emptyText: "No newsletters yet."
+  },
+  contentFeeds: {
+    homeLatest: {
+      boardIds: ["announcements"],
+      includeAnnouncements: true,
+      includeNewsletterFlag: false,
+      limit: 1
+    },
+    newsPage: {
+      boardIds: ["newsletter"],
+      includeAnnouncements: false,
+      includeNewsletterFlag: true,
+      limit: 20
+    },
+    notifications: {
+      boardIds: ["announcements", "rules"],
+      includeAnnouncements: true,
+      includeNewsletterFlag: false
+    }
+  },
   supporters: {
     title: "Supporters",
     intro: "Thank you to the players helping IconRealms grow.",
@@ -165,6 +189,7 @@ const IconRealmsConfig = {
   ],
   forumBoards: [
     { id: "announcements", categoryId: "news", name: "Announcements", description: "Official announcement posts", locked: true },
+    { id: "newsletter", categoryId: "news", name: "Newsletter", description: "Website news posts shown on the News page", locked: true },
     { id: "rules", categoryId: "news", name: "Rules", description: "Server and community rules", locked: true },
     { id: "icongens", categoryId: "gamemodes", name: "IconGens", description: "Farming and gens discussion", locked: false },
     { id: "iconsmash", categoryId: "gamemodes", name: "IconSmash", description: "Gens and mace PvP planning", locked: false },
