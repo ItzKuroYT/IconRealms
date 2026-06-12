@@ -235,11 +235,11 @@
       "inGameRegistered": false,
       "createdAt": "2026-06-10T06:48:01.285Z",
       "joinedAt": "2026-06-10T06:48:01.285Z",
-      "rank": "Member",
-      "online": false,
+      "rank": "hero",
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-11T04:25:33.603Z",
+      "lastSeenAt": "2026-06-12T01:18:38.833Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-12T01:17:08.832Z",
+      "lastSeenAt": "2026-06-12T01:18:38.833Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1726,10 +1726,10 @@
       "createdAt": "2026-06-11T00:48:56.061Z",
       "joinedAt": "2026-06-11T00:48:56.061Z",
       "rank": "hero",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T01:17:08.832Z",
+      "lastSeenAt": "2026-06-12T01:18:38.833Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1827,7 +1827,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T01:17:08.832Z",
+      "lastSeenAt": "2026-06-12T01:18:38.833Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3243,7 +3243,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T01:17:08.832Z",
+      "lastSeenAt": "2026-06-12T01:18:38.833Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3496,17 +3496,27 @@
           "username": "Devastated_om1",
           "uuid": "351f6ffd-d2d3-4c7c-84ca-52672bb22973",
           "rank": "default"
+        },
+        {
+          "username": "5bmm",
+          "uuid": "237e6aef-c463-4ada-90b0-25b8fb752a4c",
+          "rank": "hero"
+        },
+        {
+          "username": ".KomaedaDs8258",
+          "uuid": "00000000-0000-0000-0009-01fb612ea650",
+          "rank": "hero"
         }
       ],
-      "onlineCount": 3,
+      "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 18.534554958269172,
-      "pingMs": 153,
-      "averagePlayerPingMs": 59,
-      "uptimeMs": 3377087,
+      "tps": 19.997477966739364,
+      "pingMs": 161,
+      "averagePlayerPingMs": 81,
+      "uptimeMs": 3467120,
       "lastRestartAt": "2026-06-12T00:20:51.562Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-12T01:17:08.832Z"
+      "lastHeartbeatAt": "2026-06-12T01:18:38.833Z"
     }
   },
   "site": {
