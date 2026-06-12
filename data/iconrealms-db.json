@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:33:41.388Z",
+      "lastSeenAt": "2026-06-12T02:34:41.415Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -239,7 +239,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:33:41.388Z",
+      "lastSeenAt": "2026-06-12T02:34:41.415Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-12T02:33:41.388Z",
+      "lastSeenAt": "2026-06-12T02:34:41.415Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1827,7 +1827,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:33:41.388Z",
+      "lastSeenAt": "2026-06-12T02:34:41.415Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3243,7 +3243,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:33:41.388Z",
+      "lastSeenAt": "2026-06-12T02:34:41.415Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3390,6 +3390,30 @@
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-12T02:04:10.656Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": ".Sigamer7257",
+      "uuid": "00000000-0000-0000-0009-01fd78e37803",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/.Sigamer7257/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-12T02:34:41.415Z",
+      "joinedAt": "2026-06-12T02:34:41.415Z",
+      "rank": "default",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-12T02:34:41.415Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3578,17 +3602,22 @@
           "username": "Devastated_om1",
           "uuid": "351f6ffd-d2d3-4c7c-84ca-52672bb22973",
           "rank": "default"
+        },
+        {
+          "username": ".Sigamer7257",
+          "uuid": "00000000-0000-0000-0009-01fd78e37803",
+          "rank": "default"
         }
       ],
-      "onlineCount": 5,
+      "onlineCount": 6,
       "maxPlayers": 500,
-      "tps": 20.000002199833713,
-      "pingMs": 145,
-      "averagePlayerPingMs": 74,
-      "uptimeMs": 7969713,
+      "tps": 19.999997868110135,
+      "pingMs": 221,
+      "averagePlayerPingMs": 77,
+      "uptimeMs": 8029721,
       "lastRestartAt": "2026-06-12T00:20:51.562Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-12T02:33:41.388Z"
+      "lastHeartbeatAt": "2026-06-12T02:34:41.415Z"
     }
   },
   "site": {
