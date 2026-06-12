@@ -239,7 +239,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T01:34:10.009Z",
+      "lastSeenAt": "2026-06-12T01:35:10.014Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-12T01:34:10.009Z",
+      "lastSeenAt": "2026-06-12T01:35:10.014Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1827,7 +1827,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T01:34:10.009Z",
+      "lastSeenAt": "2026-06-12T01:35:10.014Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3240,10 +3240,10 @@
       "createdAt": "2026-06-12T00:31:38.310Z",
       "joinedAt": "2026-06-12T00:31:38.310Z",
       "rank": "default",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T01:27:08.806Z",
+      "lastSeenAt": "2026-06-12T01:35:10.014Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3496,17 +3496,22 @@
           "username": ".KomaedaDs8258",
           "uuid": "00000000-0000-0000-0009-01fb612ea650",
           "rank": "hero"
+        },
+        {
+          "username": "Random8261",
+          "uuid": "cedeb28b-03c1-4946-b074-7e4c521b46d8",
+          "rank": "default"
         }
       ],
-      "onlineCount": 3,
+      "onlineCount": 4,
       "maxPlayers": 500,
-      "tps": 19.999995838801865,
-      "pingMs": 152,
-      "averagePlayerPingMs": 82,
-      "uptimeMs": 4398295,
+      "tps": 20.000005710243094,
+      "pingMs": 141,
+      "averagePlayerPingMs": 49,
+      "uptimeMs": 4458302,
       "lastRestartAt": "2026-06-12T00:20:51.562Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-12T01:34:10.009Z"
+      "lastHeartbeatAt": "2026-06-12T01:35:10.014Z"
     }
   },
   "site": {
