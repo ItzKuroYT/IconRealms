@@ -37,7 +37,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T03:27:23.412Z",
+      "lastSeenAt": "2026-06-12T03:28:53.412Z",
       "bio": "dih",
       "following": [],
       "followers": [],
@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T03:27:23.412Z",
+      "lastSeenAt": "2026-06-12T03:28:53.412Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -239,7 +239,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T03:27:23.412Z",
+      "lastSeenAt": "2026-06-12T03:28:53.412Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1571,10 +1571,10 @@
       "createdAt": "2026-06-10T22:57:43.038Z",
       "joinedAt": "2026-06-10T22:57:43.038Z",
       "rank": "VIP+",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-10T22:59:46.637Z",
+      "lastSeenAt": "2026-06-12T03:28:53.412Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3243,7 +3243,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T03:27:23.412Z",
+      "lastSeenAt": "2026-06-12T03:28:53.412Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3461,7 +3461,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T03:27:23.412Z",
+      "lastSeenAt": "2026-06-12T03:28:53.412Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3688,17 +3688,22 @@
           "username": "4687",
           "uuid": "17907c46-6f45-4c23-9a7e-35e9b18b26be",
           "rank": "hero"
+        },
+        {
+          "username": "corruptionx3d",
+          "uuid": "4f00925b-d632-498f-8820-5f150e68e21c",
+          "rank": "VIP+"
         }
       ],
-      "onlineCount": 5,
+      "onlineCount": 6,
       "maxPlayers": 500,
-      "tps": 19.816824653753063,
-      "pingMs": 156,
-      "averagePlayerPingMs": 96,
-      "uptimeMs": 11191722,
+      "tps": 20.000001499417266,
+      "pingMs": 149,
+      "averagePlayerPingMs": 71,
+      "uptimeMs": 11281718,
       "lastRestartAt": "2026-06-12T00:20:51.562Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-12T03:27:23.412Z"
+      "lastHeartbeatAt": "2026-06-12T03:28:53.412Z"
     }
   },
   "site": {
