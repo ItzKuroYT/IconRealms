@@ -5061,6 +5061,21 @@
     },
     "ads": [
       {
+        "id": "f296865d-294f-467e-8fe1-d4311e44d516",
+        "createdAt": "2026-06-12T17:27:32.002Z",
+        "name": "test3",
+        "text": "test3",
+        "linkUrl": "https://media.discordapp.net/attachments/1419733363023151214/1514816129552482476/image.png?ex=6a2d66b5&is=6a2c1535&hm=c0d8f18435a5d6002b650b7f00acc34ead22296720b29f853bc2f4c8106f25b5&=&format=webp&quality=lossless&width=926&height=698",
+        "mediaUrl": "https://media.discordapp.net/attachments/1419733363023151214/1514816129552482476/image.png?ex=6a2d66b5&is=6a2c1535&hm=c0d8f18435a5d6002b650b7f00acc34ead22296720b29f853bc2f4c8106f25b5&=&format=webp&quality=lossless&width=926&height=698",
+        "mediaType": "auto",
+        "placement": "bottom-center",
+        "showOn": "website",
+        "intervalSeconds": 60,
+        "closeDelaySeconds": 1,
+        "enabled": true,
+        "updatedAt": "2026-06-12T17:27:32.002Z"
+      },
+      {
         "id": "e18fc11e-348b-4629-9961-98a71bbefb99",
         "createdAt": "2026-06-12T17:26:42.616Z",
         "name": "Test ad2",
