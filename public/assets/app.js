@@ -544,7 +544,7 @@ function staff() {
 function staffOfMonthCard() {
   const pick = state.staffOfMonth;
   if (!pick?.username) return "";
-  const person = state.staff.find((item) => sameUser(item.username, pick.username)) || { username: pick.username, rank: "Staff", avatar: avatar(pick.username, 128) };
+  const person = state.staff.find((item) => sameUser(item.username, pick.username)) || pick;
   const rank = config.staffRanks.find(([name]) => name === person.rank);
   return `
     <section class="staff-month-wrap">
@@ -873,8 +873,7 @@ function bindPageActions() {
     bio: form.bio.value,
     friends: form.friends.value.split(",").map((item) => item.trim()).filter(Boolean)
   }));
-  bindForm("staffMonthForm", "/api/admin/staff", () => location.reload(), (form) => ({
-    action: "set-staff-month",
+  bindForm("staffMonthForm", "/api/admin/staff-month", () => location.reload(), (form) => ({
     username: form.username.value,
     message: form.message.value
   }));
@@ -926,7 +925,7 @@ function bindPageActions() {
     location.reload();
   }));
   document.getElementById("deleteStaffMonth")?.addEventListener("click", async () => {
-    await api("/api/admin/staff", { action: "delete-staff-month" }, "PATCH");
+    await api("/api/admin/staff-month", {}, "DELETE");
     location.reload();
   });
   document.querySelectorAll("[data-board]").forEach((button) => button.addEventListener("click", async () => {
