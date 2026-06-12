@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:38:41.415Z",
+      "lastSeenAt": "2026-06-12T02:40:11.315Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -239,7 +239,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:38:41.415Z",
+      "lastSeenAt": "2026-06-12T02:40:11.315Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-12T02:38:41.415Z",
+      "lastSeenAt": "2026-06-12T02:40:11.315Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1827,7 +1827,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:38:41.415Z",
+      "lastSeenAt": "2026-06-12T02:40:11.315Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3243,7 +3243,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:38:41.415Z",
+      "lastSeenAt": "2026-06-12T02:40:11.315Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3414,6 +3414,30 @@
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-12T02:36:11.389Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "Jaeismehehe",
+      "uuid": "dc6f273d-db9d-45b9-b054-dd355a7af215",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Jaeismehehe/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-12T02:40:11.315Z",
+      "joinedAt": "2026-06-12T02:40:11.315Z",
+      "rank": "default",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-12T02:40:11.315Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3616,17 +3640,22 @@
           "username": "Devastated_om1",
           "uuid": "351f6ffd-d2d3-4c7c-84ca-52672bb22973",
           "rank": "default"
+        },
+        {
+          "username": "Jaeismehehe",
+          "uuid": "dc6f273d-db9d-45b9-b054-dd355a7af215",
+          "rank": "default"
         }
       ],
-      "onlineCount": 5,
+      "onlineCount": 6,
       "maxPlayers": 500,
-      "tps": 20.000520786605506,
-      "pingMs": 193,
-      "averagePlayerPingMs": 85,
-      "uptimeMs": 8269714,
+      "tps": 19.99999811223998,
+      "pingMs": 124,
+      "averagePlayerPingMs": 139,
+      "uptimeMs": 8359718,
       "lastRestartAt": "2026-06-12T00:20:51.562Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-12T02:38:41.415Z"
+      "lastHeartbeatAt": "2026-06-12T02:40:11.315Z"
     }
   },
   "site": {
