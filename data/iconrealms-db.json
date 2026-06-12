@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T04:19:19.947Z",
+      "lastSeenAt": "2026-06-12T04:20:19.975Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -143,7 +143,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T04:19:19.947Z",
+      "lastSeenAt": "2026-06-12T04:20:19.975Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -167,7 +167,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T04:19:19.947Z",
+      "lastSeenAt": "2026-06-12T04:20:19.975Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -239,7 +239,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T04:19:19.947Z",
+      "lastSeenAt": "2026-06-12T04:20:19.975Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3243,7 +3243,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T04:19:19.947Z",
+      "lastSeenAt": "2026-06-12T04:20:19.975Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3567,6 +3567,30 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": ""
+    },
+    {
+      "username": "3zac",
+      "uuid": "087c6568-aab0-4525-909e-e62b22963451",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/3zac/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-12T04:20:19.975Z",
+      "joinedAt": "2026-06-12T04:20:19.975Z",
+      "rank": "default",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-12T04:20:19.975Z",
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": ""
     }
   ],
   "threads": [
@@ -3784,17 +3808,22 @@
           "username": "FarGloria1998",
           "uuid": "6e4ce78a-1c86-4a23-9bef-c7f498b2e5e7",
           "rank": "default"
+        },
+        {
+          "username": "3zac",
+          "uuid": "087c6568-aab0-4525-909e-e62b22963451",
+          "rank": "default"
         }
       ],
-      "onlineCount": 5,
+      "onlineCount": 6,
       "maxPlayers": 500,
-      "tps": 19.350421552066713,
-      "pingMs": 204,
-      "averagePlayerPingMs": 97,
-      "uptimeMs": 14308254,
+      "tps": 20.000121725303714,
+      "pingMs": 139,
+      "averagePlayerPingMs": 93,
+      "uptimeMs": 14368266,
       "lastRestartAt": "2026-06-12T00:20:51.562Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-12T04:19:19.947Z"
+      "lastHeartbeatAt": "2026-06-12T04:20:19.975Z"
     }
   },
   "site": {
