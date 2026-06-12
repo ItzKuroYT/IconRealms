@@ -8,6 +8,7 @@ let state = {
   boards: config.forumBoards,
   threads: [],
   staff: config.defaultStaff.map(withAvatar),
+  staffOfMonth: null,
   accounts: [],
   users: [],
   dms: [],
@@ -526,14 +527,37 @@ function supporterMini(username) {
 function staff() {
   const username = new URLSearchParams(location.search).get("user");
   if (username) return staffProfile(username);
+  const featured = staffOfMonthCard();
   return `
     <section class="section-head"><p class="kicker">Team</p><h1>IconRealms Staff</h1></section>
+    ${featured}
     <section class="staff-board">
       ${config.staffRanks.map(([rank, color]) => {
         const people = state.staff.filter((person) => person.rank === rank);
         if (!people.length) return "";
         return `<div><h2 class="rank-title" style="color:${color}">${rank}</h2><div class="staff-grid">${people.map((person) => staffCard(person, color)).join("")}</div></div>`;
       }).join("")}
+    </section>
+  `;
+}
+
+function staffOfMonthCard() {
+  const pick = state.staffOfMonth;
+  if (!pick?.username) return "";
+  const person = state.staff.find((item) => sameUser(item.username, pick.username)) || { username: pick.username, rank: "Staff", avatar: avatar(pick.username, 128) };
+  const rank = config.staffRanks.find(([name]) => name === person.rank);
+  return `
+    <section class="staff-month-wrap">
+      <a class="panel staff-month-card" href="${staffHref(person.username)}">
+        <div class="staff-month-glow"></div>
+        <img src="${person.avatar || avatar(person.username, 128)}" alt="">
+        <div>
+          <p class="kicker">Staff Of The Month</p>
+          <h2>${escapeHtml(person.username)}</h2>
+          <span class="rank-pill" style="display:inline-block;background:${rank?.[1] || "#5865f2"}">${escapeHtml(person.rank || "Staff")}</span>
+          ${pick.message ? `<p>${escapeHtml(pick.message)}</p>` : `<p>Recognized by the IconRealms team.</p>`}
+        </div>
+      </a>
     </section>
   `;
 }
@@ -697,6 +721,7 @@ function statRow(label, value) {
 function admin() {
   if (!state.user?.isAdmin) return `<section class="panel composer"><h1>Error 67</h1><p>You are not authorized to enter the administrator console.</p><a class="btn" href="${pageUrl("login")}">Login</a></section>`;
   const supporterData = state.supporters || config.supporters || {};
+  const monthPick = state.staffOfMonth;
   return `
     <section class="section-head"><p class="kicker">Administrator</p><h1>Console</h1></section>
     <section class="admin-grid admin-console">
@@ -709,6 +734,15 @@ function admin() {
           <input name="friends" placeholder="Friends, comma separated">
           <button class="btn">Add / Update Staff</button>
         </form>
+        <form id="staffMonthForm" class="staff-month-admin">
+          <select name="username" required>
+            <option value="">Staff of the month</option>
+            ${state.staff.map((person) => `<option value="${escapeHtml(person.username)}" ${sameUser(person.username, monthPick?.username) ? "selected" : ""}>${escapeHtml(person.username)} - ${escapeHtml(person.rank)}</option>`).join("")}
+          </select>
+          <input name="message" placeholder="Short message, optional" value="${escapeHtml(monthPick?.message || "")}">
+          <button class="btn">Set Staff Of The Month</button>
+        </form>
+        ${monthPick?.username ? `<button class="btn danger" type="button" id="deleteStaffMonth">Delete Staff Of The Month</button>` : ""}
         <div class="admin-list">${state.staff.map((person) => `<button class="btn secondary" data-remove-staff="${escapeHtml(person.username)}">Remove ${escapeHtml(person.username)}</button>`).join("")}</div>
       </article>
       <article class="panel admin-card admin-card-wide">
@@ -839,6 +873,11 @@ function bindPageActions() {
     bio: form.bio.value,
     friends: form.friends.value.split(",").map((item) => item.trim()).filter(Boolean)
   }));
+  bindForm("staffMonthForm", "/api/admin/staff", () => location.reload(), (form) => ({
+    action: "set-staff-month",
+    username: form.username.value,
+    message: form.message.value
+  }));
   bindForm("adminThreadForm", "/api/admin/forums", () => location.reload(), (form) => ({
     boardId: form.boardId.value,
     title: form.title.value,
@@ -886,6 +925,10 @@ function bindPageActions() {
     await api("/api/admin/staff", { username: button.dataset.removeStaff }, "DELETE");
     location.reload();
   }));
+  document.getElementById("deleteStaffMonth")?.addEventListener("click", async () => {
+    await api("/api/admin/staff", { action: "delete-staff-month" }, "PATCH");
+    location.reload();
+  });
   document.querySelectorAll("[data-board]").forEach((button) => button.addEventListener("click", async () => {
     await api("/api/admin/boards", { boardId: button.dataset.board, locked: button.dataset.locked === "true" }, "PATCH");
     location.reload();
