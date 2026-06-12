@@ -3462,7 +3462,15 @@
       "announcement": false,
       "locked": false,
       "createdAt": "2026-06-12T02:40:08.004Z",
-      "replies": []
+      "replies": [
+        {
+          "id": "736e393c-3779-474f-90ec-074631fc0c24",
+          "body": "Stfu",
+          "images": [],
+          "author": "ItzKuro_",
+          "createdAt": "2026-06-12T02:40:53.036Z"
+        }
+      ]
     },
     {
       "id": "64b08b0f-4271-47f5-baa7-88c70da97073",
