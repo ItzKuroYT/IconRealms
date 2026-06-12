@@ -87,7 +87,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:56:19.701Z",
+      "lastSeenAt": "2026-06-12T02:57:49.641Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -239,7 +239,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:56:19.701Z",
+      "lastSeenAt": "2026-06-12T02:57:49.641Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-12T02:56:19.701Z",
+      "lastSeenAt": "2026-06-12T02:57:49.641Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1004,7 +1004,7 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "2026-06-12T02:48:56.855Z",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg"
     },
@@ -1827,7 +1827,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:56:19.701Z",
+      "lastSeenAt": "2026-06-12T02:57:49.641Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -1944,10 +1944,10 @@
       "createdAt": "2026-06-11T04:16:29.181Z",
       "joinedAt": "2026-06-11T04:16:29.181Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:56:19.701Z",
+      "lastSeenAt": "2026-06-12T02:57:49.641Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3243,7 +3243,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T02:56:19.701Z",
+      "lastSeenAt": "2026-06-12T02:57:49.641Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3651,11 +3651,6 @@
           "rank": "VIP+"
         },
         {
-          "username": "ItzKuro_",
-          "uuid": "3990d27a-f611-430d-b6cd-c796173e9776",
-          "rank": "Owner"
-        },
-        {
           "username": "Devastated_om1",
           "uuid": "351f6ffd-d2d3-4c7c-84ca-52672bb22973",
           "rank": "default"
@@ -3664,22 +3659,17 @@
           "username": "Random8261",
           "uuid": "cedeb28b-03c1-4946-b074-7e4c521b46d8",
           "rank": "default"
-        },
-        {
-          "username": "Ghost8797",
-          "uuid": "11eaab63-039b-4499-af27-30812df26b43",
-          "rank": "default"
         }
       ],
-      "onlineCount": 6,
+      "onlineCount": 4,
       "maxPlayers": 500,
-      "tps": 20.00000066344715,
-      "pingMs": 132,
-      "averagePlayerPingMs": 105,
-      "uptimeMs": 9327969,
+      "tps": 20.000001148376416,
+      "pingMs": 156,
+      "averagePlayerPingMs": 78,
+      "uptimeMs": 9417949,
       "lastRestartAt": "2026-06-12T00:20:51.562Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-12T02:56:19.701Z"
+      "lastHeartbeatAt": "2026-06-12T02:57:49.641Z"
     }
   },
   "site": {
