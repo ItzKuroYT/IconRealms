@@ -982,7 +982,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-12T00:21:38.215Z",
+      "lastSeenAt": "2026-06-12T00:23:08.309Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1729,7 +1729,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-12T00:21:38.215Z",
+      "lastSeenAt": "2026-06-12T00:23:08.309Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -3381,13 +3381,13 @@
       ],
       "onlineCount": 2,
       "maxPlayers": 500,
-      "tps": 20.129128253202694,
-      "pingMs": 209,
-      "averagePlayerPingMs": 71,
-      "uptimeMs": 46530,
+      "tps": 20.000001378851053,
+      "pingMs": 135,
+      "averagePlayerPingMs": 66,
+      "uptimeMs": 136529,
       "lastRestartAt": "2026-06-12T00:20:51.562Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-12T00:21:38.215Z"
+      "lastHeartbeatAt": "2026-06-12T00:23:08.309Z"
     }
   },
   "site": {
