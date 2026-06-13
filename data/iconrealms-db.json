@@ -90,7 +90,7 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "VIP+",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-13T06:24:00.046Z",
@@ -171,7 +171,7 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-13T06:24:00.046Z",
@@ -218,7 +218,7 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "Iconic",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-13T06:24:00.046Z",
@@ -5620,7 +5620,7 @@
       "createdAt": "2026-06-13T03:54:10.119Z",
       "joinedAt": "2026-06-13T03:54:10.119Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-13T06:24:00.046Z",
@@ -5917,13 +5917,6 @@
       "avatar": "https://mc-heads.net/avatar/RakeAMake4/128"
     },
     {
-      "username": "FireAngle18",
-      "rank": "Lead Developer",
-      "bio": "",
-      "friends": [],
-      "avatar": "https://mc-heads.net/avatar/FireAngle18/128"
-    },
-    {
       "username": "RosesForMe",
       "rank": "Builder",
       "bio": "",
@@ -5939,7 +5932,7 @@
       "ip": "icongen.minehut.gg",
       "maxPlayersEver": 13,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
-      "online": true,
+      "online": false,
       "players": [
         {
           "username": "KomaedaDs",
@@ -6036,7 +6029,9 @@
       "iconsmp",
       "icongamez"
     ],
-    "removedStaff": [],
+    "removedStaff": [
+      "FireAngle18"
+    ],
     "staffOfMonth": {
       "username": "Noobie_LOL",
       "rank": "Sr Admin",
