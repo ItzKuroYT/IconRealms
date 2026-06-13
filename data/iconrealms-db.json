@@ -90,10 +90,10 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "VIP+",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-13T06:24:00.046Z",
+      "lastSeenAt": "2026-06-13T06:29:00.046Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -118,11 +118,11 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-13T06:24:00.046Z",
+          "updatedAt": "2026-06-13T06:29:00.046Z",
           "stats": {
             "prestige": "1700",
             "multiplier": "559.59",
-            "balance": "18qa",
+            "balance": "18.2qa",
             "genSlots": "112046",
             "credits": "933",
             "kills": "0",
@@ -171,10 +171,10 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "default",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-13T06:24:00.046Z",
+      "lastSeenAt": "2026-06-13T06:29:00.046Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -191,7 +191,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-13T06:24:00.046Z",
+          "updatedAt": "2026-06-13T06:29:00.046Z",
           "stats": {
             "prestige": "0",
             "multiplier": "1.00",
@@ -218,10 +218,10 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "Iconic",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-13T06:24:00.046Z",
+      "lastSeenAt": "2026-06-13T06:29:00.046Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -238,7 +238,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-13T06:24:00.046Z",
+          "updatedAt": "2026-06-13T06:29:00.046Z",
           "stats": {
             "prestige": "2100",
             "multiplier": "7562.29",
@@ -5620,10 +5620,10 @@
       "createdAt": "2026-06-13T03:54:10.119Z",
       "joinedAt": "2026-06-13T03:54:10.119Z",
       "rank": "default",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-13T06:24:00.046Z",
+      "lastSeenAt": "2026-06-13T06:29:00.046Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -5631,16 +5631,16 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-13T06:24:00.046Z",
+          "updatedAt": "2026-06-13T06:29:00.046Z",
           "stats": {
             "prestige": "9",
             "multiplier": "1.45",
-            "balance": "33.6m",
+            "balance": "2m",
             "genSlots": "32",
             "credits": "8",
             "kills": "0",
             "deaths": "0",
-            "ac": "78",
+            "ac": "18",
             "fc": "0",
             "mc": "0"
           }
@@ -5688,6 +5688,53 @@
             "kills": "0",
             "deaths": "0",
             "ac": "14",
+            "fc": "0",
+            "mc": "0"
+          }
+        }
+      },
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
+    },
+    {
+      "username": "BreyParker_DJ",
+      "uuid": "f3828e2f-ed8d-4c70-9bdb-d9a150bb1093",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/BreyParker_DJ/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-13T06:29:00.046Z",
+      "joinedAt": "2026-06-13T06:29:00.046Z",
+      "rank": "default",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-13T06:29:00.046Z",
+      "statsByServer": {
+        "icongen-minehut-gg": {
+          "serverId": "icongen-minehut-gg",
+          "serverName": "icongen.minehut.gg",
+          "serverIp": "icongen.minehut.gg",
+          "gamemodeId": "icongens",
+          "gamemodeName": "IconGens",
+          "updatedAt": "2026-06-13T06:29:00.046Z",
+          "stats": {
+            "prestige": "0",
+            "multiplier": "1.00",
+            "balance": "45.6k",
+            "genSlots": "5",
+            "credits": "0",
+            "kills": "0",
+            "deaths": "0",
+            "ac": "37",
             "fc": "0",
             "mc": "0"
           }
@@ -5932,7 +5979,7 @@
       "ip": "icongen.minehut.gg",
       "maxPlayersEver": 13,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
-      "online": false,
+      "online": true,
       "players": [
         {
           "username": "KomaedaDs",
@@ -5941,7 +5988,7 @@
           "stats": {
             "prestige": "1700",
             "multiplier": "559.59",
-            "balance": "18qa",
+            "balance": "18.2qa",
             "genSlots": "112046",
             "credits": "933",
             "kills": "0",
@@ -5998,12 +6045,31 @@
           "stats": {
             "prestige": "9",
             "multiplier": "1.45",
-            "balance": "33.6m",
+            "balance": "2m",
             "genSlots": "32",
             "credits": "8",
             "kills": "0",
             "deaths": "0",
-            "ac": "78",
+            "ac": "18",
+            "fc": "0",
+            "mc": "0",
+            "_gamemodeId": "icongens",
+            "_gamemodeName": "IconGens"
+          }
+        },
+        {
+          "username": "BreyParker_DJ",
+          "uuid": "f3828e2f-ed8d-4c70-9bdb-d9a150bb1093",
+          "rank": "default",
+          "stats": {
+            "prestige": "0",
+            "multiplier": "1.00",
+            "balance": "45.6k",
+            "genSlots": "5",
+            "credits": "0",
+            "kills": "0",
+            "deaths": "0",
+            "ac": "37",
             "fc": "0",
             "mc": "0",
             "_gamemodeId": "icongens",
@@ -6011,15 +6077,15 @@
           }
         }
       ],
-      "onlineCount": 4,
+      "onlineCount": 5,
       "maxPlayers": 500,
-      "tps": 19.999997857238167,
-      "pingMs": 134,
-      "averagePlayerPingMs": 102,
-      "uptimeMs": 10750940,
+      "tps": 19.99999759000862,
+      "pingMs": 145,
+      "averagePlayerPingMs": 108,
+      "uptimeMs": 11050956,
       "lastRestartAt": "2026-06-13T03:24:48.956Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-13T06:24:00.046Z"
+      "lastHeartbeatAt": "2026-06-13T06:29:00.046Z"
     }
   },
   "site": {
