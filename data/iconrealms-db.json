@@ -6879,8 +6879,8 @@
         "showOn": "website",
         "intervalSeconds": 60,
         "closeDelaySeconds": 1,
-        "enabled": false,
-        "updatedAt": "2026-06-13T19:38:40.051Z"
+        "enabled": true,
+        "updatedAt": "2026-06-13T19:38:44.449Z"
       }
     ]
   }
