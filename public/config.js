@@ -189,7 +189,6 @@ const IconRealmsConfig = {
   ],
   forumBoards: [
     { id: "announcements", categoryId: "news", name: "Announcements", description: "Official announcement posts", locked: true },
-    { id: "newsletter", categoryId: "news", name: "Newsletter", description: "Website news posts shown on the News page", locked: true },
     { id: "rules", categoryId: "news", name: "Rules", description: "Server and community rules", locked: true },
     { id: "icongens", categoryId: "gamemodes", name: "IconGens", description: "Farming and gens discussion", locked: false },
     { id: "iconsmash", categoryId: "gamemodes", name: "IconSmash", description: "Gens and mace PvP planning", locked: false },

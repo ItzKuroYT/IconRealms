@@ -123,7 +123,10 @@ function notificationPanel() {
   const notifications = allNotifications();
   return `
     <aside class="floating-panel notification-panel" id="notificationPanel">
-      <h2>Notifications</h2>
+      <div class="notification-head">
+        <h2>Notifications</h2>
+        ${notifications.length ? `<button class="btn secondary notification-clear" id="clearNotifications" type="button">Clear</button>` : ""}
+      </div>
       <div class="notification-list">
         ${notifications.length ? notifications.map((item) => item.type === "dm" ? `<button type="button" data-open-dm="${escapeHtml(item.user || "")}"><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.detail)}</small></button>` : `<a href="${item.href}"><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.detail)}</small></a>`).join("") : `<p>No notifications yet.</p>`}
       </div>
@@ -178,6 +181,16 @@ function bindGlobalActions() {
     state.user.lastNotificationSeenAt = new Date().toISOString();
     document.getElementById("notificationToggle")?.classList.remove("has-alert");
   });
+  document.getElementById("clearNotifications")?.addEventListener("click", async () => {
+    const result = await api("/api/user/notifications", { action: "clear" });
+    if (result.ok) {
+      state.user.lastNotificationSeenAt = result.notificationClearedAt;
+      state.user.notificationClearedAt = result.notificationClearedAt;
+      renderLayout();
+      renderPage();
+      bindGlobalActions();
+    }
+  });
   document.getElementById("dmLauncher")?.addEventListener("click", async () => {
     await openDmDrawer();
   });
@@ -206,23 +219,30 @@ function bindGlobalActions() {
   });
 }
 
-function scheduleAd() {
+function scheduleAd(delayMs = null) {
   clearTimeout(adTimer);
-  const ad = nextAd();
   const popup = document.getElementById("adPopup");
-  if (!ad || !popup) return;
-  adTimer = setTimeout(() => showAd(ad), Math.max(2500, Number(ad.appearDelayMs || 4500)));
+  if (!popup) return;
+  const ad = nextAd();
+  const delay = delayMs ?? (ad ? Math.max(1000, Number(ad.appearDelayMs || 1800)) : 30000);
+  adTimer = setTimeout(() => {
+    const current = ad || nextAd();
+    if (current) showAd(current);
+    else scheduleAd(30000);
+  }, delay);
 }
 
 function nextAd() {
   const ads = (state.ads || []).filter((ad) => ad.enabled !== false);
-  if (!ads.length || sessionStorage.getItem("iconrealms_ad_seen_page") === "true") return null;
+  if (!ads.length) return null;
   const now = Date.now();
-  return ads.find((ad) => {
+  const eligible = ads.filter((ad) => {
     const last = Number(localStorage.getItem(`iconrealms_ad_${ad.id}`) || 0);
     const interval = Math.max(60, Number(ad.intervalSeconds || 600)) * 1000;
     return now - last >= interval;
-  }) || null;
+  });
+  eligible.sort((a, b) => Number(localStorage.getItem(`iconrealms_ad_${a.id}`) || 0) - Number(localStorage.getItem(`iconrealms_ad_${b.id}`) || 0));
+  return eligible[0] || null;
 }
 
 function showAd(ad) {
@@ -234,25 +254,25 @@ function showAd(ad) {
     <div class="ad-card">
       <div class="ad-top">
         <span>Sponsored</span>
-        <button class="ad-close" id="adCloseBtn" type="button" disabled>Skip in ${closeDelay}s</button>
+        <button class="ad-close" id="adCloseBtn" type="button" disabled aria-label="Close ad">x</button>
       </div>
       ${adMedia(ad)}
-      ${ad.text ? `<p>${escapeHtml(ad.text)}</p>` : ""}
+      ${ad.text ? `<p class="ad-text">${escapeHtml(ad.text)}</p>` : ""}
       ${ad.linkUrl ? `<a class="btn secondary ad-link" href="${escapeAttribute(ad.linkUrl)}" target="_blank" rel="noopener">Open Link</a>` : ""}
     </div>
   `;
-  sessionStorage.setItem("iconrealms_ad_seen_page", "true");
   localStorage.setItem(`iconrealms_ad_${ad.id}`, String(Date.now()));
   const close = document.getElementById("adCloseBtn");
   setTimeout(() => {
     if (!close) return;
     close.disabled = false;
-    close.textContent = "Close";
+    close.title = "Close";
   }, closeDelay * 1000);
   close?.addEventListener("click", () => {
     if (close.disabled) return;
     popup.classList.remove("open");
     popup.innerHTML = "";
+    scheduleAd(30000);
   });
 }
 
@@ -1202,7 +1222,13 @@ function allNotifications() {
     const other = dm.other || dm.participants?.find((name) => !sameUser(name, state.user.username)) || last.from;
     items.push({ type: "dm", user: other, mine: sameUser(last.from, state.user.username), title: `DM from ${sameUser(last.from, state.user.username) ? "you" : other}`, detail: `${sameUser(last.from, state.user.username) ? "You" : other}: "${last.body}"`, href: "#", createdAt: last.createdAt || dm.updatedAt });
   }
-  return items.sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0)).slice(0, 12);
+  const sevenDaysAgo = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  const clearedAt = state.user.notificationClearedAt ? new Date(state.user.notificationClearedAt).getTime() : 0;
+  const cutoff = Math.max(sevenDaysAgo, clearedAt || 0);
+  return items
+    .filter((item) => new Date(item.createdAt || 0).getTime() >= cutoff)
+    .sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0))
+    .slice(0, 12);
 }
 
 function unreadNotifications() {
