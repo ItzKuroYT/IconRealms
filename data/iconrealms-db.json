@@ -5909,6 +5909,22 @@
         "HyperC19"
       ]
     },
-    "ads": []
+    "ads": [
+      {
+        "id": "acbe4ad1-d058-4897-8d9c-1e7df5d6e1a6",
+        "createdAt": "2026-06-13T05:36:07.565Z",
+        "name": "test",
+        "text": "test",
+        "linkUrl": "https://media.discordapp.net/attachments/1457983900100989122/1514796420354543747/image.png?ex=6a2dfd1a&is=6a2cab9a&hm=9fb95934220475f1ef9cf1f05e72d168456e2f8e6e74c2a282d5b39c0d833a3d&=&format=webp&quality=lossless&width=342&height=176",
+        "mediaUrl": "https://media.discordapp.net/attachments/1457983900100989122/1514796420354543747/image.png?ex=6a2dfd1a&is=6a2cab9a&hm=9fb95934220475f1ef9cf1f05e72d168456e2f8e6e74c2a282d5b39c0d833a3d&=&format=webp&quality=lossless&width=342&height=176",
+        "mediaType": "auto",
+        "placement": "bottom-right",
+        "showOn": "website",
+        "intervalSeconds": 60,
+        "closeDelaySeconds": 1,
+        "enabled": true,
+        "updatedAt": "2026-06-13T05:36:07.565Z"
+      }
+    ]
   }
 }
