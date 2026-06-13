@@ -23,7 +23,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "4687",
@@ -50,7 +51,8 @@
       "lastNotificationSeenAt": "2026-06-11T07:02:01.973Z",
       "webSignupCompleted": false,
       "banned": false,
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "BoscoNoob1234",
@@ -75,7 +77,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "KomaedaDs",
@@ -90,7 +93,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-13T05:42:51.033Z",
+      "lastSeenAt": "2026-06-13T05:47:51.304Z",
       "bio": "Kuro is a femboy",
       "following": [
         "TheStickBoy"
@@ -115,11 +118,11 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-13T05:42:51.033Z",
+          "updatedAt": "2026-06-13T05:47:51.304Z",
           "stats": {
             "prestige": "1700",
             "multiplier": "559.59",
-            "balance": "16.3qa",
+            "balance": "16.6qa",
             "genSlots": "112046",
             "credits": "933",
             "kills": "0",
@@ -129,7 +132,8 @@
             "mc": "7"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "whov",
@@ -154,7 +158,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "FarGloria1998",
@@ -169,7 +174,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-13T05:42:51.033Z",
+      "lastSeenAt": "2026-06-13T05:47:51.304Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -186,7 +191,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-13T05:42:51.033Z",
+          "updatedAt": "2026-06-13T05:47:51.304Z",
           "stats": {
             "prestige": "0",
             "multiplier": "1.00",
@@ -200,7 +205,8 @@
             "mc": "0"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "XxANIExX",
@@ -215,7 +221,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-13T05:42:51.033Z",
+      "lastSeenAt": "2026-06-13T05:47:51.304Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -232,13 +238,13 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-13T05:42:51.033Z",
+          "updatedAt": "2026-06-13T05:47:51.304Z",
           "stats": {
             "prestige": "2100",
             "multiplier": "7562.29",
             "balance": "4.72qa",
             "genSlots": "35587",
-            "credits": "120",
+            "credits": "121",
             "kills": "0",
             "deaths": "0",
             "ac": "693",
@@ -246,7 +252,8 @@
             "mc": "290"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "Champ_is_cool",
@@ -271,7 +278,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "_Abstraxt",
@@ -296,7 +304,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": ".KomaedaDs8258",
@@ -342,7 +351,8 @@
             "mc": "0"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "cat67888",
@@ -367,7 +377,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "MarlowwwsAGuy",
@@ -392,7 +403,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "CallumWidget1",
@@ -417,7 +429,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "youknowwho147",
@@ -442,7 +455,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "ImJust_a_Penguin",
@@ -467,7 +481,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "satan9saint1",
@@ -492,7 +507,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "garygurmin",
@@ -517,7 +533,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Frolly1x",
@@ -542,7 +559,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "MrLuce",
@@ -567,7 +585,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Chaseu09",
@@ -592,7 +611,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "FlameBambik",
@@ -617,7 +637,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "mayberubyninja",
@@ -642,7 +663,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "royuki",
@@ -667,7 +689,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Redben1002",
@@ -692,7 +715,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Sophisticatesnow",
@@ -717,7 +741,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "lukas_336",
@@ -742,7 +767,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "amOUPPY",
@@ -767,7 +793,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "soup_657",
@@ -792,7 +819,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Vioroth",
@@ -817,7 +845,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "KillerZenux",
@@ -842,7 +871,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "NotRavolnix",
@@ -867,7 +897,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "camvampire",
@@ -892,7 +923,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "neiron_ua",
@@ -917,7 +949,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "TannerBob08",
@@ -942,7 +975,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "herbertnr1",
@@ -967,7 +1001,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "KristianOlaf",
@@ -992,7 +1027,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "HARLY345",
@@ -1017,7 +1053,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "CodingJEP",
@@ -1042,7 +1079,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "TheMCP123",
@@ -1067,7 +1105,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "WEarealocohole",
@@ -1092,7 +1131,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "ItzKuro_",
@@ -1153,7 +1193,8 @@
             "mc": "0"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "Utttku",
@@ -1178,7 +1219,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "TheStickBoy",
@@ -1231,7 +1273,8 @@
             "mc": "248"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "Noobie_LOL",
@@ -1289,7 +1332,8 @@
             "mc": "0"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "chub145",
@@ -1314,7 +1358,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "d4rckh",
@@ -1339,7 +1384,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Jellypack",
@@ -1364,7 +1410,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Everwas777",
@@ -1389,7 +1436,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "AL19_",
@@ -1414,7 +1462,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Nike_R",
@@ -1439,7 +1488,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "ItsBacon0",
@@ -1464,7 +1514,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "CoolQuickestRay",
@@ -1489,7 +1540,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Jxssicq",
@@ -1514,7 +1566,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "DuskArt49680634",
@@ -1539,7 +1592,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Wojt4z",
@@ -1564,7 +1618,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "iamabanana123",
@@ -1589,7 +1644,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "BasicallyBryan",
@@ -1614,7 +1670,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "_MrDog",
@@ -1639,7 +1696,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "ElyonEchoMC",
@@ -1664,7 +1722,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Sso_A",
@@ -1689,7 +1748,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Donutboy97",
@@ -1714,7 +1774,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "WreckingShark",
@@ -1729,7 +1790,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-13T05:42:51.033Z",
+      "lastSeenAt": "2026-06-13T05:47:51.304Z",
       "bio": "",
       "following": [],
       "followers": [
@@ -1752,7 +1813,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-13T05:42:51.033Z",
+          "updatedAt": "2026-06-13T05:47:51.304Z",
           "stats": {
             "prestige": "165",
             "multiplier": "206.79",
@@ -1766,7 +1827,8 @@
             "mc": "1"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "Dotiscool11",
@@ -1791,7 +1853,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "corruptionx3d",
@@ -1816,7 +1879,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Szkocja_",
@@ -1852,7 +1916,8 @@
       "lastNotificationSeenAt": "2026-06-11T08:37:27.819Z",
       "webSignupCompleted": false,
       "banned": false,
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "IDontMinecraf",
@@ -1877,7 +1942,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Deretu",
@@ -1902,7 +1968,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "carolistheknight",
@@ -1927,7 +1994,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Titron",
@@ -1952,7 +2020,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "5bmm",
@@ -1979,7 +2048,8 @@
       "lastNotificationSeenAt": "",
       "webSignupCompleted": false,
       "banned": false,
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Critect",
@@ -2004,7 +2074,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "nolman",
@@ -2029,7 +2100,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Sempaai",
@@ -2054,7 +2126,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Devastated_om1",
@@ -2100,7 +2173,8 @@
             "mc": "0"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "SSilly_",
@@ -2125,7 +2199,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "HyperC19",
@@ -2154,7 +2229,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "RakeAMake4",
@@ -2179,7 +2255,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "firegod_zenith",
@@ -2204,7 +2281,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Ghost8797",
@@ -2229,7 +2307,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Pxmpkin_",
@@ -2254,7 +2333,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": ".reinhardtius",
@@ -2279,7 +2359,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Arrmie",
@@ -2304,7 +2385,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "CharlieeMcc",
@@ -2329,7 +2411,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "MVP_AT125AT",
@@ -2354,7 +2437,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "swightnxe1223",
@@ -2379,7 +2463,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "ponczekwk",
@@ -2404,7 +2489,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "SubStellis",
@@ -2429,7 +2515,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "18Fire",
@@ -2454,7 +2541,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": ".wemmbu92535",
@@ -2479,7 +2567,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Maxent_",
@@ -2504,7 +2593,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "_GroxMC_",
@@ -2529,7 +2619,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "PrecutButt",
@@ -2554,7 +2645,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Ryanthesponge",
@@ -2579,7 +2671,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "jus_idk",
@@ -2604,7 +2697,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "iron_m_and_m",
@@ -2629,7 +2723,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "DarkAngel1093",
@@ -2654,7 +2749,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Elitedennis",
@@ -2679,7 +2775,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Fw3than",
@@ -2704,7 +2801,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "flxpper_",
@@ -2729,7 +2827,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Chromebaron",
@@ -2754,7 +2853,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "goingglobe52789",
@@ -2779,7 +2879,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Offline_ItsBro",
@@ -2804,7 +2905,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "AvoidMyRoy",
@@ -2829,7 +2931,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "super_wolfi123",
@@ -2854,7 +2957,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "H4YD3N_2010",
@@ -2879,7 +2983,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "saneME",
@@ -2904,7 +3009,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "CatgirlSkyy_",
@@ -2929,7 +3035,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Verdantsnow",
@@ -2954,7 +3061,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Panickings",
@@ -2979,7 +3087,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "ChickyXamich",
@@ -3004,7 +3113,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "bananboniek",
@@ -3029,7 +3139,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "AyyyKayyy4427",
@@ -3054,7 +3165,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "KrazyKost",
@@ -3079,7 +3191,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "DerSyntaxfehler",
@@ -3104,7 +3217,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "CreatorPringle",
@@ -3129,7 +3243,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "swagmobo",
@@ -3154,7 +3269,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Kaelvorr",
@@ -3179,7 +3295,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Xx_Donk_xX",
@@ -3204,7 +3321,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Flovarya",
@@ -3229,7 +3347,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "ElderlyPanda422",
@@ -3254,7 +3373,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Polance",
@@ -3300,7 +3420,8 @@
             "mc": "0"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "joymichkai",
@@ -3325,7 +3446,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Fire_Thorns",
@@ -3350,7 +3472,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "PhizzMC",
@@ -3375,7 +3498,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "CallMeToy",
@@ -3400,7 +3524,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "AquariaGamez",
@@ -3425,7 +3550,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "N00t_Alex",
@@ -3450,7 +3576,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "SalaryMan0",
@@ -3475,7 +3602,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "DR_KoKosnuss",
@@ -3500,7 +3628,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Jujuthered",
@@ -3525,7 +3654,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "UJTG",
@@ -3550,7 +3680,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "FanDePalexy03",
@@ -3575,7 +3706,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Random8261",
@@ -3623,7 +3755,8 @@
             "mc": "8"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "ziggy3612",
@@ -3648,7 +3781,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "clonebuilder",
@@ -3673,7 +3807,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "LuckyLuke5829",
@@ -3698,7 +3833,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "SimplyBrax",
@@ -3723,7 +3859,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "copyedjava",
@@ -3748,7 +3885,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Bankroll1",
@@ -3773,7 +3911,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": ".Sigamer7257",
@@ -3798,7 +3937,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Jaeismehehe",
@@ -3823,7 +3963,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "r0ntavious",
@@ -3848,7 +3989,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "MegaOfMonkey",
@@ -3873,7 +4015,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Unlucky_IX",
@@ -3898,7 +4041,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Pokemoncatcher4",
@@ -3923,7 +4067,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Tysk_",
@@ -3948,7 +4093,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "3zac",
@@ -3973,7 +4119,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Nexero",
@@ -3998,7 +4145,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "ztue",
@@ -4023,7 +4171,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "Eve_TheCuteBee",
@@ -4069,7 +4218,8 @@
             "mc": "0"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "7B2",
@@ -4115,7 +4265,8 @@
             "mc": "0"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "Frostled",
@@ -4140,7 +4291,8 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "",
-      "statsByServer": {}
+      "statsByServer": {},
+      "notificationClearedAt": ""
     },
     {
       "username": "36Kp",
@@ -4186,7 +4338,8 @@
             "mc": "0"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "LittleSoyPod",
@@ -4232,7 +4385,8 @@
             "mc": "0"
           }
         }
-      }
+      },
+      "notificationClearedAt": ""
     },
     {
       "username": "kalose",
@@ -4278,7 +4432,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "Itzrealad",
@@ -4324,7 +4479,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "_ORT_Vipezz",
@@ -4370,7 +4526,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "Simo_7way",
@@ -4416,7 +4573,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "67_b",
@@ -4462,7 +4620,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "xBedwars",
@@ -4508,7 +4667,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "lolcas_ch",
@@ -4554,7 +4714,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "Ecl1pse74",
@@ -4600,7 +4761,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "_Mrboomber",
@@ -4646,7 +4808,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "AKSaKbR",
@@ -4692,7 +4855,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "BroCreeper_Playz",
@@ -4738,7 +4902,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "Tudinozaur",
@@ -4784,7 +4949,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "Bajo",
@@ -4830,7 +4996,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "RosesForMe",
@@ -4876,7 +5043,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "CraftyQueen26",
@@ -4922,7 +5090,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "Carrotts4all",
@@ -4968,7 +5137,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "YardenG2008",
@@ -5014,7 +5184,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "nyxrr",
@@ -5060,7 +5231,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "SpindlingSaturn",
@@ -5106,7 +5278,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "bipplesteen99rs",
@@ -5152,7 +5325,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "STARWINGSX",
@@ -5198,7 +5372,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "_Critx_",
@@ -5244,7 +5419,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "FrostBiteKnight",
@@ -5290,7 +5466,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "RyRyBodeMode",
@@ -5336,7 +5513,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "TerminatedUser",
@@ -5382,7 +5560,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "derFeint",
@@ -5428,7 +5607,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "Neme0925",
@@ -5474,7 +5654,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     },
     {
       "username": "AshySomm",
@@ -5520,7 +5701,8 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": ""
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     }
   ],
   "threads": [
@@ -5766,7 +5948,7 @@
           "stats": {
             "prestige": "1700",
             "multiplier": "559.59",
-            "balance": "16.3qa",
+            "balance": "16.6qa",
             "genSlots": "112046",
             "credits": "933",
             "kills": "0",
@@ -5825,7 +6007,7 @@
             "multiplier": "7562.29",
             "balance": "4.72qa",
             "genSlots": "35587",
-            "credits": "120",
+            "credits": "121",
             "kills": "0",
             "deaths": "0",
             "ac": "693",
@@ -5838,13 +6020,13 @@
       ],
       "onlineCount": 4,
       "maxPlayers": 500,
-      "tps": 20.000000896253162,
-      "pingMs": 171,
-      "averagePlayerPingMs": 114,
-      "uptimeMs": 8281949,
+      "tps": 19.999998807327298,
+      "pingMs": 139,
+      "averagePlayerPingMs": 116,
+      "uptimeMs": 8582192,
       "lastRestartAt": "2026-06-13T03:24:48.956Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-13T05:42:51.033Z"
+      "lastHeartbeatAt": "2026-06-13T05:47:51.304Z"
     }
   },
   "site": {
