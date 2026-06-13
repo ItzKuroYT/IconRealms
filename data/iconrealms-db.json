@@ -90,7 +90,7 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "VIP+",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-13T19:33:40.394Z",
@@ -171,7 +171,7 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-13T19:33:40.394Z",
@@ -218,7 +218,7 @@
       "createdAt": "2026-06-10T04:40:24.830Z",
       "joinedAt": "2026-06-10T04:40:24.830Z",
       "rank": "Iconic",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-13T19:33:40.394Z",
@@ -317,7 +317,7 @@
       "createdAt": "2026-06-10T06:48:01.285Z",
       "joinedAt": "2026-06-10T06:48:01.285Z",
       "rank": "hero",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-13T19:33:40.394Z",
@@ -2202,7 +2202,7 @@
       "createdAt": "2026-06-11T03:11:19.780Z",
       "joinedAt": "2026-06-11T03:11:19.780Z",
       "rank": "hero",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-13T19:33:40.394Z",
@@ -5986,7 +5986,7 @@
       "createdAt": "2026-06-13T11:21:59.398Z",
       "joinedAt": "2026-06-13T11:21:59.398Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-13T19:33:40.394Z",
@@ -6674,7 +6674,7 @@
       "ip": "icongen.minehut.gg",
       "maxPlayersEver": 13,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
-      "online": true,
+      "online": false,
       "players": [
         {
           "username": "FarGloria1998",
@@ -6879,8 +6879,8 @@
         "showOn": "website",
         "intervalSeconds": 60,
         "closeDelaySeconds": 1,
-        "enabled": true,
-        "updatedAt": "2026-06-13T05:36:07.565Z"
+        "enabled": false,
+        "updatedAt": "2026-06-13T19:38:40.051Z"
       }
     ]
   }
