@@ -7050,7 +7050,7 @@
       "ip": "icongen.minehut.gg",
       "maxPlayersEver": 13,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
-      "online": true,
+      "online": false,
       "players": [],
       "onlineCount": 0,
       "maxPlayers": 500,
@@ -7061,6 +7061,24 @@
       "lastRestartAt": "2026-06-14T03:45:25.459Z",
       "lastCrashAt": "",
       "lastHeartbeatAt": "2026-06-14T03:45:42.021Z"
+    },
+    "iconminez-minehut-gg": {
+      "id": "iconminez-minehut-gg",
+      "name": "iconminez.minehut.gg",
+      "ip": "iconminez.minehut.gg",
+      "maxPlayersEver": 0,
+      "firstSeenAt": "2026-06-14T03:47:13.947Z",
+      "online": true,
+      "players": [],
+      "onlineCount": 0,
+      "maxPlayers": 10,
+      "tps": 26.355906245552074,
+      "pingMs": 0,
+      "averagePlayerPingMs": 0,
+      "uptimeMs": 7793,
+      "lastRestartAt": "2026-06-14T03:47:06.007Z",
+      "lastCrashAt": "",
+      "lastHeartbeatAt": "2026-06-14T03:47:13.947Z"
     }
   },
   "site": {
