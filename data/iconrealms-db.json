@@ -7054,13 +7054,13 @@
       "players": [],
       "onlineCount": 0,
       "maxPlayers": 500,
-      "tps": 20.000002765695637,
-      "pingMs": 340,
+      "tps": 23.58604036772036,
+      "pingMs": 0,
       "averagePlayerPingMs": 0,
-      "uptimeMs": 76159,
-      "lastRestartAt": "2026-06-14T03:38:59.603Z",
+      "uptimeMs": 16294,
+      "lastRestartAt": "2026-06-14T03:45:25.459Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-14T03:40:16.005Z"
+      "lastHeartbeatAt": "2026-06-14T03:45:42.021Z"
     }
   },
   "site": {
