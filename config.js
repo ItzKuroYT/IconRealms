@@ -14,7 +14,7 @@ const IconRealmsConfig = {
     // Localhost still uses the local dev server API automatically.
     baseUrl: "https://icon-realms.vercel.app"
   },
-  administrators: ["TheStickBoy", "ItzKuro_", "ItsBurb_"],
+  administrators: ["TheStickBoy", "ItzKuro_", "ItsBurb_", "Noobie_LOL"],
   discord: {
     guildId: "1457983897936855199",
     theme: "dark"
@@ -106,12 +106,12 @@ const IconRealmsConfig = {
       ip: "icongen.minehut.gg"
     },
     {
-      id: "iconsmash",
-      name: "IconSmash",
+      id: "iconminez",
+      name: "IconMinez",
       tag: "In planning",
-      description: "Gens and mace PvP.",
-      serverName: "IconSmash",
-      ip: "play.iconrealms.net"
+      description: "Box PVP and mining",
+      serverName: "IconMinez",
+      ip: "iconminez.minehut.gg"
     },
     {
       id: "iconkits",
@@ -148,7 +148,10 @@ const IconRealmsConfig = {
     { key: "deaths", label: "Deaths", gamemodeId: "icongens" },
     { key: "ac", label: "AC", gamemodeId: "icongens" },
     { key: "fc", label: "FC", gamemodeId: "icongens" },
-    { key: "mc", label: "MC", gamemodeId: "icongens" }
+    { key: "mc", label: "MC", gamemodeId: "icongens" },
+    { key: "kills", label: "Kills", gamemodeId: "iconminez" },
+    { key: "deaths", label: "Deaths", gamemodeId: "iconminez" }
+
   ],
   staffRanks: [
     ["Owner", "#ff0000"],
@@ -192,9 +195,9 @@ const IconRealmsConfig = {
     { id: "newsletter", categoryId: "news", name: "Newsletter", description: "Website news posts shown on the News page", locked: true },
     { id: "rules", categoryId: "news", name: "Rules", description: "Server and community rules", locked: true },
     { id: "icongens", categoryId: "gamemodes", name: "IconGens", description: "Farming and gens discussion", locked: false },
-    { id: "iconsmash", categoryId: "gamemodes", name: "IconSmash", description: "Gens and mace PvP planning", locked: false },
-    { id: "iconkits", categoryId: "gamemodes", name: "IconKits", description: "Randomkit PvP planning", locked: false },
-    { id: "iconsmp", categoryId: "gamemodes", name: "IconSmp", description: "Survival server planning", locked: false },
+    { id: "iconminez", categoryId: "gamemodes", name: "iconminez", description: "BoxPVP and mining", locked: false },
+    { id: "iconkits", categoryId: "gamemodes", name: "IconKits", description: "Randomkit PvP", locked: false },
+    { id: "iconsmp", categoryId: "gamemodes", name: "IconSmp", description: "Survival server", locked: false },
     { id: "icongamez", categoryId: "gamemodes", name: "IconGamez", description: "Minigames concept planning", locked: false },
     { id: "general", categoryId: "community", name: "General", description: "Talk about anything server related", locked: false },
     { id: "media", categoryId: "community", name: "Media", description: "Share your IconRealms media", locked: false },
