@@ -7145,17 +7145,17 @@
       "ip": "iconminez.minehut.gg",
       "maxPlayersEver": 0,
       "firstSeenAt": "2026-06-14T03:47:13.947Z",
-      "online": false,
+      "online": true,
       "players": [],
       "onlineCount": 0,
       "maxPlayers": 10,
-      "tps": 26.355906245552074,
-      "pingMs": 0,
+      "tps": 19.999997808493163,
+      "pingMs": 83,
       "averagePlayerPingMs": 0,
-      "uptimeMs": 7793,
+      "uptimeMs": 307843,
       "lastRestartAt": "2026-06-14T03:47:06.007Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-14T03:47:13.947Z"
+      "lastHeartbeatAt": "2026-06-14T03:52:13.982Z"
     }
   },
   "site": {
