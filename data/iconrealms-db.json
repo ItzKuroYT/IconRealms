@@ -8122,7 +8122,7 @@
       "createdAt": "2026-06-15T07:35:18.599Z",
       "joinedAt": "2026-06-15T07:35:18.599Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-15T09:12:54.096Z",
@@ -8435,36 +8435,16 @@
       "maxPlayersEver": 13,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
       "online": true,
-      "players": [
-        {
-          "username": "Appelkoning",
-          "uuid": "3ac33649-ab9e-4da7-9bb4-961c42e5c5cc",
-          "rank": "default",
-          "stats": {
-            "prestige": "3",
-            "multiplier": "1.15",
-            "balance": "47.1k",
-            "genSlots": "14",
-            "credits": "7",
-            "kills": "0",
-            "deaths": "0",
-            "ac": "149",
-            "fc": "0",
-            "mc": "0",
-            "_gamemodeId": "icongens",
-            "_gamemodeName": "IconGens"
-          }
-        }
-      ],
-      "onlineCount": 1,
+      "players": [],
+      "onlineCount": 0,
       "maxPlayers": 500,
-      "tps": 20.00000273871811,
-      "pingMs": 220,
-      "averagePlayerPingMs": 128,
-      "uptimeMs": 106048413,
+      "tps": 15.07077096409466,
+      "pingMs": 243,
+      "averagePlayerPingMs": 0,
+      "uptimeMs": 106377990,
       "lastRestartAt": "2026-06-14T03:45:25.459Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-15T09:12:54.096Z"
+      "lastHeartbeatAt": "2026-06-15T09:18:23.743Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
