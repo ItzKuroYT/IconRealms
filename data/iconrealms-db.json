@@ -8263,7 +8263,7 @@
       "createdAt": "2026-06-15T14:22:38.995Z",
       "joinedAt": "2026-06-15T14:22:38.995Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-15T14:50:08.977Z",
@@ -8576,36 +8576,16 @@
       "maxPlayersEver": 13,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
       "online": true,
-      "players": [
-        {
-          "username": "red_zaba",
-          "uuid": "0c22c366-133d-4944-97ec-5e2bf911a55b",
-          "rank": "default",
-          "stats": {
-            "prestige": "0",
-            "multiplier": "1.00",
-            "balance": "47k",
-            "genSlots": "5",
-            "credits": "0",
-            "kills": "0",
-            "deaths": "0",
-            "ac": "7",
-            "fc": "0",
-            "mc": "0",
-            "_gamemodeId": "icongens",
-            "_gamemodeName": "IconGens"
-          }
-        }
-      ],
-      "onlineCount": 1,
+      "players": [],
+      "onlineCount": 0,
       "maxPlayers": 500,
-      "tps": 19.999999275603688,
-      "pingMs": 243,
-      "averagePlayerPingMs": 122,
-      "uptimeMs": 1996153,
+      "tps": 19.999995694588772,
+      "pingMs": 252,
+      "averagePlayerPingMs": 0,
+      "uptimeMs": 2296140,
       "lastRestartAt": "2026-06-15T14:16:52.562Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-15T14:50:08.977Z"
+      "lastHeartbeatAt": "2026-06-15T14:55:09.080Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
