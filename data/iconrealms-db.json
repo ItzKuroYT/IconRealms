@@ -221,7 +221,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-18T13:48:05.212Z",
+      "lastSeenAt": "2026-06-18T13:53:05.271Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -238,7 +238,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-18T13:48:05.212Z",
+          "updatedAt": "2026-06-18T13:53:05.271Z",
           "stats": {
             "prestige": "2100",
             "multiplier": "7562.29",
@@ -8825,7 +8825,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-18T13:48:05.212Z",
+      "lastSeenAt": "2026-06-18T13:53:05.271Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -8833,7 +8833,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-18T13:48:05.212Z",
+          "updatedAt": "2026-06-18T13:53:05.271Z",
           "stats": {
             "prestige": "1",
             "multiplier": "1.05",
@@ -9389,7 +9389,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-18T13:48:05.212Z",
+      "lastSeenAt": "2026-06-18T13:53:05.271Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -9397,16 +9397,16 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-18T13:48:05.212Z",
+          "updatedAt": "2026-06-18T13:53:05.271Z",
           "stats": {
-            "prestige": "710",
-            "multiplier": "205.38",
-            "balance": "1t",
-            "genSlots": "5858",
+            "prestige": "735",
+            "multiplier": "208.13",
+            "balance": "1.46t",
+            "genSlots": "5933",
             "credits": "65",
             "kills": "0",
             "deaths": "2",
-            "ac": "2010",
+            "ac": "2182",
             "fc": "0",
             "mc": "8"
           }
@@ -9530,7 +9530,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-18T13:48:05.212Z",
+      "lastSeenAt": "2026-06-18T13:53:05.271Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -9538,7 +9538,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-18T13:48:05.212Z",
+          "updatedAt": "2026-06-18T13:53:05.271Z",
           "stats": {
             "prestige": "0",
             "multiplier": "1.00",
@@ -10138,7 +10138,7 @@
       "createdAt": "2026-06-18T13:48:05.212Z",
       "joinedAt": "2026-06-18T13:48:05.212Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-18T13:48:05.212Z",
@@ -10448,14 +10448,14 @@
           "uuid": "c80214a7-80ba-4626-9886-69af1479f32f",
           "rank": "hero",
           "stats": {
-            "prestige": "710",
-            "multiplier": "205.38",
-            "balance": "1t",
-            "genSlots": "5858",
+            "prestige": "735",
+            "multiplier": "208.13",
+            "balance": "1.46t",
+            "genSlots": "5933",
             "credits": "65",
             "kills": "0",
             "deaths": "2",
-            "ac": "2010",
+            "ac": "2182",
             "fc": "0",
             "mc": "8",
             "_gamemodeId": "icongens",
@@ -10480,36 +10480,17 @@
             "_gamemodeId": "icongens",
             "_gamemodeName": "IconGens"
           }
-        },
-        {
-          "username": "samOzO",
-          "uuid": "f3351167-f9b0-49f1-b961-26ddbe23333a",
-          "rank": "default",
-          "stats": {
-            "prestige": "0",
-            "multiplier": "1.00",
-            "balance": "290",
-            "genSlots": "5",
-            "credits": "0",
-            "kills": "0",
-            "deaths": "0",
-            "ac": "11",
-            "fc": "0",
-            "mc": "0",
-            "_gamemodeId": "icongens",
-            "_gamemodeName": "IconGens"
-          }
         }
       ],
-      "onlineCount": 5,
+      "onlineCount": 4,
       "maxPlayers": 500,
-      "tps": 19.999999722231475,
-      "pingMs": 207,
-      "averagePlayerPingMs": 164,
-      "uptimeMs": 221727279,
+      "tps": 20.00000230141575,
+      "pingMs": 196,
+      "averagePlayerPingMs": 125,
+      "uptimeMs": 222027328,
       "lastRestartAt": "2026-06-16T00:12:37.744Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-18T13:48:05.212Z"
+      "lastHeartbeatAt": "2026-06-18T13:53:05.271Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
