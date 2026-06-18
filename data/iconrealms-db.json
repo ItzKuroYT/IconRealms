@@ -10611,7 +10611,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-18T23:42:18.185Z",
+      "lastSeenAt": "2026-06-18T23:47:48.139Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -10619,11 +10619,11 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-18T23:42:18.185Z",
+          "updatedAt": "2026-06-18T23:47:48.139Z",
           "stats": {
             "prestige": "1",
             "multiplier": "1.05",
-            "balance": "1.91m",
+            "balance": "1.95m",
             "genSlots": "8",
             "credits": "5",
             "kills": "0",
@@ -11020,6 +11020,53 @@
       },
       "lastNotificationSeenAt": "",
       "notificationClearedAt": ""
+    },
+    {
+      "username": "__Zeko",
+      "uuid": "ed34111e-dee9-4194-9687-821a75139032",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/__Zeko/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-18T23:47:48.139Z",
+      "joinedAt": "2026-06-18T23:47:48.139Z",
+      "rank": "default",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-18T23:47:48.139Z",
+      "statsByServer": {
+        "icongen-minehut-gg": {
+          "serverId": "icongen-minehut-gg",
+          "serverName": "icongen.minehut.gg",
+          "serverIp": "icongen.minehut.gg",
+          "gamemodeId": "icongens",
+          "gamemodeName": "IconGens",
+          "updatedAt": "2026-06-18T23:47:48.139Z",
+          "stats": {
+            "prestige": "0",
+            "multiplier": "1.00",
+            "balance": "1k",
+            "genSlots": "5",
+            "credits": "0",
+            "kills": "0",
+            "deaths": "0",
+            "ac": "0",
+            "fc": "0",
+            "mc": "0"
+          }
+        }
+      },
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     }
   ],
   "threads": [
@@ -11258,7 +11305,7 @@
           "stats": {
             "prestige": "1",
             "multiplier": "1.05",
-            "balance": "1.91m",
+            "balance": "1.95m",
             "genSlots": "8",
             "credits": "5",
             "kills": "0",
@@ -11269,17 +11316,36 @@
             "_gamemodeId": "icongens",
             "_gamemodeName": "IconGens"
           }
+        },
+        {
+          "username": "__Zeko",
+          "uuid": "ed34111e-dee9-4194-9687-821a75139032",
+          "rank": "default",
+          "stats": {
+            "prestige": "0",
+            "multiplier": "1.00",
+            "balance": "1k",
+            "genSlots": "5",
+            "credits": "0",
+            "kills": "0",
+            "deaths": "0",
+            "ac": "0",
+            "fc": "0",
+            "mc": "0",
+            "_gamemodeId": "icongens",
+            "_gamemodeName": "IconGens"
+          }
         }
       ],
-      "onlineCount": 1,
+      "onlineCount": 2,
       "maxPlayers": 500,
-      "tps": 20.000000044962533,
-      "pingMs": 160,
-      "averagePlayerPingMs": 108,
-      "uptimeMs": 257380189,
+      "tps": 20.00000387677011,
+      "pingMs": 179,
+      "averagePlayerPingMs": 132,
+      "uptimeMs": 257710193,
       "lastRestartAt": "2026-06-16T00:12:37.744Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-18T23:42:18.185Z"
+      "lastHeartbeatAt": "2026-06-18T23:47:48.139Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
