@@ -221,7 +221,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-18T02:30:18.595Z",
+      "lastSeenAt": "2026-06-18T02:35:18.695Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -238,7 +238,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-18T02:30:18.595Z",
+          "updatedAt": "2026-06-18T02:35:18.695Z",
           "stats": {
             "prestige": "2100",
             "multiplier": "7562.29",
@@ -8825,7 +8825,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-18T02:30:18.595Z",
+      "lastSeenAt": "2026-06-18T02:35:18.695Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -8833,7 +8833,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-18T02:30:18.595Z",
+          "updatedAt": "2026-06-18T02:35:18.695Z",
           "stats": {
             "prestige": "1",
             "multiplier": "1.05",
@@ -9389,7 +9389,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-18T02:30:18.595Z",
+      "lastSeenAt": "2026-06-18T02:35:18.695Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -9397,11 +9397,11 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-18T02:30:18.595Z",
+          "updatedAt": "2026-06-18T02:35:18.695Z",
           "stats": {
             "prestige": "184",
             "multiplier": "151.33",
-            "balance": "4b",
+            "balance": "3.11b",
             "genSlots": "4280",
             "credits": "65",
             "kills": "0",
@@ -9621,7 +9621,7 @@
       "createdAt": "2026-06-18T02:30:18.595Z",
       "joinedAt": "2026-06-18T02:30:18.595Z",
       "rank": "default",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-18T02:30:18.595Z",
@@ -9633,6 +9633,53 @@
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
           "updatedAt": "2026-06-18T02:30:18.595Z",
+          "stats": {
+            "prestige": "0",
+            "multiplier": "1.00",
+            "balance": "1k",
+            "genSlots": "5",
+            "credits": "0",
+            "kills": "0",
+            "deaths": "0",
+            "ac": "0",
+            "fc": "0",
+            "mc": "0"
+          }
+        }
+      },
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
+    },
+    {
+      "username": "DryCeral",
+      "uuid": "60546ffd-7875-4ae9-ac18-e644c7551d13",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/DryCeral/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-18T02:35:18.695Z",
+      "joinedAt": "2026-06-18T02:35:18.695Z",
+      "rank": "default",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-18T02:35:18.695Z",
+      "statsByServer": {
+        "icongen-minehut-gg": {
+          "serverId": "icongen-minehut-gg",
+          "serverName": "icongen.minehut.gg",
+          "serverIp": "icongen.minehut.gg",
+          "gamemodeId": "icongens",
+          "gamemodeName": "IconGens",
+          "updatedAt": "2026-06-18T02:35:18.695Z",
           "stats": {
             "prestige": "0",
             "multiplier": "1.00",
@@ -9933,7 +9980,7 @@
           "stats": {
             "prestige": "184",
             "multiplier": "151.33",
-            "balance": "4b",
+            "balance": "3.11b",
             "genSlots": "4280",
             "credits": "65",
             "kills": "0",
@@ -9946,8 +9993,8 @@
           }
         },
         {
-          "username": "KazoKB",
-          "uuid": "5eb8f38c-7ef6-403e-9fca-9fb29e4709d5",
+          "username": "DryCeral",
+          "uuid": "60546ffd-7875-4ae9-ac18-e644c7551d13",
           "rank": "default",
           "stats": {
             "prestige": "0",
@@ -9967,13 +10014,13 @@
       ],
       "onlineCount": 4,
       "maxPlayers": 500,
-      "tps": 20.00000115070781,
-      "pingMs": 162,
-      "averagePlayerPingMs": 124,
-      "uptimeMs": 181060674,
+      "tps": 19.98334762064087,
+      "pingMs": 151,
+      "averagePlayerPingMs": 118,
+      "uptimeMs": 181360769,
       "lastRestartAt": "2026-06-16T00:12:37.744Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-18T02:30:18.595Z"
+      "lastHeartbeatAt": "2026-06-18T02:35:18.695Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
