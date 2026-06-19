@@ -221,7 +221,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-19T12:41:41.523Z",
+      "lastSeenAt": "2026-06-19T12:46:45.150Z",
       "bio": "",
       "following": [],
       "followers": [],
@@ -238,7 +238,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-19T12:41:41.523Z",
+          "updatedAt": "2026-06-19T12:46:45.150Z",
           "stats": {
             "prestige": "2100",
             "multiplier": "7562.29",
@@ -11102,7 +11102,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-19T12:41:41.523Z",
+      "lastSeenAt": "2026-06-19T12:46:45.150Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -11110,7 +11110,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-19T12:41:41.523Z",
+          "updatedAt": "2026-06-19T12:46:45.150Z",
           "stats": {
             "prestige": "1",
             "multiplier": "1.05",
@@ -11525,7 +11525,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-19T12:41:41.523Z",
+      "lastSeenAt": "2026-06-19T12:46:45.150Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -11533,16 +11533,63 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-19T12:41:41.523Z",
+          "updatedAt": "2026-06-19T12:46:45.150Z",
           "stats": {
-            "prestige": "2",
-            "multiplier": "1.10",
+            "prestige": "3",
+            "multiplier": "1.15",
             "balance": "8.43k",
-            "genSlots": "11",
+            "genSlots": "14",
+            "credits": "1",
+            "kills": "0",
+            "deaths": "0",
+            "ac": "559",
+            "fc": "0",
+            "mc": "0"
+          }
+        }
+      },
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
+    },
+    {
+      "username": "TumoralElk478",
+      "uuid": "cd245e63-0d37-469a-bd90-337aa8d5cded",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/TumoralElk478/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-19T12:46:45.150Z",
+      "joinedAt": "2026-06-19T12:46:45.150Z",
+      "rank": "default",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-19T12:46:45.150Z",
+      "statsByServer": {
+        "icongen-minehut-gg": {
+          "serverId": "icongen-minehut-gg",
+          "serverName": "icongen.minehut.gg",
+          "serverIp": "icongen.minehut.gg",
+          "gamemodeId": "icongens",
+          "gamemodeName": "IconGens",
+          "updatedAt": "2026-06-19T12:46:45.150Z",
+          "stats": {
+            "prestige": "0",
+            "multiplier": "1.00",
+            "balance": "1k",
+            "genSlots": "5",
             "credits": "0",
             "kills": "0",
             "deaths": "0",
-            "ac": "379",
+            "ac": "2",
             "fc": "0",
             "mc": "0"
           }
@@ -11832,14 +11879,33 @@
           "uuid": "d6400d17-b92e-4ca0-ae00-e173e59b06df",
           "rank": "default",
           "stats": {
-            "prestige": "2",
-            "multiplier": "1.10",
+            "prestige": "3",
+            "multiplier": "1.15",
             "balance": "8.43k",
-            "genSlots": "11",
+            "genSlots": "14",
+            "credits": "1",
+            "kills": "0",
+            "deaths": "0",
+            "ac": "559",
+            "fc": "0",
+            "mc": "0",
+            "_gamemodeId": "icongens",
+            "_gamemodeName": "IconGens"
+          }
+        },
+        {
+          "username": "TumoralElk478",
+          "uuid": "cd245e63-0d37-469a-bd90-337aa8d5cded",
+          "rank": "default",
+          "stats": {
+            "prestige": "0",
+            "multiplier": "1.00",
+            "balance": "1k",
+            "genSlots": "5",
             "credits": "0",
             "kills": "0",
             "deaths": "0",
-            "ac": "379",
+            "ac": "2",
             "fc": "0",
             "mc": "0",
             "_gamemodeId": "icongens",
@@ -11847,15 +11913,15 @@
           }
         }
       ],
-      "onlineCount": 3,
+      "onlineCount": 4,
       "maxPlayers": 500,
-      "tps": 19.282214256206252,
-      "pingMs": 260,
-      "averagePlayerPingMs": 133,
-      "uptimeMs": 304143610,
+      "tps": 19.99999917202335,
+      "pingMs": 181,
+      "averagePlayerPingMs": 128,
+      "uptimeMs": 304447215,
       "lastRestartAt": "2026-06-16T00:12:37.744Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-19T12:41:41.523Z"
+      "lastHeartbeatAt": "2026-06-19T12:46:45.150Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
