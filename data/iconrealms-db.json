@@ -10611,7 +10611,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-19T03:41:29.756Z",
+      "lastSeenAt": "2026-06-19T03:46:29.764Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -10619,11 +10619,11 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-19T03:41:29.756Z",
+          "updatedAt": "2026-06-19T03:46:29.764Z",
           "stats": {
             "prestige": "1",
             "multiplier": "1.05",
-            "balance": "3.59m",
+            "balance": "3.63m",
             "genSlots": "8",
             "credits": "5",
             "kills": "0",
@@ -11081,7 +11081,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-19T03:41:29.756Z",
+      "lastSeenAt": "2026-06-19T03:46:29.764Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -11089,7 +11089,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-19T03:41:29.756Z",
+          "updatedAt": "2026-06-19T03:46:29.764Z",
           "stats": {
             "prestige": "1",
             "multiplier": "1.05",
@@ -11446,7 +11446,7 @@
           "stats": {
             "prestige": "1",
             "multiplier": "1.05",
-            "balance": "3.59m",
+            "balance": "3.63m",
             "genSlots": "8",
             "credits": "5",
             "kills": "0",
@@ -11480,13 +11480,13 @@
       ],
       "onlineCount": 2,
       "maxPlayers": 500,
-      "tps": 19.999996718068815,
-      "pingMs": 160,
-      "averagePlayerPingMs": 88,
-      "uptimeMs": 271731846,
+      "tps": 19.99999942481267,
+      "pingMs": 155,
+      "averagePlayerPingMs": 97,
+      "uptimeMs": 272031850,
       "lastRestartAt": "2026-06-16T00:12:37.744Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-19T03:41:29.756Z"
+      "lastHeartbeatAt": "2026-06-19T03:46:29.764Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
