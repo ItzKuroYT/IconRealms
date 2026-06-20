@@ -1273,7 +1273,7 @@
       "createdAt": "2026-06-10T19:19:08.407Z",
       "joinedAt": "2026-06-10T19:19:08.407Z",
       "rank": "Owner",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-20T20:22:46.606Z",
@@ -13245,36 +13245,16 @@
       "maxPlayersEver": 13,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
       "online": true,
-      "players": [
-        {
-          "username": "TheStickBoy",
-          "uuid": "373f4753-733b-4f0e-bf10-442b5721ae2f",
-          "rank": "Owner",
-          "stats": {
-            "prestige": "0",
-            "multiplier": "1.00",
-            "balance": "1k",
-            "genSlots": "5",
-            "credits": "75",
-            "kills": "0",
-            "deaths": "0",
-            "ac": "0",
-            "fc": "0",
-            "mc": "0",
-            "_gamemodeId": "icongens",
-            "_gamemodeName": "IconGens"
-          }
-        }
-      ],
-      "onlineCount": 1,
+      "players": [],
+      "onlineCount": 0,
       "maxPlayers": 500,
-      "tps": 19.999999364862635,
-      "pingMs": 154,
-      "averagePlayerPingMs": 81,
-      "uptimeMs": 2236488,
-      "lastRestartAt": "2026-06-20T19:45:29.913Z",
+      "tps": 20.156253854531915,
+      "pingMs": 232,
+      "averagePlayerPingMs": 0,
+      "uptimeMs": 47276,
+      "lastRestartAt": "2026-06-20T20:27:15.089Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-20T20:22:46.606Z"
+      "lastHeartbeatAt": "2026-06-20T20:28:02.561Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
