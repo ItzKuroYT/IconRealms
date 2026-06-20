@@ -1276,7 +1276,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-20T18:34:07.008Z",
+      "lastSeenAt": "2026-06-20T18:39:07.185Z",
       "bio": "",
       "following": [],
       "followers": [
@@ -1300,7 +1300,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-20T18:34:07.008Z",
+          "updatedAt": "2026-06-20T18:39:07.185Z",
           "stats": {
             "prestige": "0",
             "multiplier": "1.00",
@@ -13268,13 +13268,13 @@
       ],
       "onlineCount": 1,
       "maxPlayers": 500,
-      "tps": 19.99999393372374,
-      "pingMs": 162,
-      "averagePlayerPingMs": 62,
-      "uptimeMs": 1455679,
+      "tps": 20.000001433139154,
+      "pingMs": 147,
+      "averagePlayerPingMs": 79,
+      "uptimeMs": 1755676,
       "lastRestartAt": "2026-06-20T18:09:51.128Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-20T18:34:07.008Z"
+      "lastHeartbeatAt": "2026-06-20T18:39:07.185Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
