@@ -1273,10 +1273,10 @@
       "createdAt": "2026-06-10T19:19:08.407Z",
       "joinedAt": "2026-06-10T19:19:08.407Z",
       "rank": "Owner",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-20T20:22:46.606Z",
+      "lastSeenAt": "2026-06-20T21:14:18.799Z",
       "bio": "",
       "following": [],
       "followers": [
@@ -1300,7 +1300,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-20T20:22:46.606Z",
+          "updatedAt": "2026-06-20T21:14:18.799Z",
           "stats": {
             "prestige": "0",
             "multiplier": "1.00",
@@ -13245,16 +13245,36 @@
       "maxPlayersEver": 13,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
       "online": true,
-      "players": [],
-      "onlineCount": 0,
+      "players": [
+        {
+          "username": "TheStickBoy",
+          "uuid": "373f4753-733b-4f0e-bf10-442b5721ae2f",
+          "rank": "Owner",
+          "stats": {
+            "prestige": "0",
+            "multiplier": "1.00",
+            "balance": "1k",
+            "genSlots": "5",
+            "credits": "75",
+            "kills": "0",
+            "deaths": "0",
+            "ac": "0",
+            "fc": "0",
+            "mc": "0",
+            "_gamemodeId": "icongens",
+            "_gamemodeName": "IconGens"
+          }
+        }
+      ],
+      "onlineCount": 1,
       "maxPlayers": 500,
-      "tps": 19.9999960029983,
-      "pingMs": 155,
+      "tps": 20.000016677449377,
+      "pingMs": 213,
       "averagePlayerPingMs": 0,
-      "uptimeMs": 323648,
-      "lastRestartAt": "2026-06-20T21:03:39.412Z",
+      "uptimeMs": 75518,
+      "lastRestartAt": "2026-06-20T21:13:03.085Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-20T21:09:03.213Z"
+      "lastHeartbeatAt": "2026-06-20T21:14:18.799Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
