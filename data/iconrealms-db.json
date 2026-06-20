@@ -1276,7 +1276,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-20T22:13:35.206Z",
+      "lastSeenAt": "2026-06-20T22:19:05.193Z",
       "bio": "",
       "following": [],
       "followers": [
@@ -1300,7 +1300,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-20T22:13:35.206Z",
+          "updatedAt": "2026-06-20T22:19:05.193Z",
           "stats": {
             "prestige": "28",
             "multiplier": "2.40",
@@ -1330,7 +1330,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-20T22:13:35.206Z",
+      "lastSeenAt": "2026-06-20T22:19:05.193Z",
       "bio": "Stay Noobie!",
       "following": [
         "TheStickBoy",
@@ -1359,7 +1359,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-20T22:13:35.206Z",
+          "updatedAt": "2026-06-20T22:19:05.193Z",
           "stats": {
             "prestige": "0",
             "multiplier": "1.00",
@@ -13247,25 +13247,6 @@
       "online": true,
       "players": [
         {
-          "username": "TheStickBoy",
-          "uuid": "373f4753-733b-4f0e-bf10-442b5721ae2f",
-          "rank": "Owner",
-          "stats": {
-            "prestige": "28",
-            "multiplier": "2.40",
-            "balance": "1k",
-            "genSlots": "89",
-            "credits": "75",
-            "kills": "0",
-            "deaths": "1",
-            "ac": "0",
-            "fc": "0",
-            "mc": "0",
-            "_gamemodeId": "icongens",
-            "_gamemodeName": "IconGens"
-          }
-        },
-        {
           "username": "Noobie_LOL",
           "uuid": "c87cf696-8afa-48f5-9283-6e02bf1ab6f5",
           "rank": "Sr Admin",
@@ -13283,17 +13264,36 @@
             "_gamemodeId": "icongens",
             "_gamemodeName": "IconGens"
           }
+        },
+        {
+          "username": "TheStickBoy",
+          "uuid": "373f4753-733b-4f0e-bf10-442b5721ae2f",
+          "rank": "Owner",
+          "stats": {
+            "prestige": "28",
+            "multiplier": "2.40",
+            "balance": "1k",
+            "genSlots": "89",
+            "credits": "75",
+            "kills": "0",
+            "deaths": "1",
+            "ac": "0",
+            "fc": "0",
+            "mc": "0",
+            "_gamemodeId": "icongens",
+            "_gamemodeName": "IconGens"
+          }
         }
       ],
       "onlineCount": 2,
       "maxPlayers": 500,
-      "tps": 19.999996876936375,
-      "pingMs": 149,
-      "averagePlayerPingMs": 199,
-      "uptimeMs": 1006062,
+      "tps": 19.999994950875546,
+      "pingMs": 160,
+      "averagePlayerPingMs": 198,
+      "uptimeMs": 1336062,
       "lastRestartAt": "2026-06-20T21:56:48.952Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-20T22:13:35.206Z"
+      "lastHeartbeatAt": "2026-06-20T22:19:05.193Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
