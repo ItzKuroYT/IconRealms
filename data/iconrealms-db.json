@@ -1276,7 +1276,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-20T22:50:26.094Z",
+      "lastSeenAt": "2026-06-20T22:55:56.114Z",
       "bio": "",
       "following": [],
       "followers": [
@@ -1300,7 +1300,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-20T22:50:26.094Z",
+          "updatedAt": "2026-06-20T22:55:56.114Z",
           "stats": {
             "prestige": "28",
             "multiplier": "2.40",
@@ -1330,7 +1330,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-20T22:50:26.094Z",
+      "lastSeenAt": "2026-06-20T22:55:56.114Z",
       "bio": "Stay Noobie!",
       "following": [
         "TheStickBoy",
@@ -1359,7 +1359,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-20T22:50:26.094Z",
+          "updatedAt": "2026-06-20T22:55:56.114Z",
           "stats": {
             "prestige": "25",
             "multiplier": "2.25",
@@ -13287,13 +13287,13 @@
       ],
       "onlineCount": 2,
       "maxPlayers": 500,
-      "tps": 20.000000511240646,
-      "pingMs": 175,
-      "averagePlayerPingMs": 206,
-      "uptimeMs": 3216961,
+      "tps": 20.000000781681962,
+      "pingMs": 165,
+      "averagePlayerPingMs": 196,
+      "uptimeMs": 3546962,
       "lastRestartAt": "2026-06-20T21:56:48.952Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-20T22:50:26.094Z"
+      "lastHeartbeatAt": "2026-06-20T22:55:56.114Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
