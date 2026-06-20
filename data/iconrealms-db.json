@@ -1276,7 +1276,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-20T18:49:36.992Z",
+      "lastSeenAt": "2026-06-20T18:54:37.006Z",
       "bio": "",
       "following": [],
       "followers": [
@@ -1300,7 +1300,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-20T18:49:36.992Z",
+          "updatedAt": "2026-06-20T18:54:37.006Z",
           "stats": {
             "prestige": "0",
             "multiplier": "1.00",
@@ -1327,10 +1327,10 @@
       "createdAt": "2026-06-10T19:22:38.103Z",
       "joinedAt": "2026-06-10T19:22:38.103Z",
       "rank": "Sr Admin",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-19T16:44:27.287Z",
+      "lastSeenAt": "2026-06-20T18:54:37.006Z",
       "bio": "Stay Noobie!",
       "following": [
         "TheStickBoy",
@@ -1359,16 +1359,16 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-19T16:44:27.287Z",
+          "updatedAt": "2026-06-20T18:54:37.006Z",
           "stats": {
-            "prestige": "25",
-            "multiplier": "2.25",
-            "balance": "2.46k",
-            "genSlots": "80",
+            "prestige": "0",
+            "multiplier": "1.00",
+            "balance": "1k",
+            "genSlots": "5",
             "credits": "924",
             "kills": "3",
-            "deaths": "0",
-            "ac": "98",
+            "deaths": "1",
+            "ac": "0",
             "fc": "0",
             "mc": "0"
           }
@@ -13264,17 +13264,36 @@
             "_gamemodeId": "icongens",
             "_gamemodeName": "IconGens"
           }
+        },
+        {
+          "username": "Noobie_LOL",
+          "uuid": "c87cf696-8afa-48f5-9283-6e02bf1ab6f5",
+          "rank": "Sr Admin",
+          "stats": {
+            "prestige": "0",
+            "multiplier": "1.00",
+            "balance": "1k",
+            "genSlots": "5",
+            "credits": "924",
+            "kills": "3",
+            "deaths": "1",
+            "ac": "0",
+            "fc": "0",
+            "mc": "0",
+            "_gamemodeId": "icongens",
+            "_gamemodeName": "IconGens"
+          }
         }
       ],
-      "onlineCount": 1,
+      "onlineCount": 2,
       "maxPlayers": 500,
-      "tps": 19.999997455454114,
-      "pingMs": 177,
-      "averagePlayerPingMs": 62,
-      "uptimeMs": 2385673,
+      "tps": 20.000004031974168,
+      "pingMs": 167,
+      "averagePlayerPingMs": 201,
+      "uptimeMs": 2685686,
       "lastRestartAt": "2026-06-20T18:09:51.128Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-20T18:49:36.992Z"
+      "lastHeartbeatAt": "2026-06-20T18:54:37.006Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
