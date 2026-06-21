@@ -13019,6 +13019,19 @@
   ],
   "threads": [
     {
+      "id": "931925fb-3149-47b5-aece-5071f980be6a",
+      "boardId": "announcements",
+      "title": "Season 4 ended",
+      "body": "So welcome season 5",
+      "images": [],
+      "author": "ItzKuro_",
+      "announcement": true,
+      "newsletter": false,
+      "locked": false,
+      "createdAt": "2026-06-21T01:20:14.042Z",
+      "replies": []
+    },
+    {
       "id": "97c2853a-2fb6-47ca-8926-4e518bb9b407",
       "boardId": "newsletter",
       "title": "📰 IconRealms Weekly Newsletter (6/12)",
