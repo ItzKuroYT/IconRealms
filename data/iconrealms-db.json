@@ -1209,7 +1209,7 @@
       "settings": {
         "allowFriendRequests": true
       },
-      "lastNotificationSeenAt": "2026-06-13T05:34:56.889Z",
+      "lastNotificationSeenAt": "2026-06-21T18:47:49.362Z",
       "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
@@ -13257,7 +13257,7 @@
       "ip": "icongen.minehut.gg",
       "maxPlayersEver": 13,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
-      "online": true,
+      "online": false,
       "players": [],
       "onlineCount": 0,
       "maxPlayers": 500,
