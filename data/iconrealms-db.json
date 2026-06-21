@@ -1210,7 +1210,7 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "2026-06-13T05:34:56.889Z",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "statsByServer": {
@@ -13019,6 +13019,19 @@
   ],
   "threads": [
     {
+      "id": "b97ece03-3c90-4f58-9a0a-c1a3e6a24425",
+      "boardId": "newsletter",
+      "title": "Season 4 ended",
+      "body": "Season 4 officially ended, so now welcome season 5 ",
+      "images": [],
+      "author": "ItzKuro_",
+      "announcement": true,
+      "newsletter": true,
+      "locked": false,
+      "createdAt": "2026-06-21T01:19:41.001Z",
+      "replies": []
+    },
+    {
       "id": "97c2853a-2fb6-47ca-8926-4e518bb9b407",
       "boardId": "newsletter",
       "title": "📰 IconRealms Weekly Newsletter (6/12)",
@@ -13244,7 +13257,7 @@
       "ip": "icongen.minehut.gg",
       "maxPlayersEver": 13,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
-      "online": true,
+      "online": false,
       "players": [
         {
           "username": "ItzKuro_",
