@@ -1188,7 +1188,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-21T00:48:56.094Z",
+      "lastSeenAt": "2026-06-21T01:04:46.471Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1210,7 +1210,7 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "2026-06-13T05:34:56.889Z",
-      "online": false,
+      "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "statsByServer": {
@@ -1220,7 +1220,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-21T00:48:56.094Z",
+          "updatedAt": "2026-06-21T01:04:46.471Z",
           "stats": {
             "prestige": "28",
             "multiplier": "3.75",
@@ -1276,7 +1276,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-21T00:59:16.539Z",
+      "lastSeenAt": "2026-06-21T01:04:46.471Z",
       "bio": "",
       "following": [],
       "followers": [
@@ -1300,7 +1300,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-21T00:59:16.539Z",
+          "updatedAt": "2026-06-21T01:04:46.471Z",
           "stats": {
             "prestige": "28",
             "multiplier": "2.40",
@@ -13264,17 +13264,36 @@
             "_gamemodeId": "icongens",
             "_gamemodeName": "IconGens"
           }
+        },
+        {
+          "username": "ItzKuro_",
+          "uuid": "3990d27a-f611-430d-b6cd-c796173e9776",
+          "rank": "Owner",
+          "stats": {
+            "prestige": "28",
+            "multiplier": "3.75",
+            "balance": "417.8k",
+            "genSlots": "189",
+            "credits": "401",
+            "kills": "0",
+            "deaths": "0",
+            "ac": "0",
+            "fc": "0",
+            "mc": "0",
+            "_gamemodeId": "icongens",
+            "_gamemodeName": "IconGens"
+          }
         }
       ],
-      "onlineCount": 1,
+      "onlineCount": 2,
       "maxPlayers": 500,
-      "tps": 13.22231706775286,
-      "pingMs": 157,
-      "averagePlayerPingMs": 64,
-      "uptimeMs": 10947303,
+      "tps": 20.000008340386493,
+      "pingMs": 159,
+      "averagePlayerPingMs": 157,
+      "uptimeMs": 11277309,
       "lastRestartAt": "2026-06-20T21:56:48.952Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-21T00:59:16.539Z"
+      "lastHeartbeatAt": "2026-06-21T01:04:46.471Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
