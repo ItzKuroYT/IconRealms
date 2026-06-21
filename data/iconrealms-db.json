@@ -1188,7 +1188,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-21T00:05:26.101Z",
+      "lastSeenAt": "2026-06-21T00:10:56.075Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1220,11 +1220,11 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-21T00:05:26.101Z",
+          "updatedAt": "2026-06-21T00:10:56.075Z",
           "stats": {
             "prestige": "0",
             "multiplier": "3.75",
-            "balance": "1k",
+            "balance": "318.6k",
             "genSlots": "105",
             "credits": "401",
             "kills": "0",
@@ -1276,7 +1276,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-21T00:05:26.101Z",
+      "lastSeenAt": "2026-06-21T00:10:56.075Z",
       "bio": "",
       "following": [],
       "followers": [
@@ -1300,7 +1300,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-21T00:05:26.101Z",
+          "updatedAt": "2026-06-21T00:10:56.075Z",
           "stats": {
             "prestige": "28",
             "multiplier": "2.40",
@@ -13272,7 +13272,7 @@
           "stats": {
             "prestige": "0",
             "multiplier": "3.75",
-            "balance": "1k",
+            "balance": "318.6k",
             "genSlots": "105",
             "credits": "401",
             "kills": "0",
@@ -13287,13 +13287,13 @@
       ],
       "onlineCount": 2,
       "maxPlayers": 500,
-      "tps": 19.999999400832657,
-      "pingMs": 153,
-      "averagePlayerPingMs": 83,
-      "uptimeMs": 7716962,
+      "tps": 19.999995373190078,
+      "pingMs": 170,
+      "averagePlayerPingMs": 64,
+      "uptimeMs": 8046956,
       "lastRestartAt": "2026-06-20T21:56:48.952Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-21T00:05:26.101Z"
+      "lastHeartbeatAt": "2026-06-21T00:10:56.075Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
