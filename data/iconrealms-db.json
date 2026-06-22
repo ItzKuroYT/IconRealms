@@ -13261,13 +13261,13 @@
       "players": [],
       "onlineCount": 0,
       "maxPlayers": 500,
-      "tps": 19.999998306744523,
-      "pingMs": 162,
+      "tps": 12.183938886591768,
+      "pingMs": 0,
       "averagePlayerPingMs": 0,
-      "uptimeMs": 323271,
-      "lastRestartAt": "2026-06-21T22:16:44.256Z",
+      "uptimeMs": 16574,
+      "lastRestartAt": "2026-06-22T01:30:46.023Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-21T22:22:07.677Z"
+      "lastHeartbeatAt": "2026-06-22T01:31:03.818Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
