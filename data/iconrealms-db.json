@@ -1210,7 +1210,7 @@
         "allowFriendRequests": true
       },
       "lastNotificationSeenAt": "2026-06-21T18:47:49.362Z",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "statsByServer": {
@@ -13258,36 +13258,16 @@
       "maxPlayersEver": 13,
       "firstSeenAt": "2026-06-10T04:40:24.830Z",
       "online": true,
-      "players": [
-        {
-          "username": "ItzKuro_",
-          "uuid": "3990d27a-f611-430d-b6cd-c796173e9776",
-          "rank": "Owner",
-          "stats": {
-            "prestige": "170",
-            "multiplier": "9.50",
-            "balance": "417.8k",
-            "genSlots": "615",
-            "credits": "401",
-            "kills": "0",
-            "deaths": "0",
-            "ac": "0",
-            "fc": "0",
-            "mc": "0",
-            "_gamemodeId": "icongens",
-            "_gamemodeName": "IconGens"
-          }
-        }
-      ],
-      "onlineCount": 1,
+      "players": [],
+      "onlineCount": 0,
       "maxPlayers": 500,
-      "tps": 19.999999504746057,
-      "pingMs": 178,
-      "averagePlayerPingMs": 66,
-      "uptimeMs": 3556086,
+      "tps": 20.00000100183186,
+      "pingMs": 157,
+      "averagePlayerPingMs": 0,
+      "uptimeMs": 3886075,
       "lastRestartAt": "2026-06-23T01:37:27.595Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-23T02:36:43.873Z"
+      "lastHeartbeatAt": "2026-06-23T02:42:13.875Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
