@@ -1,0 +1,170 @@
+{
+  "accounts": [],
+  "threads": [],
+  "staff": [
+    {
+      "username": "ItzKuro_",
+      "rank": "Owner",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/ItzKuro_/128"
+    },
+    {
+      "username": "TheStickBoy",
+      "rank": "Owner",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/TheStickBoy/128"
+    },
+    {
+      "username": "ItsBurb_",
+      "rank": "Manager",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/ItsBurb_/128"
+    },
+    {
+      "username": "FireAngel18",
+      "rank": "Lead Developer",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/FireAngel18/128"
+    },
+    {
+      "username": "Prutorm",
+      "rank": "Developer",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/Prutorm/128"
+    },
+    {
+      "username": "TyllerTheGamer",
+      "rank": "Developer",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/TyllerTheGamer/128"
+    },
+    {
+      "username": "OtterMC_YT",
+      "rank": "Developer",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/OtterMC_YT/128"
+    },
+    {
+      "username": "Noobie_LOL",
+      "rank": "Sr Admin",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/Noobie_LOL/128"
+    },
+    {
+      "username": "szvocja_",
+      "rank": "Jr Admin",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/szvocja_/128"
+    },
+    {
+      "username": "WreckingShark",
+      "rank": "Sr Mod",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/WreckingShark/128"
+    },
+    {
+      "username": "TroyCast",
+      "rank": "Mod",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/TroyCast/128"
+    },
+    {
+      "username": "Japans2good",
+      "rank": "Mod",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/Japans2good/128"
+    },
+    {
+      "username": "Carrotts4all",
+      "rank": "Lead Builder",
+      "bio": "",
+      "friends": [],
+      "avatar": "https://mc-heads.net/avatar/Carrotts4all/128"
+    }
+  ],
+  "dms": [],
+  "servers": {
+    "icongen-minehut-gg": {
+      "id": "icongen-minehut-gg",
+      "name": "icongen.minehut.gg",
+      "ip": "icongen.minehut.gg",
+      "maxPlayersEver": 0,
+      "firstSeenAt": "2026-06-23T08:43:55.934Z",
+      "online": true,
+      "players": [],
+      "onlineCount": 0,
+      "maxPlayers": 500,
+      "tps": 24.37719916109011,
+      "pingMs": 0,
+      "averagePlayerPingMs": 0,
+      "uptimeMs": 15448,
+      "lastRestartAt": "2026-06-23T08:43:39.411Z",
+      "lastCrashAt": "",
+      "lastHeartbeatAt": "2026-06-23T08:43:55.934Z"
+    }
+  },
+  "site": {
+    "lockedBoards": [],
+    "staffOfMonth": null,
+    "removedStaff": [],
+    "supporters": {
+      "title": "Supporters",
+      "intro": "Thank you to the players helping IconRealms grow.",
+      "podium": [
+        {
+          "username": "iSkiiX",
+          "spent": "177.31 USD"
+        },
+        {
+          "username": "XxANIExX",
+          "spent": "166.41 USD"
+        },
+        {
+          "username": "Carrotts4all",
+          "spent": "76.92 USD"
+        }
+      ],
+      "customersTitle": "Here's some of our other customers",
+      "customers": [
+        "Prutorm",
+        "Ryan_cat_lover",
+        "RakeAMake4",
+        "LaMamanDreed",
+        "DiegoooCS",
+        "Phasha",
+        "WreckingShark",
+        "Rewnsot1",
+        "SirFire96",
+        "TroyCast",
+        "Speedy9815",
+        "Mercssses",
+        "KaraToga",
+        "CalCaroots",
+        "XantisDK",
+        "InfectedZomWolf",
+        "Username_20",
+        "AwesomedivxFTW",
+        "qc3r",
+        "AmyLovesCoffee",
+        "ITzOV3R",
+        "vAngels_",
+        "Szkocja_",
+        "WobbIed",
+        "KiJuBeDumb"
+      ]
+    },
+    "ads": []
+  }
+}
