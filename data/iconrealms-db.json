@@ -1188,7 +1188,7 @@
       "banned": false,
       "joinedAt": "2026-06-10T18:58:01.258Z",
       "rank": "Owner",
-      "lastSeenAt": "2026-06-23T02:31:13.894Z",
+      "lastSeenAt": "2026-06-23T02:36:43.873Z",
       "bio": "Hi, i created the website cuz im TUFF",
       "following": [
         "KomaedaDs",
@@ -1220,7 +1220,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-23T02:31:13.894Z",
+          "updatedAt": "2026-06-23T02:36:43.873Z",
           "stats": {
             "prestige": "170",
             "multiplier": "9.50",
@@ -13281,13 +13281,13 @@
       ],
       "onlineCount": 1,
       "maxPlayers": 500,
-      "tps": 19.99999936519569,
-      "pingMs": 166,
-      "averagePlayerPingMs": 91,
-      "uptimeMs": 3226087,
+      "tps": 19.999999504746057,
+      "pingMs": 178,
+      "averagePlayerPingMs": 66,
+      "uptimeMs": 3556086,
       "lastRestartAt": "2026-06-23T01:37:27.595Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-23T02:31:13.894Z"
+      "lastHeartbeatAt": "2026-06-23T02:36:43.873Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
