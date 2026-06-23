@@ -106,13 +106,13 @@
       "players": [],
       "onlineCount": 0,
       "maxPlayers": 500,
-      "tps": 20.00000588309915,
-      "pingMs": 146,
+      "tps": 22.915022654357905,
+      "pingMs": 0,
       "averagePlayerPingMs": 0,
-      "uptimeMs": 319921,
-      "lastRestartAt": "2026-06-23T18:34:02.563Z",
+      "uptimeMs": 16303,
+      "lastRestartAt": "2026-06-23T18:55:34.361Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-23T18:39:22.520Z"
+      "lastHeartbeatAt": "2026-06-23T18:55:51.724Z"
     }
   },
   "site": {
