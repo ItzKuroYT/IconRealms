@@ -13,7 +13,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-23T20:34:46.366Z",
+      "lastSeenAt": "2026-06-23T20:40:16.318Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -21,7 +21,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-23T20:34:46.366Z",
+          "updatedAt": "2026-06-23T20:40:16.318Z",
           "stats": {
             "prestige": "25",
             "multiplier": "2.25",
@@ -60,7 +60,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-23T20:34:46.366Z",
+      "lastSeenAt": "2026-06-23T20:40:16.318Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -68,13 +68,13 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-23T20:34:46.366Z",
+          "updatedAt": "2026-06-23T20:40:16.318Z",
           "stats": {
             "prestige": "28",
             "multiplier": "2.40",
             "balance": "1k",
             "genSlots": "89",
-            "credits": "75",
+            "credits": "100",
             "kills": "0",
             "deaths": "2",
             "ac": "0",
@@ -208,7 +208,7 @@
             "multiplier": "2.40",
             "balance": "1k",
             "genSlots": "89",
-            "credits": "75",
+            "credits": "100",
             "kills": "0",
             "deaths": "2",
             "ac": "0",
@@ -240,13 +240,13 @@
       ],
       "onlineCount": 2,
       "maxPlayers": 500,
-      "tps": 19.999996672773243,
-      "pingMs": 182,
-      "averagePlayerPingMs": 210,
-      "uptimeMs": 377572,
+      "tps": 19.999998861615385,
+      "pingMs": 143,
+      "averagePlayerPingMs": 194,
+      "uptimeMs": 707569,
       "lastRestartAt": "2026-06-23T20:28:28.580Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-23T20:34:46.366Z"
+      "lastHeartbeatAt": "2026-06-23T20:40:16.318Z"
     }
   },
   "site": {
