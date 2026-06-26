@@ -765,7 +765,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-26T20:06:18.330Z",
+      "lastSeenAt": "2026-06-26T20:11:25.545Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -773,18 +773,18 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-26T20:06:18.330Z",
+          "updatedAt": "2026-06-26T20:11:25.545Z",
           "stats": {
             "prestige": "1700",
             "multiplier": "852.49",
             "balance": "44.6t",
             "genSlots": "23693",
-            "credits": "277",
+            "credits": "278",
             "kills": "0",
             "deaths": "0",
             "ac": "10516",
             "fc": "479",
-            "mc": "320"
+            "mc": "324"
           }
         }
       },
@@ -1235,7 +1235,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-26T20:06:18.330Z",
+      "lastSeenAt": "2026-06-26T20:11:25.545Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -1243,7 +1243,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-26T20:06:18.330Z",
+          "updatedAt": "2026-06-26T20:11:25.545Z",
           "stats": {
             "prestige": "1004",
             "multiplier": "520.60",
@@ -1329,7 +1329,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-26T20:06:18.330Z",
+      "lastSeenAt": "2026-06-26T20:11:25.545Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -1337,11 +1337,11 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-26T20:06:18.330Z",
+          "updatedAt": "2026-06-26T20:11:25.545Z",
           "stats": {
             "prestige": "66",
             "multiplier": "15.19",
-            "balance": "21.2b",
+            "balance": "29.9b",
             "genSlots": "271",
             "credits": "127",
             "kills": "0",
@@ -2316,7 +2316,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-26T20:06:18.330Z",
+      "lastSeenAt": "2026-06-26T20:11:25.545Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -2324,7 +2324,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-26T20:06:18.330Z",
+          "updatedAt": "2026-06-26T20:11:25.545Z",
           "stats": {
             "prestige": "0",
             "multiplier": "1.10",
@@ -3397,7 +3397,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-26T20:06:18.330Z",
+      "lastSeenAt": "2026-06-26T20:11:25.545Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -3405,11 +3405,11 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-26T20:06:18.330Z",
+          "updatedAt": "2026-06-26T20:11:25.545Z",
           "stats": {
             "prestige": "12",
             "multiplier": "3.45",
-            "balance": "218m",
+            "balance": "227.5m",
             "genSlots": "63",
             "credits": "77",
             "kills": "0",
@@ -3444,7 +3444,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-26T20:06:18.330Z",
+      "lastSeenAt": "2026-06-26T20:11:25.545Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -3452,7 +3452,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-26T20:06:18.330Z",
+          "updatedAt": "2026-06-26T20:11:25.545Z",
           "stats": {
             "prestige": "10",
             "multiplier": "1.50",
@@ -4088,6 +4088,53 @@
       },
       "lastNotificationSeenAt": "",
       "notificationClearedAt": ""
+    },
+    {
+      "username": "Meelecotrucaste",
+      "uuid": "ba3a620c-807e-4885-9549-e93237b3a0f9",
+      "email": "",
+      "passwordHash": "",
+      "avatar": "https://mc-heads.net/avatar/Meelecotrucaste/128",
+      "inGameRegistered": false,
+      "createdAt": "2026-06-26T20:11:25.545Z",
+      "joinedAt": "2026-06-26T20:11:25.545Z",
+      "rank": "default",
+      "online": true,
+      "serverName": "icongen.minehut.gg",
+      "lastServer": "icongen.minehut.gg",
+      "lastSeenAt": "2026-06-26T20:11:25.545Z",
+      "statsByServer": {
+        "icongen-minehut-gg": {
+          "serverId": "icongen-minehut-gg",
+          "serverName": "icongen.minehut.gg",
+          "serverIp": "icongen.minehut.gg",
+          "gamemodeId": "icongens",
+          "gamemodeName": "IconGens",
+          "updatedAt": "2026-06-26T20:11:25.545Z",
+          "stats": {
+            "prestige": "0",
+            "multiplier": "1.00",
+            "balance": "1k",
+            "genSlots": "5",
+            "credits": "0",
+            "kills": "0",
+            "deaths": "0",
+            "ac": "0",
+            "fc": "0",
+            "mc": "0"
+          }
+        }
+      },
+      "bio": "",
+      "following": [],
+      "followers": [],
+      "friends": [],
+      "friendRequests": [],
+      "settings": {
+        "allowFriendRequests": true
+      },
+      "lastNotificationSeenAt": "",
+      "notificationClearedAt": ""
     }
   ],
   "threads": [],
@@ -4222,12 +4269,12 @@
             "multiplier": "852.49",
             "balance": "44.6t",
             "genSlots": "23693",
-            "credits": "277",
+            "credits": "278",
             "kills": "0",
             "deaths": "0",
             "ac": "10516",
             "fc": "479",
-            "mc": "320",
+            "mc": "324",
             "_gamemodeId": "icongens",
             "_gamemodeName": "IconGens"
           }
@@ -4258,7 +4305,7 @@
           "stats": {
             "prestige": "12",
             "multiplier": "3.45",
-            "balance": "218m",
+            "balance": "227.5m",
             "genSlots": "63",
             "credits": "77",
             "kills": "0",
@@ -4296,7 +4343,7 @@
           "stats": {
             "prestige": "66",
             "multiplier": "15.19",
-            "balance": "21.2b",
+            "balance": "29.9b",
             "genSlots": "271",
             "credits": "127",
             "kills": "0",
@@ -4307,17 +4354,36 @@
             "_gamemodeId": "icongens",
             "_gamemodeName": "IconGens"
           }
+        },
+        {
+          "username": "Meelecotrucaste",
+          "uuid": "ba3a620c-807e-4885-9549-e93237b3a0f9",
+          "rank": "default",
+          "stats": {
+            "prestige": "0",
+            "multiplier": "1.00",
+            "balance": "1k",
+            "genSlots": "5",
+            "credits": "0",
+            "kills": "0",
+            "deaths": "0",
+            "ac": "0",
+            "fc": "0",
+            "mc": "0",
+            "_gamemodeId": "icongens",
+            "_gamemodeName": "IconGens"
+          }
         }
       ],
-      "onlineCount": 6,
+      "onlineCount": 7,
       "maxPlayers": 500,
-      "tps": 20.000001246294833,
-      "pingMs": 177,
-      "averagePlayerPingMs": 215,
-      "uptimeMs": 75384640,
+      "tps": 18.767693755256964,
+      "pingMs": 189,
+      "averagePlayerPingMs": 148,
+      "uptimeMs": 75691853,
       "lastRestartAt": "2026-06-25T23:09:53.543Z",
       "lastCrashAt": "2026-06-24T04:16:04.796Z",
-      "lastHeartbeatAt": "2026-06-26T20:06:18.330Z"
+      "lastHeartbeatAt": "2026-06-26T20:11:25.545Z"
     }
   },
   "site": {
