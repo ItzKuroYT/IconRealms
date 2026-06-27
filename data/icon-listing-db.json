@@ -765,7 +765,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-27T10:07:34.673Z",
+      "lastSeenAt": "2026-06-27T10:12:34.931Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -773,7 +773,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-27T10:07:34.673Z",
+          "updatedAt": "2026-06-27T10:12:34.931Z",
           "stats": {
             "prestige": "1700",
             "multiplier": "852.49",
@@ -1326,7 +1326,7 @@
       "createdAt": "2026-06-24T01:07:19.553Z",
       "joinedAt": "2026-06-24T01:07:19.553Z",
       "rank": "hero",
-      "online": true,
+      "online": false,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
       "lastSeenAt": "2026-06-27T10:07:34.673Z",
@@ -2316,7 +2316,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-27T10:07:34.673Z",
+      "lastSeenAt": "2026-06-27T10:12:34.931Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -2324,7 +2324,7 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-27T10:07:34.673Z",
+          "updatedAt": "2026-06-27T10:12:34.931Z",
           "stats": {
             "prestige": "0",
             "multiplier": "1.10",
@@ -3444,7 +3444,7 @@
       "online": true,
       "serverName": "icongen.minehut.gg",
       "lastServer": "icongen.minehut.gg",
-      "lastSeenAt": "2026-06-27T10:07:34.673Z",
+      "lastSeenAt": "2026-06-27T10:12:34.931Z",
       "statsByServer": {
         "icongen-minehut-gg": {
           "serverId": "icongen-minehut-gg",
@@ -3452,11 +3452,11 @@
           "serverIp": "icongen.minehut.gg",
           "gamemodeId": "icongens",
           "gamemodeName": "IconGens",
-          "updatedAt": "2026-06-27T10:07:34.673Z",
+          "updatedAt": "2026-06-27T10:12:34.931Z",
           "stats": {
             "prestige": "10",
             "multiplier": "1.50",
-            "balance": "193m",
+            "balance": "202.3m",
             "genSlots": "37",
             "credits": "4",
             "kills": "0",
@@ -5079,32 +5079,13 @@
           }
         },
         {
-          "username": "Covale",
-          "uuid": "dcdde5e8-46bb-4917-a066-b55fab2c0e69",
-          "rank": "hero",
-          "stats": {
-            "prestige": "96",
-            "multiplier": "21.03",
-            "balance": "310b",
-            "genSlots": "372",
-            "credits": "135",
-            "kills": "0",
-            "deaths": "0",
-            "ac": "2354",
-            "fc": "0",
-            "mc": "0",
-            "_gamemodeId": "icongens",
-            "_gamemodeName": "IconGens"
-          }
-        },
-        {
           "username": "Unknown_Soldier6",
           "uuid": "a7c67c83-49b8-43db-b092-5e0fb9d52881",
           "rank": "default",
           "stats": {
             "prestige": "10",
             "multiplier": "1.50",
-            "balance": "193m",
+            "balance": "202.3m",
             "genSlots": "37",
             "credits": "4",
             "kills": "0",
@@ -5117,15 +5098,15 @@
           }
         }
       ],
-      "onlineCount": 4,
+      "onlineCount": 3,
       "maxPlayers": 500,
-      "tps": 19.88343359800881,
-      "pingMs": 207,
-      "averagePlayerPingMs": 89,
-      "uptimeMs": 9497785,
+      "tps": 19.98334457272319,
+      "pingMs": 139,
+      "averagePlayerPingMs": 93,
+      "uptimeMs": 9798009,
       "lastRestartAt": "2026-06-27T07:29:16.767Z",
       "lastCrashAt": "2026-06-24T04:16:04.796Z",
-      "lastHeartbeatAt": "2026-06-27T10:07:34.673Z"
+      "lastHeartbeatAt": "2026-06-27T10:12:34.931Z"
     },
     "iconminez-minehut-gg": {
       "id": "iconminez-minehut-gg",
