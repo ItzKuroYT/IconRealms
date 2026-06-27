@@ -5714,13 +5714,6 @@
       "avatar": "https://mc-heads.net/avatar/WreckingShark/128"
     },
     {
-      "username": "TroyCast",
-      "rank": "Mod",
-      "bio": "",
-      "friends": [],
-      "avatar": "https://mc-heads.net/avatar/TroyCast/128"
-    },
-    {
       "username": "Japans2good",
       "rank": "Mod",
       "bio": "",
@@ -5930,7 +5923,9 @@
   "site": {
     "lockedBoards": [],
     "staffOfMonth": null,
-    "removedStaff": [],
+    "removedStaff": [
+      "TroyCast"
+    ],
     "supporters": {
       "title": "Supporters",
       "intro": "Thank you to the players helping IconRealms grow.",
