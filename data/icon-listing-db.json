@@ -5907,17 +5907,17 @@
       "ip": "iconminez.minehut.gg",
       "maxPlayersEver": 0,
       "firstSeenAt": "2026-06-27T08:50:44.042Z",
-      "online": false,
+      "online": true,
       "players": [],
       "onlineCount": 0,
       "maxPlayers": 10,
-      "tps": 19.99999882697759,
-      "pingMs": 145,
+      "tps": 25.75130317581337,
+      "pingMs": 0,
       "averagePlayerPingMs": 0,
-      "uptimeMs": 317696,
-      "lastRestartAt": "2026-06-27T08:50:35.843Z",
+      "uptimeMs": 8383,
+      "lastRestartAt": "2026-06-29T19:52:09.525Z",
       "lastCrashAt": "",
-      "lastHeartbeatAt": "2026-06-27T08:55:53.648Z"
+      "lastHeartbeatAt": "2026-06-29T19:52:18.964Z"
     }
   },
   "site": {
