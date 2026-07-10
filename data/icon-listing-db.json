@@ -5907,7 +5907,7 @@
       "ip": "iconminez.minehut.gg",
       "maxPlayersEver": 0,
       "firstSeenAt": "2026-06-27T08:50:44.042Z",
-      "online": true,
+      "online": false,
       "players": [],
       "onlineCount": 0,
       "maxPlayers": 10,
@@ -5922,7 +5922,13 @@
   },
   "site": {
     "lockedBoards": [],
-    "staffOfMonth": null,
+    "staffOfMonth": {
+      "username": "WreckingShark",
+      "rank": "Sr Mod",
+      "avatar": "https://mc-heads.net/avatar/WreckingShark/128",
+      "message": "Most liked by players!",
+      "setAt": "2026-07-10T23:48:50.211Z"
+    },
     "removedStaff": [
       "TroyCast",
       "Japans2good"
