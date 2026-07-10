@@ -5728,13 +5728,6 @@
       "avatar": "https://mc-heads.net/avatar/slothopetic/128"
     },
     {
-      "username": "SiegeSixSweat",
-      "rank": "Helper",
-      "bio": "",
-      "friends": [],
-      "avatar": "https://mc-heads.net/avatar/SiegeSixSweat/128"
-    },
-    {
       "username": "Jxoop",
       "rank": "Jr Mod",
       "bio": "",
@@ -5945,7 +5938,8 @@
     },
     "removedStaff": [
       "TroyCast",
-      "Japans2good"
+      "Japans2good",
+      "SiegeSixSweat"
     ],
     "supporters": {
       "title": "Supporters",
